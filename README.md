@@ -42,6 +42,6 @@ Everything a shrunk or smaller human keeps, from the standing stack:
 **Presence**
 - Real weight, effort, balance, and gravity
 - Natural asymmetry everywhere — no symmetry, no stiffness
-- Readable facial and body language
+- Readable asymmetrical facial and body language for any size human big or small
 
 In short: shrinking changes size only. Everything else about the person stays exactly as it was.
