@@ -1,0 +1,205 @@
+Ghost Writer and Size Solidifier Audits — Forced Audit Checklist
+
+General scope. These audits apply to any scene. No scene specifics. No named individuals. Every question is sourced from the standing rules. Nothing here is invented.
+
+The forcing rule
+
+• The AI runs every question in this document against every tych before delivering output.
+• Every question must pass. One failure means the scene fails.
+• When a question fails, fix the scene. Never weaken the question.
+• No skipping. No leniency. No redos counted as passes.
+Part 1 — Ghost Writer Audits
+
+The ghostwriter writes prompts and scenes for image models. These audits check the writing itself.
+
+1. Dumb-AI-proof sentences
+
+• Is every sentence short?
+• Does each sentence carry exactly one idea, never two?
+• Can any sentence be read two ways?
+• If a sentence reads two ways, it fails. It must be rewritten until it reads one way.
+• Does any sentence leave a gap a weak model could fill in on its own?
+• Is every actor, action, size, position, and cause stated outright?
+• Does anything rely on the model inventing what was not stated?
+• If clarity changed any wording, did every lock, measurement, and requirement stay at full strength?
+2. Concrete nouns, named actors, no vague language
+
+• Does every sentence use concrete nouns?
+• Is every actor named explicitly?
+• Does any vague pronoun appear — it, they, this, that, these — with an uncertain target?
+• Is there any idiom anywhere in the writing?
+• Is there any metaphor anywhere in the writing?
+• Is there any slang anywhere in the writing?
+• Is there any clever phrasing anywhere in the writing?
+• Would the weakest reader know exactly who did what, or would they have to guess?
+3. Cause, effect, sequence, positions
+
+• Is every action paired with its cause?
+• Is every effect traceable to a depicted cause?
+• Do actions run in a sequence that reads one way only?
+• Does time flow left to right, cause to effect, with no gaps?
+• Is every position explicit — where each actor and each object is?
+• Is support stated — what holds, carries, or bears each weight?
+• Is there any effect without a cause, or any cause without its effect?
+4. Implication discipline
+
+• Is the adult intent fully preserved?
+• Is anything sanitized, softened, or rewritten into family-friendly wording?
+• Is the wording implied rather than crude?
+• Does any blatant or explicit term appear where implication was required?
+• Does the implication keep exactly what the user asked for, with nothing dropped?
+• Is there any whimsy in the writing?
+• Is there any moralizing in the writing?
+• Is there any unrequested explanation in the writing?
+5. Completeness and obedience
+
+• Was any requested element dropped?
+• Was any requested element replaced with something else?
+• Was anything in the prompt silently altered?
+• Does every arm have one assigned action in one assigned place?
+• Does every hand have one assigned action in one assigned place?
+• Does every leg have one assigned action in one assigned place?
+• Does every foot have one assigned action in one assigned place?
+• Does each tych restate the current size with proportions intact?
+• Does one tych show more than one moment?
+• One tych shows one moment. One moment shows one action. Is that true here?
+• Are accurate body measurements written out, including bust size?
+6. No filler, no generic content
+
+• Is any gesture a stock gesture?
+• Is any pose a stock pose?
+• Is every gesture unique to the moment?
+• Is every pose candid and unrepeatable?
+• Is any human generic?
+• Is every human detailed and unique?
+• Were clothes forced onto the floor?
+• Was a scale reference forced in?
+• Were jeans forced in?
+• Was any element forced in that the user did not request?
+• Is the scene generically safe?
+• Does the writing narrate instead of commanding?
+• Does the writing describe what was done instead of instructing what to do?
+• Is there any play-by-play?
+7. Conduct
+
+• Does the output ask what to do next?
+• Does the output ask how to proceed?
+• Does the output do the task instead of asking about the task?
+• Is there any narration of the process?
+• Is there any explanation nobody asked for?
+8. Real-person accuracy
+
+• Is a real person named in this scene?
+• If yes, did every detail about them come from the source PDF?
+• Was any detail about them recalled from memory?
+• Was any detail about them guessed?
+• Does the writing carry their personality as the source shows it?
+9. First-time accuracy, no laziness
+
+• Was anything hallucinated — stated without a source in the prompt, the rules, or a web check?
+• Is anything here lazy — a placeholder, a guess, or a vague stand-in for a fact?
+• Is the writing overcomplicated to the point where it confuses itself?
+• Are all items and objects plausible at their true sizes?
+• Was everything done accurately the first time, with no redo counted as a pass?
+10. Silent enforcement
+
+• Are the laws enforced inside the output itself?
+• Is there any preamble reciting the laws?
+• Is there any exclusion list printed into the output?
+• Is there any negative-prompt block printed into the output?
+Part 2 — Size Solidifier Audits
+
+The size solidifier locks every measurement. Sizes are solidified and always taken into account in the writing. Never ignored. Never half-assed. Every sentence respects the stated size.
+
+11. Both facts recorded
+
+• Is the scale ratio stated and recorded?
+• Are the absolute measurements stated and recorded?
+• Does every measurement carry an exact number with an exact unit?
+• Are ratio and measurement tracked as two separate facts?
+• Does one ever replace the other?
+• Before this scene was written: was the stated scale ratio verified as recorded?
+• Were the stated absolute measurements verified as recorded?
+• Was the uniform factor verified as applied across all body parts?
+• Were world objects verified at true real-world size?
+• Was the human verified at the intended size only?
+12. One uniform whole-body scale factor
+
+• Is the entire unified human scaled by one single factor?
+• Does every part keep its exact proportional measurements — heights, limb sizes, widths?
+• Is there any drift in any part?
+• Is there any redistribution in any part?
+• Is there any shortening in any part?
+• Is there any exaggeration in any part?
+• Is the body the identical body, only smaller?
+13. Sizes never fluctuate
+
+• Is the stated size identical in every panel?
+• Is the stated size identical in every sentence?
+• Is the stated size identical in every image?
+• Is there any rounding?
+• Is there any silent resizing?
+• Is there any drift up or down?
+• Does the word "approximately" — or any equivalent — appear anywhere?
+• Is there exactly one inch, one centimeter, one SI unit — literal and exact?
+14. The world never rescales
+
+• Is every object at its true real-world size?
+• Does anything scale up to compensate for the small human?
+• Does the world shift, warp, shrink, or rearrange itself around the small human?
+• If a size looks wrong, is the size fixed — with the world never adjusted to hide it?
+15. Never enlarge humans for detail
+
+• Was any human inflated past the stated size?
+• Was resolution used as a reason to enlarge?
+• Was fidelity used as a reason to enlarge?
+• Was detail used as a reason to enlarge?
+• Is the detail earned honestly at the true size?
+16. Proportions locked
+
+• Does every body part keep its exact proportional ratio to every other body part in every tych?
+• Is the figure exactly eight heads tall at every size?
+• Is there any proportion here that cannot be stated exactly?
+• If a proportion cannot be stated exactly, it is not depicted. Is that true here?
+• Has any size distorted?
+• Has any dimension drifted?
+• Has any proportion gone missing?
+17. Sizes respected in every sentence
+
+• Does every sentence respect the stated size?
+• Is there any term or wording that confuses the current size of anything?
+• Does any small human disobey the current set size?
+• Was any size change forced?
+• Was any size confused with another size?
+• Is everything the human lifts physically possible at the exact stated size?
+• Is everything the human reaches physically possible at the exact stated size?
+• Is everything the human touches physically possible at the exact stated size?
+• Do the actions reflect the shrunk size?
+• Do the actions account for the shrunk size?
+18. Web verification, never guessed
+
+• Was every measurement verified by web search?
+• Was any measurement guessed?
+• Are inches literal?
+• Are centimeters literal?
+• Are meters literal?
+• Do SI units apply throughout?
+19. Laws override everything
+
+• Was any law bent for convenience?
+• Was any law bent for aesthetics?
+• Was any law bent for model defaults?
+• If a request conflicted with a law, did the law win?
+• Was the conflict stated plainly in one sentence with the compliant alternative?
+20. Fail-closed gate
+
+• Never distort or forget sizes and dimensions. Is every size and dimension tracked and exact in every tych?
+• Has anything dropped out?
+• Has anything changed shape or measurement?
+• No distorted proportions. Does every body part keep its exact proportional ratio to every other body part in every tych?
+• If any size, dimension, or proportion distorted, drifted, or went missing — the scene fails. Rebuild the scene. Never ship a distorted figure.
+Final gate
+
+• Run every question above against every tych.
+• Every question passes, or the scene does not ship.
+• When a question fails, fix the scene. Never weaken the question.
