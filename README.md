@@ -143,3 +143,96 @@ Final gate
 • Run every question above against every tych.
 • Every question passes, or the scene does not ship.
 • When a question fails, fix the scene. Never weaken the question.
+
+Nothing Ruins Sizes, Proportions, or Likenesses — Forced Audit Checklist
+
+General scope. These audits apply to any scene. No scene specifics. No named individuals. Every question is sourced from the standing rules. Nothing here is invented.
+
+The forcing rule
+
+• The AI runs every question in this document against every tych before delivering output.
+• Every question must pass. One failure means the scene fails.
+• When a question fails, fix the scene. Never weaken the question.
+• No skipping. No leniency. No redos counted as passes.
+1. Physical interactions never ruin sizes
+
+• Does a hand holding the human hold the true stated size?
+• Does the human sitting on an object sit at the true stated size?
+• Does every touch keep the true stated size?
+• Does believability break during contact?
+• Do sizes change mid-interaction?
+• Does any misunderstanding of scale change a stated size?
+• Does the stated size hold before every physical interaction?
+• Does the stated size hold during every physical interaction?
+• Does the stated size hold after every physical interaction?
+• Does touch alter size?
+• Does handling ruin proportions?
+2. Camera angles never ruin sizes, proportions, or likenesses
+
+• Does every camera angle keep exact proportions?
+• Does every camera angle keep exact sizes?
+• Does every camera angle keep exact biological anatomy?
+• Does any angle ruin sizes?
+• Does any angle ruin proportions?
+• Does any angle ruin living-human details or scales?
+• Does any angle ruin the likeness?
+• Did the camera enlarge the human for detail?
+• Did the camera change the human's stated size?
+• Does the likeness stay exact at every angle?
+3. Attire never ruins proportions or likeness
+
+• Does attire ruin proportions?
+• Does the attire change from tych to tych without the user saying so?
+• Are attire folds and details kept exact?
+• Does the outfit stay identical, carried through by reference?
+• Does anything about the attire distort the body's true proportions?
+• Does anything about the attire hide the body's true proportions?
+• Is anyone shrinking out of their clothes?
+4. Perspectives never ruin sizes, proportions, or likenesses
+
+• Does perspective enlarge any body part?
+• Does perspective shrink any body part?
+• Does perspective stretch or warp any body part?
+• Does foreshortening preserve true sizes?
+• Does the likeness survive the perspective unchanged?
+• Is there one camera and one projection, so perspective stays honest?
+• Is anything about size, distance, or scale faked by perspective?
+5. Obscured things are never forgotten
+
+• Is any body part obscured?
+• Is any obscured part forgotten?
+• Is any obscured part dropped?
+• Does any body part phase through a solid?
+• Is the obscured part's true size still tracked?
+• Is its proportion still locked?
+• Is its likeness still exact?
+• Does every visible body part belong to a fully visible whole person?
+6. Likeness never degrades
+
+• Is the likeness exactly the same in every tych?
+• Is it the same face?
+• Is it the same curves?
+• Is it the same body?
+• Is it the same age?
+• Was anything beautified?
+• Was anything altered, slimmed, enhanced, or reshaped?
+• Was there any age-shifting?
+• Are the butt, busts, hips, and thighs the same?
+• Are the butt clefts the same?
+7. Detail and resolution never inflate
+
+• Was resolution used as a reason to enlarge?
+• Was fidelity used as a reason to enlarge?
+• Was detail used as a reason to inflate past the stated size?
+• Is all detail earned honestly at the true size?
+8. Nothing else ruins them
+
+• Does lighting ruin perceived size or proportion?
+• Does any shadow fake a size or shape?
+• Does any effect, filter, or treatment alter sizes, proportions, or likeness?
+• Was any law bent for convenience, aesthetics, or model defaults?
+Final gate
+
+• Run every question above against every tych.
+• Every question passes, or the scene does not ship.
+• When a question fails, fix the scene. Never weaken the question.
