@@ -93,6 +93,14 @@ The forcing rule
 • Is everything the human lifts physically possible at the exact stated size and location?
 • Is everything the human reaches physically possible at the exact stated size and location?
 • Is everything the human touches physically possible at the exact stated size and location?
+• Is the small human in a plausible spot?
+• Is the small human hanging off anything?
+• Is the small human hanging off the edge of any normal-sized thing?
+• Does the small human have stable support or contact where placed?
+• Is any normal-sized human standing on a desk?
+• Is any normal-sized human standing on a table?
+• Is any normal-sized human standing on a chair?
+• Is any human standing on furniture that people do not stand on?
 5. Plausible locations for items and objects
 
 • Is every item where it would really be?
