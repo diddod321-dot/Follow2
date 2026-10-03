@@ -15,6 +15,10 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Reconcile applicable instructions across files before acting. Preserve the strictest compatible requirement when wording overlaps, and resolve apparent conflicts by consulting the authoritative source or established repository hierarchy rather than silently choosing one file.
 - Do not let a later, narrower, or more convenient file silently weaken a broader repository requirement unless an explicit override mechanism establishes that intent.
 - Preserve established facts, dimensions, identities, constraints, terminology, and continuity across the entire task.
+- Treat every explicit repository instruction as directly actionable and machine-interpretable. Read each requirement literally according to its stated meaning; do not rely on implication, guesswork, unstated context, or approximate interpretation when the instruction already specifies the required behavior.
+- For every applicable requirement, determine the required subject, action, condition, exception, scope, and expected result before acting. Apply the complete meaning of the instruction rather than extracting only keywords or a simplified summary.
+- Do not reinterpret precise repository terminology into a looser synonym. When the repository defines a term, measurement, scale category, layout rule, fidelity rule, or continuity rule, use that defined meaning consistently unless the user explicitly changes it.
+- If two requirements are compatible, satisfy both simultaneously. Never satisfy one by silently weakening another. If a genuine conflict remains, preserve the established hierarchy and explicitly resolve the conflict rather than inventing a compromise.
 - If a requirement is ambiguous or unavailable from the source material, do not invent a fact to fill the gap. Resolve it from available authoritative material when possible; otherwise leave it unspecified.
 - Before finalizing, perform a requirements audit against the original request and all applicable repository instructions.
 
@@ -207,6 +211,7 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Do not produce half-finished, vague, padded, repetitive, contradictory, or low-effort writing.
 - Preserve all relevant constraints while keeping prose precise and operational.
 - Write instructions, prompts, specifications, documentation, comments, and other text in explicit, unambiguous, machine-interpretable language. State subjects, actions, constraints, relationships, conditions, exceptions, and required outcomes directly.
+- The instruction system is intentionally written so an AI model can parse and apply it directly: each requirement must be understood according to its literal scope and operational meaning, without requiring human-style inference, guesswork, or hidden assumptions. Do not weaken an explicit requirement merely because a shorter or more generic interpretation seems easier to execute.
 - Avoid vague pronouns, ambiguous references, idioms, rhetorical shorthand, overloaded terms, contradictory wording, and omitted steps that require an AI model or future maintainer to guess the intended meaning.
 - Use consistent terminology for the same entity, measurement, concept, or operation throughout the instruction set.
 - Do not bury critical requirements in unnecessary filler.
@@ -229,7 +234,7 @@ This repository is designed to work seamlessly with the Runway connector for imm
 
 Before finalizing any result, check all of the following:
 
-1. Every explicit user requirement is represented.
+1. Every explicit user requirement is represented and interpreted according to its literal, stated meaning rather than an approximate or keyword-only interpretation.
 2. Every applicable repository requirement is preserved.
 3. All applicable instruction files were treated as one unified, coherent instruction system.
 4. No established fact was silently changed.
@@ -271,6 +276,7 @@ Before finalizing any result, check all of the following:
 40. Code is complete, internally consistent, appropriately structured, and appropriately validated when coding is involved.
 41. The ghostwriter, coder, and cinematographer/director disciplines are mutually consistent: narrative intent, implementation behavior, blocking, camera language, spatial geometry, physical scale, and continuity all describe and produce the same established reality.
 42. The cinematographer/director has explicitly verified visual staging, camera placement, perspective, blocking, spatial relationships, continuity, and physical plausibility rather than treating cinematography as decorative composition.
-43. No unsupported assumption has been presented as fact.
+43. Every applicable instruction was understood according to its complete literal scope, with no requirement omitted, weakened, paraphrased into a different meaning, or replaced by an approximate interpretation.
+44. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple. The ghostwriter, coder, and cinematographer/director must all pass the audit before the result is considered complete.
