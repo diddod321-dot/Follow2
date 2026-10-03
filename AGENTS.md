@@ -32,6 +32,8 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Once a physical dimension, measurement, proportion, clearance, or relative scale is established, treat it as locked unless the user explicitly changes it.
 - All dimensions that belong to the same physical world must remain mutually consistent. Do not make one object, room, doorway, piece of furniture, surface, person, or body part independently larger or smaller because of generation error, composition convenience, or failure to carry dimensions forward.
 - Scale must be reasoned from the established world, not guessed independently in each shot. If a doorway is established relative to a person, preserve that relationship; if furniture is established relative to the room, preserve that relationship; if a person changes scale, preserve the corresponding mathematical relationship to every surrounding object.
+- Normal-sized items, objects, furniture, architecture, rooms, fixtures, tools, containers, vehicles, surfaces, and other established environmental elements do not shrink or grow merely because a human becomes smaller or larger. Their real-world dimensions remain fixed unless the user explicitly establishes a physical transformation of that specific element or of the environment as a whole.
+- A person's scale change must never be used as a reason to resize, shrink, enlarge, compress, stretch, or otherwise alter normal-sized surrounding things. A small human becomes small relative to the unchanged world; a large human becomes large relative to the unchanged world.
 - Never use symmetrical framing as a substitute for physical spatial reasoning. Composition must follow the established geometry, dimensions, positions, and interactions of the scene rather than arranging people or objects into visually convenient mirrored or centered layouts.
 - Humans and objects must never be placed in arbitrary, unexplained, or physically unaccountable locations merely to satisfy composition. Their positions must make sense from the established dimensions, reachable space, support surfaces, clearances, gravity, access paths, preceding actions, and other physical constraints of the scene. If a person's established size makes a location unreachable, too small, too high, too low, obstructed, unsupported, or otherwise physically implausible, do not place the person there just because the composition looks better.
 - Perspective may change apparent size naturally, but it must never change actual physical dimensions.
@@ -178,20 +180,21 @@ Before finalizing any result, check all of the following:
 9. No looming, forced perspective, or deliberately oversized human background treatment was introduced.
 10. No symmetrical or mirrored framing was used unless explicitly requested; composition does not override physical spatial logic.
 11. No human or object was placed in an arbitrary, unexplained, unreachable, unsupported, or dimensionally impossible location merely to improve composition.
-12. The world and environment remain fully three-dimensional and physically spatial rather than backdrop-like or flat.
-13. Environmental dimensions remain consistent with the established small, normal-sized, or giant human scale without resizing the world for convenience.
-14. No doorway, furniture, room, surface, opening, clearance, or other environmental feature contradicts the established dimensions of surrounding elements.
-15. No scale mismatch is hidden through cropping, blur, darkness, occlusion, camera angle, or depth effects.
-16. The same object retains the same physical dimensions across views and stages.
-17. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
-18. All physical interactions are plausible and spatially coherent.
-19. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
-20. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
-21. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
-22. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
-23. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
-24. Writing is complete and precise.
-25. Code is complete, internally consistent, and appropriately validated when coding is involved.
-26. No unsupported assumption has been presented as fact.
+12. No normal-sized item, object, piece of furniture, architectural element, environmental feature, fixture, tool, container, vehicle, surface, or other established world element was made to shrink or grow merely because a human changed scale.
+13. The world and environment remain fully three-dimensional and physically spatial rather than backdrop-like or flat.
+14. Environmental dimensions remain consistent with the established small, normal-sized, or giant human scale without resizing the world for convenience.
+15. No doorway, furniture, room, surface, opening, clearance, or other environmental feature contradicts the established dimensions of surrounding elements.
+16. No scale mismatch is hidden through cropping, blur, darkness, occlusion, camera angle, or depth effects.
+17. The same object retains the same physical dimensions across views and stages.
+18. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
+19. All physical interactions are plausible and spatially coherent.
+20. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
+21. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
+22. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
+23. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
+24. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
+25. Writing is complete and precise.
+26. Code is complete, internally consistent, and appropriately validated when coding is involved.
+27. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
