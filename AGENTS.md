@@ -50,6 +50,9 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Materials and surfaces must behave consistently with their real physical properties.
 - Lighting and shadows must remain physically plausible and restrained. Do not exaggerate contrast, shadow length, glow, rim lighting, highlights, darkness, color effects, or other illumination effects for drama or spectacle. Lighting must not distort perceived scale, proportions, depth, or material properties.
 - Do not apply artistic filters, cartoon effects, painterly effects, fantasy effects, artificial stylization, or other visual treatments that make the scene look less like an accurate real-world scene. Avoid whimsy, melodrama, spectacle, and exaggerated visual dramatics unless explicitly requested.
+- Do not use airbrushed skin, beauty retouching, plastic-smooth surfaces, synthetic skin, artificial sharpening, excessive denoising, or other treatments that create an airbrushed or cosmetically processed appearance.
+- Do not introduce a digital, AI-generated, CGI, 3D-rendered, game-engine, synthetic, composited, or otherwise visibly computer-generated look. Do not make people, materials, lighting, textures, depth, or environments look rendered rather than physically photographed or naturally observed.
+- The target visual standard is true-to-real-life immersive realism: natural human appearance, natural materials, believable optical behavior, authentic environmental detail, physically plausible lighting, and photographic-looking spatial depth. Avoid visual artifacts or stylistic cues that break that realism.
 
 ## 5. Human continuity and anatomy
 
