@@ -41,6 +41,9 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - A physically shrunk or enlarged human retains one consistent scale across their entire body and throughout the scene.
 - Never resize an object simply because it would make an interaction easier to stage.
 - When measurements are supplied, preserve them literally and use mathematically correct conversions.
+- Shrinking and growing are instantaneous scale changes unless the user explicitly requests a gradual transformation. Do not depict, imply, interpolate, or add intermediate stages of gradual shrinking or growing.
+- When a human changes scale, the resulting state must immediately have the correct final physical dimensions and proportions for the established scale. Do not show a person becoming progressively smaller or larger across frames, shots, poses, or transition states.
+- A change in human scale does not require the surrounding world to gradually change. The environment remains physically continuous while the person's scale changes instantaneously, unless the user explicitly establishes an environmental transformation as part of the event.
 
 ## 4. Physical plausibility and object permanence
 
@@ -60,6 +63,11 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Do not use airbrushed skin, beauty retouching, plastic-smooth surfaces, synthetic skin, artificial sharpening, excessive denoising, or other treatments that create an airbrushed or cosmetically processed appearance.
 - Do not introduce a digital, AI-generated, CGI, 3D-rendered, game-engine, synthetic, composited, or otherwise visibly computer-generated look. Do not make people, materials, lighting, textures, depth, or environments look rendered rather than physically photographed or naturally observed.
 - The target visual standard is true-to-real-life immersive realism: natural human appearance, natural materials, believable optical behavior, authentic environmental detail, physically plausible lighting, and photographic-looking spatial depth. Avoid visual artifacts or stylistic cues that break that realism.
+- Environmental and spatial dimensions must remain physically appropriate to the established human scale. Rooms, corridors, doorways, furniture, surfaces, clearances, containers, openings, and other spaces must be sized and presented consistently whether the established human is small/shrunk, normal-sized, or unusually large/giant.
+- For a small/shrunk human, the environment does not become a miniature environment merely to match the person. Normal-world objects and spaces retain their actual dimensions, making the person physically small relative to them.
+- For a giant/large human, the environment does not silently enlarge merely to accommodate the person. Established objects and spaces retain their actual dimensions, and the person's size must produce physically meaningful spatial relationships, clearances, contact, obstruction, and interaction consequences.
+- For a normal-sized human, ordinary real-world environmental dimensions and spatial relationships remain consistent with the established setting.
+- Do not resize, stretch, compress, or redesign environmental geometry merely to make a small, normal-sized, or giant human fit conveniently. If the established scale creates a physically constrained interaction, represent that constraint rather than changing the environment to remove it.
 
 ## 5. Human continuity and anatomy
 
@@ -150,16 +158,18 @@ Before finalizing any result, check all of the following:
 4. No established fact was silently changed.
 5. No random object, prop, person, body part, clothing item, or environmental feature was introduced.
 6. No random size change or scale drift exists.
-7. No looming, forced perspective, or deliberately oversized human background treatment was introduced.
-8. The world and environment remain fully three-dimensional and physically spatial rather than backdrop-like or flat.
-9. All physical interactions are plausible and spatially coherent.
-10. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
-11. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
-12. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
-13. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
-14. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
-15. Writing is complete and precise.
-16. Code is complete, internally consistent, and appropriately validated when coding is involved.
-17. No unsupported assumption has been presented as fact.
+7. No gradual shrinking or growing is depicted unless explicitly requested.
+8. No looming, forced perspective, or deliberately oversized human background treatment was introduced.
+9. The world and environment remain fully three-dimensional and physically spatial rather than backdrop-like or flat.
+10. Environmental dimensions remain consistent with the established small, normal-sized, or giant human scale without resizing the world for convenience.
+11. All physical interactions are plausible and spatially coherent.
+12. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
+13. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
+14. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
+15. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
+16. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
+17. Writing is complete and precise.
+18. Code is complete, internally consistent, and appropriately validated when coding is involved.
+19. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
