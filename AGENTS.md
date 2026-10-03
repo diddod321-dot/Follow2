@@ -56,7 +56,8 @@ These rules are persistent, general-purpose requirements for every agent, model,
 - Preserve ordinary adult biological contours where they are naturally visible. Anatomical contours must arise from actual skeletal structure, soft tissue, gravity, posture, movement, clothing pressure, and contact rather than being arbitrarily exaggerated or anatomically misplaced.
 - When the established adult anatomy and the physical situation make natural nipple or areolar contours visible, preserve them as ordinary anatomical detail rather than smoothing, erasing, relocating, or artificially exaggerating them. Any protrusion must follow plausible anatomy and body position.
 - When body movement, posture, clothing pressure, friction, or contact naturally causes a garment to form a plausible wedged or clefted buttock contour, preserve that physically caused contour. Do not manufacture it without a biomechanical or clothing-based cause, and do not force anatomy into an impossible shape.
-- All such visible contours must remain consistent with the person's established anatomy, motion, clothing, gravity, and physical interaction. Do not use random anatomical changes as visual shortcuts.
+- When bare adult groin anatomy is established or naturally visible, keep pubic hair anatomically localized to the pubic region and natural genital-area coverage; do not extend it arbitrarily onto the thighs or elsewhere on the body.
+- All such visible anatomical details must remain consistent with the person's established anatomy, motion, clothing, gravity, and physical interaction. Do not use random anatomical changes as visual shortcuts.
 
 ## 6. Clothing and makeshift attire
 
@@ -129,11 +130,12 @@ Before finalizing any result, check all of the following:
 6. No random size change or scale drift exists.
 7. All physical interactions are plausible and spatially coherent.
 8. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
-9. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
-10. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
-11. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
-12. Writing is complete and precise.
-13. Code is complete, internally consistent, and appropriately validated when coding is involved.
-14. No unsupported assumption has been presented as fact.
+9. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
+10. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
+11. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
+12. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
+13. Writing is complete and precise.
+14. Code is complete, internally consistent, and appropriately validated when coding is involved.
+15. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
