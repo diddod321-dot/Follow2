@@ -50,6 +50,10 @@ These rules are persistent, general-purpose requirements for every agent, model,
 - Human posture, balance, movement, contact, facial expression, gaze, and body language must be biomechanically plausible and contextually motivated.
 - Preserve natural asymmetry. Do not force artificial symmetry, mannequin poses, rigid posture, or identical expressions and gestures across people.
 - If shrinking or enlargement is explicitly part of the task, change scale only; do not silently transform the person's anatomy, identity, age, or biological nature.
+- Preserve ordinary adult biological contours where they are naturally visible. Anatomical contours must arise from actual skeletal structure, soft tissue, gravity, posture, movement, clothing pressure, and contact rather than being arbitrarily exaggerated or anatomically misplaced.
+- When the established adult anatomy and the physical situation make natural nipple or areolar contours visible, preserve them as ordinary anatomical detail rather than smoothing, erasing, relocating, or artificially exaggerating them. Any protrusion must follow plausible anatomy and body position.
+- When body movement, posture, clothing pressure, friction, or contact naturally causes a garment to form a plausible wedged or clefted buttock contour, preserve that physically caused contour. Do not manufacture it without a biomechanical or clothing-based cause, and do not force anatomy into an impossible shape.
+- All such visible contours must remain consistent with the person's established anatomy, motion, clothing, gravity, and physical interaction. Do not use random anatomical changes as visual shortcuts.
 
 ## 6. Clothing and makeshift attire
 
@@ -104,9 +108,10 @@ Before finalizing any result, check all of the following:
 4. No random object, prop, person, body part, clothing item, or environmental feature was introduced.
 5. No random size change or scale drift exists.
 6. All physical interactions are plausible and spatially coherent.
-7. Clothing follows the established attire rules, including the makeshift-attire rules: no borrower-rags default, no implausible makeshift construction, normal-sized source objects remain normal-sized, and no invented undergarments beneath established makeshift wear.
-8. Writing is complete and precise.
-9. Code is complete, internally consistent, and appropriately validated when coding is involved.
-10. No unsupported assumption has been presented as fact.
+7. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
+8. Clothing follows the established attire rules, including the makeshift-attire rules: no borrower-rags default, no implausible makeshift construction, normal-sized source objects remain normal-sized, and no invented undergarments beneath established makeshift wear.
+9. Writing is complete and precise.
+10. Code is complete, internally consistent, and appropriately validated when coding is involved.
+11. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
