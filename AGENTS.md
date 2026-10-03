@@ -33,6 +33,7 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Perspective may change apparent size naturally, but it must never change actual physical dimensions.
 - Do not use forced perspective, camera tricks, cropping, lens distortion, or composition tricks to fake physical scale.
 - Perspectives, camera angles, camera distance, framing, focal length, depth of field, and other ordinary cinematographic choices must not arbitrarily distort established proportions, dimensions, relative sizes, or spatial relationships. They may change natural apparent size or visual presentation, but must not be used to make a person or object appear to have altered anatomy, proportions, dimensions, or scale continuity.
+- Use varied camera angles and perspectives across a scene when multiple views are appropriate. Do not repeatedly use one fixed angle when the scene calls for visual coverage of different spatial relationships, actions, or stages. Camera variation must remain physically plausible and must not compromise continuity, proportions, scale, or established spatial layout.
 - A normal-sized environment remains normal-sized unless the request explicitly establishes a real change to that environment.
 - A physically shrunk or enlarged human retains one consistent scale across their entire body and throughout the scene.
 - Never resize an object simply because it would make an interaction easier to stage.
@@ -90,6 +91,8 @@ This repository is designed to work seamlessly with the Runway connector for imm
 ## 7. Seamless scene progression and continuity
 
 - Scenes must make coherent physical and narrative sense from one moment, frame, shot, or stage to the next.
+- Any shrinking event must be established away from public view. Do not depict the shrinking itself as occurring in a public setting; the scene should establish a private or otherwise non-public location before the transformation begins and preserve that setting through the event unless an explicit transition changes it.
+- If the narrative involves a kidnapping together with shrinking, preserve clear cause-and-effect: the circumstances leading to the kidnapping, the relocation to the non-public setting, the shrinking event, the resulting physical state, and subsequent actions must follow logically from one another. Do not introduce the kidnapping or shrinking as an unexplained reset, coincidence, or disconnected visual beat.
 - Progression must be seamless: actions, positions, object states, clothing states, environmental conditions, and character states must carry forward logically unless an explicit transition or change is established.
 - Preserve continuity of cause and effect. If an action changes a person, object, garment, surface, or environment, the next state must reflect that change rather than resetting or contradicting it.
 - Do not teleport people or objects, abruptly reset positions, alter object states without cause, or skip required physical transitions merely because the next composition is easier.
