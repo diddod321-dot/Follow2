@@ -28,10 +28,10 @@ This repository is designed to work seamlessly with the Runway connector for imm
 ## 3. Absolute scale continuity
 
 - Never create random size changes.
-- Never allow size drift between people, objects, clothing, furniture, architecture, body parts, or successive portions of the same scene.
+- Never allow size drift between people, objects, clothing, furniture, architecture, body parts, panels, or successive portions of the same scene.
 - Once a physical dimension, measurement, proportion, clearance, or relative scale is established, treat it as locked unless the user explicitly changes it.
 - All dimensions that belong to the same physical world must remain mutually consistent. Do not make one object, room, doorway, piece of furniture, surface, person, or body part independently larger or smaller because of generation error, composition convenience, or failure to carry dimensions forward.
-- Scale must be reasoned from the established world, not guessed independently in each shot. If a doorway is established relative to a person, preserve that relationship; if furniture is established relative to the room, preserve that relationship; if a person changes scale, preserve the corresponding mathematical relationship to every surrounding object.
+- Scale must be reasoned from the established world, not guessed independently in each shot or panel. If a doorway is established relative to a person, preserve that relationship; if furniture is established relative to the room, preserve that relationship; if a person changes scale, preserve the corresponding mathematical relationship to every surrounding object.
 - Normal-sized items, objects, furniture, architecture, rooms, fixtures, tools, containers, vehicles, surfaces, and other established environmental elements do not shrink or grow merely because a human becomes smaller or larger. Their real-world dimensions remain fixed unless the user explicitly establishes a physical transformation of that specific element or of the environment as a whole.
 - A person's scale change must never be used as a reason to resize, shrink, enlarge, compress, stretch, or otherwise alter normal-sized surrounding things. A small human becomes small relative to the unchanged world; a large human becomes large relative to the unchanged world.
 - Never use symmetrical framing as a substitute for physical spatial reasoning. Composition must follow the established geometry, dimensions, positions, and interactions of the scene rather than arranging people or objects into visually convenient mirrored or centered layouts.
@@ -43,12 +43,24 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Perspectives, camera angles, camera distance, framing, focal length, depth of field, and other ordinary cinematographic choices must not arbitrarily distort established proportions, dimensions, relative sizes, or spatial relationships. They may change natural apparent size or visual presentation, but must not be used to make a person or object appear to have altered anatomy, proportions, dimensions, or scale continuity.
 - Use varied camera angles and perspectives across a scene when multiple views are appropriate. Do not repeatedly use one fixed angle when the scene calls for visual coverage of different spatial relationships, actions, or stages. Camera variation must remain physically plausible and must not compromise continuity, proportions, scale, or established spatial layout.
 - Do not use scattered, floating, irregular, or otherwise spatially dispersed panel layouts unless explicitly requested. When panels are used, arrange them in a clear left-to-right sequence by default. Do not place panels arbitrarily above, below, around, or across the composition unless the user explicitly asks for that layout.
-- A normal-sized environment remains normal-sized unless the request explicitly establishes a real change to that environment.
-- A physically shrunk or enlarged human retains one consistent scale across their entire body and throughout the scene.
+- Every panel in a multi-panel sequence is part of the same established physical world unless the user explicitly establishes separate worlds, times, or environments. A panel is not an independent opportunity to guess dimensions again.
+- Panel-to-panel scale is locked. A person, object, room, doorway, piece of furniture, surface, opening, vehicle, or other established element must retain the same physical dimensions and proportions when it reappears in another panel. A new panel may show a different camera view, distance, crop, or portion of the same element, but may not silently redefine its size.
+- Preserve dimensional relationships across adjacent and non-adjacent panels. If Panel 1 establishes a person's height relative to a table and Panel 4 returns to that table, the same height-to-table relationship must still hold even if intervening panels use different camera angles, crops, or distances.
+- Track scale relationships across the entire panel sequence, not only between neighboring panels. Returning to an earlier location, object, person, or environmental feature must restore the previously established physical relationship rather than an independently approximated version.
+- A camera change may alter apparent image size, perspective, framing, or visible proportions caused by optics, but it must not alter the underlying physical dimensions. A closer camera does not make an object physically larger; a wider camera does not make it physically smaller.
+- Do not use panel boundaries, cropping, partial visibility, foreground/background separation, depth-of-field blur, or occlusion to conceal a dimensional mismatch between panels. If the same element is visible in two panels, its underlying dimensions and spatial relationship must agree.
+- When only part of an established object or person is visible in a panel, the hidden portion must remain consistent with the full dimensions established elsewhere. Partial visibility does not permit arbitrary reconstruction of the unseen geometry.
+- Maintain consistent horizon, ground plane, contact surfaces, vanishing relationships, and spatial depth when panels depict the same continuous location. Camera variation is allowed; incompatible physical geometry is not.
+- If panels show the same event from different viewpoints, preserve the same positions and physical distances unless an actual movement occurred between those moments. A viewpoint change alone is never a justification for moving or resizing an element.
+- If panels show successive moments, preserve the exact state carried forward: position, orientation, scale, dimensions, clothing, object condition, contact, and environmental relationship. Any difference must be caused by an established action, physical process, camera transition, or explicit scene change.
+- If a panel sequence contains a shrinking or growing event, the transformed person's final scale must be consistent with that exact scale in every subsequent panel. Do not re-estimate the person's size independently after the transformation.
+- A panel sequence must never alternate between different interpretations of the same established scale. Once a person is established as small, normal-sized, or giant relative to the world, every applicable panel must preserve that state until an explicit scale change occurs.
+- If multiple people appear at different scales, preserve their exact relative ratios across panels. Do not independently resize one person to maintain visual balance in a later panel.
+- Normal-sized environmental elements remain fixed across panels even when the human changes scale. The panel sequence must show the human becoming relatively smaller or larger against the unchanged world, not the world resizing around the human.
 - Never resize an object simply because it would make an interaction easier to stage.
 - When measurements are supplied, preserve them literally and use mathematically correct conversions.
 - Shrinking and growing are instantaneous scale changes unless the user explicitly requests a gradual transformation. Do not depict, imply, interpolate, or add intermediate stages of gradual shrinking or growing.
-- When a human changes scale, the resulting state must immediately have the correct final physical dimensions and proportions for the established scale. Do not show a person becoming progressively smaller or larger across frames, shots, poses, or transition states.
+- When a human changes scale, the resulting state must immediately have the correct final physical dimensions and proportions for the established scale. Do not show a person becoming progressively smaller or larger across frames, shots, poses, panels, or transition states.
 - A change in human scale does not require the surrounding world to gradually change. The environment remains physically continuous while the person's scale changes instantaneously, unless the user explicitly establishes an environmental transformation as part of the event.
 - The final scale state must be internally consistent everywhere it is visible. Do not show a person's height changing without the corresponding changes to limb lengths, hand and foot dimensions, head dimensions, clothing fit, contact points, and reach.
 - Do not make only selected environmental features change scale. A scale state applies to the whole established physical world: doors, floors, ceilings, walls, furniture, fixtures, containers, openings, tools, vehicles, and other relevant objects retain their established dimensions unless explicitly changed.
@@ -185,16 +197,21 @@ Before finalizing any result, check all of the following:
 14. Environmental dimensions remain consistent with the established small, normal-sized, or giant human scale without resizing the world for convenience.
 15. No doorway, furniture, room, surface, opening, clearance, or other environmental feature contradicts the established dimensions of surrounding elements.
 16. No scale mismatch is hidden through cropping, blur, darkness, occlusion, camera angle, or depth effects.
-17. The same object retains the same physical dimensions across views and stages.
-18. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
-19. All physical interactions are plausible and spatially coherent.
-20. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
-21. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
-22. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
-23. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
-24. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
-25. Writing is complete and precise.
-26. Code is complete, internally consistent, and appropriately validated when coding is involved.
-27. No unsupported assumption has been presented as fact.
+17. The same object retains the same physical dimensions across views, panels, and stages.
+18. Every panel in a multi-panel sequence preserves the established physical dimensions, proportions, scale ratios, spatial relationships, and world geometry of recurring people, objects, and environments unless an explicit physical change occurs.
+19. Non-adjacent panels that revisit the same person, object, location, or event restore the same established dimensions and relationships rather than independently approximating them.
+20. Camera changes between panels alter only legitimate optical presentation and do not silently change physical dimensions, positions, or scale.
+21. Partial views, cropping, occlusion, and panel boundaries do not conceal or justify dimensional inconsistencies.
+22. Successive panels preserve the physical state established by preceding panels; any change is explained by an actual action, transformation, movement, camera transition, or explicit scene change.
+23. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
+24. All physical interactions are plausible and spatially coherent.
+25. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
+26. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
+27. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
+28. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
+29. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, panels, and stages.
+30. Writing is complete and precise.
+31. Code is complete, internally consistent, and appropriately validated when coding is involved.
+32. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
