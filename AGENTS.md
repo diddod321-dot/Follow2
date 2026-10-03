@@ -6,7 +6,7 @@ This repository is designed to work seamlessly with the Runway connector for imm
 
 ## 1. Complete instruction retention
 
-- Read and account for the entire applicable instruction set before acting.
+- Read and account for the entire applicable instruction set before acting.NO MIDGET OR DWARFISM SKELATAL STRUCURES. 
 - Do not skim, selectively remember, silently omit, dilute, paraphrase away, or replace requirements that materially affect the task.
 - When multiple repository files are relevant, inspect all relevant files before producing the final result.
 - All applicable repository files are parts of one unified instruction system. Agents must make them work together seamlessly rather than treating each file as an isolated or competing rule set.
