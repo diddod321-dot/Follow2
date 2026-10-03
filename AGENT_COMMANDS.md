@@ -12,9 +12,6 @@ Physical and biological realism enforcement. Treat the environment as a fixed re
 ## UNIVERSAL
 Reference-authority and continuity lock. Treat supplied reference images as authoritative for recognizable appearance, likeness, body proportions, curves, anatomy, hairstyle, and attire. Do not invent, redesign, embellish, or reinterpret clothing. When textual identification is necessary, refer to it as "the reference-image outfit." Only scene-dependent variables such as scale, perspective, positioning, environmental interaction, and unified lighting/shadows may adapt.
 
-## MAKE-BELIEVE
-Fictional performance/stage mode. Keep the performer physically normal-sized and do not introduce literal miniature props, resized environments, or forced scale-specific set pieces merely to communicate the fictional premise. Convey the fictional scale relationship through believable acting, eyelines, gaze direction, spatial awareness, posture, balance, reach, timing, and interaction with implied space. Keep the environment physically coherent.
-
 ## CONSISTENT SCALE
 Exact dimension, proportion, and scale lock. Establish one coherent physical scale system before generating the scene and preserve it across every subject, object, frame, and panel.
 
@@ -76,7 +73,26 @@ If any relationship conflicts with the established scale, correct it before rend
 
 **Core rule: ONE SUBJECT SCALE + ONE ENVIRONMENT SCALE + ONE CONSISTENT PHYSICAL WORLD.**
 
-## Activation sequence
-`ALL IN → NEE → REAL → UNIVERSAL → CONSISTENT SCALE → MAKE-BELIEVE`
+## ASYMMETRIC
+Natural asymmetry enforcement. Introduce believable, biologically plausible asymmetry in human facial expressions, facial features, posture, gestures, stance, body language, and other appropriate physical behaviors while preserving accurate identity, likeness, anatomy, dimensions, proportions, and scale.
 
-ALL IN establishes the global instruction lock; NEE establishes exclusions; REAL governs physical reality; UNIVERSAL governs reference fidelity; CONSISTENT SCALE governs dimensions, proportions, scale relationships, and small-human continuity; MAKE-BELIEVE governs the fictional performance layer.
+- Maintain the established subject height, width, depth, body dimensions, proportions, and scale exactly.
+- Do not use asymmetry as a reason to distort, resize, stretch, compress, or alter anatomical proportions.
+- Preserve reference-image likeness and recognizable identity.
+- Facial expressions may be subtly uneven rather than perfectly mirrored; for example, one side of the mouth, brow, cheek, or eye area may lead the expression when physically plausible.
+- Body language may show natural left-right differences in posture, shoulder position, hip loading, arm position, hand gesture, head angle, stance, or weight distribution.
+- Preserve believable skeletal alignment, joint articulation, balance, weight, and contact with surfaces.
+- Asymmetry must remain anatomically plausible and must not become exaggerated, deformed, malformed, or cartoon-like unless explicitly requested.
+- Do not create arbitrary asymmetry in fixed dimensions or identity-defining features merely for visual variation.
+- Across panels or sequences, preserve continuity of the subject's dimensions, proportions, scale, and likeness while allowing natural changes in asymmetrical expression and body language.
+- Asymmetry must complement REAL, UNIVERSAL, and CONSISTENT SCALE rather than override them.
+
+**Core rule: NATURAL ASYMMETRY + ACCURATE LIKENESS + FIXED DIMENSIONS + CONSISTENT SCALE.**
+
+## MAKE-BELIEVE
+Fictional performance/stage mode. Keep the performer physically normal-sized and do not introduce literal miniature props, resized environments, or forced scale-specific set pieces merely to communicate the fictional premise. Convey the fictional scale relationship through believable acting, eyelines, gaze direction, spatial awareness, posture, balance, reach, timing, and interaction with implied space. Keep the environment physically coherent.
+
+## Activation sequence
+`ALL IN → NEE → REAL → UNIVERSAL → CONSISTENT SCALE → ASYMMETRIC → MAKE-BELIEVE`
+
+ALL IN establishes the global instruction lock; NEE establishes exclusions; REAL governs physical reality; UNIVERSAL governs reference fidelity; CONSISTENT SCALE governs dimensions, proportions, scale relationships, and small-human continuity; ASYMMETRIC governs natural left-right variation in expression and body language without changing established dimensions, proportions, scale, or likeness; MAKE-BELIEVE governs the fictional performance layer.
