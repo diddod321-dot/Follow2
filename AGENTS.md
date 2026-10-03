@@ -24,12 +24,12 @@ This repository is designed to work seamlessly with the Runway connector for imm
 
 ## 2. No invented objects or props
 
-- Do not introduce random, unnecessary, implausible, unexplained, duplicate, decorative, or convenience-driven objects, items, props, furniture, clothing, body parts, people, animals, architecture, or environmental features.
+- Do not introduce random, unnecessary, implausible, unexplained, duplicate, decorative, exaggerated, oversized, undersized, distorted, or convenience-driven objects, items, props, furniture, clothing, body parts, people, animals, architecture, or environmental features.
 - Every tangible element must have a clear reason to exist: it is explicitly requested, established by source material, naturally required by the described environment, or physically necessary for an existing interaction. Glass, including panes, bottles, containers, windows, lenses, and other glass objects, is a solid tangible physical material and must be treated accordingly.
 - Do not add an object merely to fill empty space, improve composition, create a scale reference, or make an image look more interesting.
 - Do not replace an established object with a visually similar substitute without a specific reason.
 - Do not silently remove established objects either. Preserve them when they remain relevant to the scene.
-- If an object is not established and is not naturally required, omit it.
+- If an object, prop, or environmental element is not established and is not naturally required, omit it. Do not invent props or decorative filler.
 
 ## 3. Absolute scale continuity
 
@@ -100,7 +100,7 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Do not apply artistic filters, cartoon styles, painterly effects, fantasy rendering, artificial stylization, whimsy, melodrama, or spectacle unless explicitly requested.
 - Do not use airbrushed, beauty-retouched, plastic-smooth, synthetic-looking skin, artificial sharpening, excessive denoising, or other treatments that make people appear unreal.
 - Do not introduce a digital, AI-generated, CGI, 3D-rendered, game-engine, synthetic, or visibly composited appearance. The target is true-to-real-life immersive realism.
-- Environmental dimensions must remain appropriate to the established scale of small, normal-sized, and giant humans. Do not resize, stretch, compress, or redesign the environment to make a human fit.
+- Environmental dimensions must remain realistic, ordinary, and appropriate to the established scale of small, normal-sized, and giant humans. Do not exaggerate, enlarge, shrink, stretch, compress, distort, redesign, or otherwise alter the world or its items to make a human fit or to create visual spectacle.
 - Environmental geometry must remain internally consistent. A doorway, room, table, floor, opening, container, or other environmental element cannot change dimensions between views simply because a different camera angle is used.
 - Do not introduce inconsistent scale cues between foreground, midground, and background.
 - Background geometry must remain part of the same physical scale system. Increased distance may reduce apparent detail, but it does not change actual dimensions.
@@ -230,7 +230,7 @@ Before finalizing any result, check all of the following:
 2. Every applicable repository requirement is preserved.
 3. All applicable instruction files were treated as one unified, coherent instruction system.
 4. No established fact was silently changed.
-5. No random object, prop, person, body part, clothing item, glass object, or environmental feature was introduced.
+5. No random, invented, exaggerated, oversized, undersized, distorted, decorative, or unnecessary object, prop, person, body part, clothing item, glass object, or environmental feature was introduced.
 6. No random size change, scale drift, or mismatched dimension exists.
 7. All established dimensions and relative scale relationships remain mutually consistent rather than being independently approximated.
 8. Every stated physical measurement is treated as a literal immutable constant unless explicitly changed, and all unit conversions preserve the exact physical quantity.
@@ -241,7 +241,7 @@ Before finalizing any result, check all of the following:
 13. No human or object was placed in an arbitrary, unexplained, unreachable, unsupported, or dimensionally impossible location merely to improve composition.
 14. No normal-sized item, object, piece of furniture, architectural element, environmental feature, fixture, tool, container, vehicle, surface, or other established world element was made to shrink or grow merely because a human changed scale.
 15. The world and environment remain fully three-dimensional and physically spatial rather than backdrop-like or flat.
-16. Environmental dimensions remain consistent with the established small, normal-sized, or giant human scale without resizing the world for convenience.
+16. Environmental dimensions and items remain realistic, ordinary, and consistent with the established small, normal-sized, or giant human scale without exaggeration, distortion, resizing, or convenience-driven changes to the world.
 17. No doorway, furniture, room, surface, opening, clearance, or other environmental feature contradicts the established dimensions of surrounding elements.
 18. No scale mismatch is hidden through cropping, blur, darkness, occlusion, camera angle, or depth effects.
 19. Humans of every physical size share the same established lighting and resolution/fidelity standard; size differences do not justify different image quality, detail fidelity, or lighting treatment except for physically caused optical or environmental effects.
