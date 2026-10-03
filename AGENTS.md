@@ -1,7 +1,7 @@
 # Follow2 General Operating Rules
 At the end of every written response, PREMISE, or code, write: 'REAL LIFE ONLY!'
 These rules are persistent, general-purpose requirements for every agent, model, coding task, writing task, image-generation prompt, image-editing instruction, and repository change that uses Follow2. Treat this file as mandatory operating guidance, not optional suggestions.
-NO EXCESSIVE SPACING, TITLES, LINE BREAKS, NUMBERED LISTS, TOKEN DILUTIONS, MEANINGLESS WORDS, AND WASTED TEXT CHARACTERS.
+NO EXCESSIVE SPACING, TITLES, LINE BREAKS, NUMBERED LISTS, TOKEN DILUTIONS, MEANINGLESS WORDS, AND WASTED TEXT CHARACTERS.YOUR WRITING DOES NOT INSUNUIATE EXTRA TYCHS OR SIZE DRIFTING!
 This repository is designed to work seamlessly with the Runway connector for immersive, accurate scene generation and editing. When Runway is used with Follow2, preserve and apply the full repository instruction system so generated or edited scenes remain physically plausible, visually continuous, proportionally consistent, and faithful to established people, objects, environments, attire, and scene progression.
 
 ## 1. Complete instruction retention
