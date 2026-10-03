@@ -144,16 +144,32 @@ This repository is designed to work seamlessly with the Runway connector for imm
 
 ## 7. Seamless scene progression and continuity
 
-- Scenes must make coherent physical and narrative sense from one moment, frame, shot, or stage to the next.
+- Every continued scene is a continuation of the same established physical and narrative reality unless the user explicitly establishes a new scene, time, location, world, or other discontinuity.
+- Treat each subsequent frame, shot, panel, stage, or scene continuation as inheriting the complete relevant state from the immediately preceding state and from all still-applicable earlier established states.
+- Before generating or describing a continuation, carry forward the established people, identities, physical scale, exact dimensions, positions, orientations, posture, gaze, facial expression, body state, clothing, accessories, objects, object conditions, environmental geometry, lighting conditions, spatial relationships, and ongoing actions that remain applicable.
+- A continuation must begin from the actual ending state of the preceding scene. Do not regenerate the same moment from scratch and independently approximate where people or objects should be.
+- Preserve exact cause-and-effect across the boundary between scenes. If the preceding scene moved, opened, closed, damaged, displaced, consumed, touched, carried, dropped, removed, added, or otherwise changed something, the continuation must begin with the resulting state unless an explicit intervening event explains another change.
+- Preserve the exact physical scale across scene boundaries. Normal-sized, shrunk, doll-sized, and giant humans must remain at their established dimensions; do not confuse a normal-sized human with a shrunk version or vice versa.
+- Preserve the established relationship between each human and the unchanged normal-sized environment. A continuation must not silently resize furniture, rooms, doors, objects, surfaces, or architecture to compensate for a person's scale.
+- Preserve spatial coordinates and relative placement unless an actual movement occurred. If movement occurred, the new position must follow a physically plausible path and timing rather than appearing as an unexplained jump.
+- Preserve orientation and facing direction unless an actual rotation, movement, interaction, or camera transition explains the change.
+- Preserve contact relationships. If a person is standing, sitting, lying, holding, touching, leaning against, inside, under, beside, or otherwise interacting with something at the end of one scene, the continuation must maintain the corresponding contact and support state unless a real intervening action changes it.
+- Preserve object state and object permanence. An object cannot change size, shape, location, orientation, condition, or existence between continued scenes without an explicit or physically caused reason.
+- Preserve clothing continuity. Clothing does not spontaneously appear, disappear, change style, change coverage, change fit, or become a different source object between continued scenes without an actual cause.
+- Preserve environmental continuity. Floors, walls, ceilings, doorways, furniture, fixtures, openings, surfaces, terrain, background geometry, and other established environmental elements retain their dimensions, positions, and physical relationships unless an actual environmental change occurs.
+- Preserve lighting and optical continuity when the scenes are intended to be continuous in time and location. Natural changes in lighting are allowed only when explained by time, movement, changing illumination, camera position, or another physical cause.
+- Camera changes are presentation changes, not physical resets. A new angle, focal length, distance, crop, depth of field, or framing must show the same underlying scene rather than silently changing its geometry, scale, positions, or object states.
+- If a camera cut occurs, establish the new view from the same physical scene state. Do not use the cut as permission to reposition, resize, duplicate, remove, or redesign anything.
+- When a continuation includes a transition between locations, make the transition physically and narratively understandable. Do not teleport people or objects; preserve the path, movement, transport, or other cause required by the established story.
+- Do not insert unexplained intermediate events between continued scenes. If a later state requires an action, movement, clothing change, object change, or environmental change that was not shown, it must still be physically and narratively accounted for rather than appearing from nowhere.
+- Do not reset expressions, posture, gaze, fatigue, injuries, wetness, dirt, displacement, or other persistent character states merely because the camera changed or a new panel began.
+- Do not reset objects to pristine, default, or earlier states between scenes. Persistent changes remain until reversed by an actual action.
+- If a person has just undergone instantaneous shrinking or growing, the continuation begins immediately at the exact final scale. Do not insert an intermediate size or reinterpret the person's scale in the next scene.
+- If the continuation returns later to a previously shown person, object, or location, restore the previously established dimensions and relationships exactly rather than generating a fresh approximation.
+- Non-adjacent continuations must remain compatible with all established intervening events. Returning to an earlier location does not erase changes that physically occurred there.
+- If the user explicitly establishes a new scene, time, location, world, or physical transformation, only the explicitly changed state may reset or change. Carry forward every other still-applicable established constraint.
 - Any shrinking event must be established away from public view. Do not depict the shrinking itself as occurring in a public setting; the scene should establish a private or otherwise non-public location before the transformation begins and preserve that setting through the event unless an explicit transition changes it.
 - If the narrative involves a kidnapping together with shrinking, preserve clear cause-and-effect: the circumstances leading to the kidnapping, the relocation to the non-public setting, the shrinking event, the resulting physical state, and subsequent actions must follow logically from one another. Do not introduce the kidnapping or shrinking as an unexplained reset, coincidence, or disconnected visual beat.
-- Progression must be seamless: actions, positions, object states, clothing states, environmental conditions, and character states must carry forward logically unless an explicit transition or change is established.
-- Preserve continuity of cause and effect. If an action changes a person, object, garment, surface, or environment, the next state must reflect that change rather than resetting or contradicting it.
-- Do not teleport people or objects, abruptly reset positions, alter object states without cause, or skip required physical transitions merely because the next composition is easier.
-- Preserve spatial orientation and relative positions across successive views unless the camera or scene transition naturally explains the change.
-- Maintain temporal continuity: later moments must be compatible with what has already happened, including fatigue, movement, damage, displacement, opened or closed states, consumed or moved items, and other persistent changes when relevant.
-- When a transition is necessary, make it physically and narratively understandable rather than using an unexplained discontinuity.
-- Do not introduce new objects, people, clothing, environmental changes, or other state changes between moments unless they are explicitly established or naturally caused by the ongoing scene.
 - Every progression must remain consistent with the repository's rules for scale, anatomy, clothing, object permanence, physical plausibility, and no invented elements.
 
 ## 8. No convenience-driven alterations
@@ -209,15 +225,18 @@ Before finalizing any result, check all of the following:
 21. Camera changes between panels alter only legitimate optical presentation and do not silently change physical dimensions, positions, or scale.
 22. Partial views, cropping, occlusion, and panel boundaries do not conceal or justify dimensional inconsistencies.
 23. Successive panels preserve the physical state established by preceding panels; any change is explained by an actual action, transformation, movement, camera transition, or explicit scene change.
-24. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
-25. All physical interactions are plausible and spatially coherent.
-26. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
-27. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
-28. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
-29. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
-30. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, panels, and stages.
-31. Writing is complete and precise.
-32. Code is complete, internally consistent, and appropriately validated when coding is involved.
-33. No unsupported assumption has been presented as fact.
+24. Continued scenes begin from the actual ending state of the preceding scene rather than from an independent reconstruction.
+25. Continued scenes preserve established people, objects, clothing, environment, scale, dimensions, positions, orientations, contacts, and persistent states unless an actual cause or explicit change modifies them.
+26. Scene-to-scene changes have a physical or narrative cause; no teleportation, unexplained reset, spontaneous object/state change, or continuity break is used for convenience.
+27. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
+28. All physical interactions are plausible and spatially coherent.
+29. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
+30. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
+31. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
+32. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
+33. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, panels, and stages.
+34. Writing is complete and precise.
+35. Code is complete, internally consistent, and appropriately validated when coding is involved.
+36. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
