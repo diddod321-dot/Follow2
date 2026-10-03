@@ -172,14 +172,24 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - If the narrative involves a kidnapping together with shrinking, preserve clear cause-and-effect: the circumstances leading to the kidnapping, the relocation to the non-public setting, the shrinking event, the resulting physical state, and subsequent actions must follow logically from one another. Do not introduce the kidnapping or shrinking as an unexplained reset, coincidence, or disconnected visual beat.
 - Every progression must remain consistent with the repository's rules for scale, anatomy, clothing, object permanence, physical plausibility, and no invented elements.
 
-## 8. No convenience-driven alterations
+## 8. Reference use without imitation
+
+- When established works, films, photography, visual effects, practical-effects sequences, or other reference material are used to inform a task, use them only as high-level examples of useful techniques, concepts, or problem-solving approaches.
+- Extract general principles such as believable scale relationships, practical interaction with oversized or undersized environments, camera coverage, perspective discipline, continuity, physical staging, lighting behavior, and visual storytelling.
+- Do not blatantly copy, reproduce, trace, recreate, or closely imitate a reference work's specific scenes, shots, compositions, characters, costumes, dialogue, distinctive visual designs, sequence structure, or other recognizable creative expression unless the user explicitly requests a transformation or reproduction that is permitted.
+- Do not combine multiple references by mechanically reproducing recognizable elements from each. Synthesize general lessons into an original result that follows Follow2's established physical and continuity rules.
+- Reference material must never override the repository's requirements for exact dimensions, unchanged normal-sized environments, natural human anatomy, seamless scene progression, physical plausibility, or non-invented elements.
+- If a reference contains deliberate scale cheats, continuity errors, stylization, exaggerated perspective, inconsistent dimensions, or other techniques that conflict with Follow2, treat those as examples to avoid rather than requirements to reproduce.
+- The goal is to learn from useful visual solutions without making the resulting work look like a copy of any particular reference.
+
+## 9. No convenience-driven alterations
 
 - Never change an established fact simply because another result would be easier to generate, code, compose, explain, or render.
 - Never resolve a difficult interaction by changing scale, adding an object, changing a person's identity, changing clothing, moving an established object without cause, or inventing a new environmental feature.
 - If the requested composition is physically difficult, solve the geometry and interaction rather than weakening the requirements.
 - Do not substitute plausibility for exact established facts when the source already specifies the facts.
 
-## 9. Writing quality
+## 10. Writing quality
 
 - Do not produce half-finished, vague, padded, repetitive, contradictory, or low-effort writing.
 - Preserve all relevant constraints while keeping prose precise and operational.
@@ -187,7 +197,7 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Do not bury critical requirements in unnecessary filler.
 - Do not claim a requirement is satisfied unless the output actually satisfies it.
 
-## 10. Coding quality
+## 11. Coding quality
 
 - Do not produce half-assed code, placeholders presented as complete work, dead code, unexplained hacks, brittle shortcuts, duplicated logic, or silent behavior changes.
 - Inspect the existing implementation and relevant interfaces before changing behavior.
@@ -198,7 +208,7 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Do not invent dependencies, APIs, files, functions, configuration, or repository structure.
 - If a required implementation detail cannot be established from the repository, inspect the relevant source before coding instead of guessing.
 
-## 11. Mandatory final audit
+## 12. Mandatory final audit
 
 Before finalizing any result, check all of the following:
 
@@ -234,9 +244,10 @@ Before finalizing any result, check all of the following:
 30. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
 31. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
 32. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
-33. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, panels, and stages.
-34. Writing is complete and precise.
-35. Code is complete, internally consistent, and appropriately validated when coding is involved.
-36. No unsupported assumption has been presented as fact.
+33. Reference material, when used, informs general techniques only and does not become a template for copying recognizable creative expression.
+34. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, panels, and stages.
+35. Writing is complete and precise.
+36. Code is complete, internally consistent, and appropriately validated when coding is involved.
+37. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
