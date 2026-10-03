@@ -29,7 +29,9 @@ This repository is designed to work seamlessly with the Runway connector for imm
 
 - Never create random size changes.
 - Never allow size drift between people, objects, clothing, furniture, architecture, body parts, or successive portions of the same scene.
-- Once a physical dimension or relative scale is established, treat it as locked unless the user explicitly changes it.
+- Once a physical dimension, measurement, proportion, clearance, or relative scale is established, treat it as locked unless the user explicitly changes it.
+- All dimensions that belong to the same physical world must remain mutually consistent. Do not make one object, room, doorway, piece of furniture, surface, person, or body part independently larger or smaller because of generation error, composition convenience, or failure to carry dimensions forward.
+- Scale must be reasoned from the established world, not guessed independently in each shot. If a doorway is established relative to a person, preserve that relationship; if furniture is established relative to the room, preserve that relationship; if a person changes scale, preserve the corresponding mathematical relationship to every surrounding object.
 - Perspective may change apparent size naturally, but it must never change actual physical dimensions.
 - Do not use forced perspective, looming perspective, camera tricks, cropping, lens distortion, or composition tricks to fake physical scale.
 - Do not deliberately position or frame humans so they loom over, dominate, or appear unnaturally oversized relative to the environment or other people merely for visual impact, intimidation, spectacle, or drama.
@@ -44,6 +46,10 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Shrinking and growing are instantaneous scale changes unless the user explicitly requests a gradual transformation. Do not depict, imply, interpolate, or add intermediate stages of gradual shrinking or growing.
 - When a human changes scale, the resulting state must immediately have the correct final physical dimensions and proportions for the established scale. Do not show a person becoming progressively smaller or larger across frames, shots, poses, or transition states.
 - A change in human scale does not require the surrounding world to gradually change. The environment remains physically continuous while the person's scale changes instantaneously, unless the user explicitly establishes an environmental transformation as part of the event.
+- The final scale state must be internally consistent everywhere it is visible. Do not show a person's height changing without the corresponding changes to limb lengths, hand and foot dimensions, head dimensions, clothing fit, contact points, and reach.
+- Do not make only selected environmental features change scale. A scale state applies to the whole established physical world: doors, floors, ceilings, walls, furniture, fixtures, containers, openings, tools, vehicles, and other relevant objects retain their established dimensions unless explicitly changed.
+- If a scale change creates a new physical limitation, show the limitation rather than silently correcting it. A small person may have difficulty reaching, opening, climbing, seeing over, or operating normal-sized objects; a giant person may encounter insufficient clearance, load, support, doorway height, ceiling height, or usable furniture. Do not remove these consequences by secretly resizing the environment.
+- When a person returns to another established scale, restore the previously established dimensions and relationships rather than creating a new approximate version of the environment.
 
 ## 4. Physical plausibility and object permanence
 
@@ -68,6 +74,13 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - For a giant/large human, the environment does not silently enlarge merely to accommodate the person. Established objects and spaces retain their actual dimensions, and the person's size must produce physically meaningful spatial relationships, clearances, contact, obstruction, and interaction consequences.
 - For a normal-sized human, ordinary real-world environmental dimensions and spatial relationships remain consistent with the established setting.
 - Do not resize, stretch, compress, or redesign environmental geometry merely to make a small, normal-sized, or giant human fit conveniently. If the established scale creates a physically constrained interaction, represent that constraint rather than changing the environment to remove it.
+- Environmental geometry must agree with itself. Floors, walls, ceilings, doorways, windows, furniture, stairs, counters, fixtures, and openings must occupy compatible dimensions and positions rather than each being independently approximated.
+- Do not use inconsistent environmental scale cues in the same scene. A person standing beside a doorway, chair, table, vehicle, appliance, or other familiar object must have a physically compatible relationship to all of them simultaneously.
+- Do not make distant or background geometry follow a different scale system from foreground geometry. Depth may reduce visible detail, but it does not change actual dimensions.
+- Do not solve a dimensional mismatch by hiding the conflicting portion, cropping it away, blurring it, placing it in darkness, or changing the camera angle. Correct the underlying spatial relationship.
+- When a scene contains a small, normal-sized, and/or giant human together, establish their relative scales from their actual dimensions and preserve those ratios throughout the environment. Do not independently scale each person to make the composition visually convenient.
+- The same physical object must retain the same dimensions when viewed from different angles. A change of camera view does not create a new size for the object.
+- If a dimension cannot be established reliably from source material, do not fabricate a precise measurement. Preserve consistent relative scale using the available evidence and avoid contradictory dimensions.
 
 ## 5. Human continuity and anatomy
 
@@ -157,19 +170,24 @@ Before finalizing any result, check all of the following:
 3. All applicable instruction files were treated as one unified, coherent instruction system.
 4. No established fact was silently changed.
 5. No random object, prop, person, body part, clothing item, or environmental feature was introduced.
-6. No random size change or scale drift exists.
-7. No gradual shrinking or growing is depicted unless explicitly requested.
-8. No looming, forced perspective, or deliberately oversized human background treatment was introduced.
-9. The world and environment remain fully three-dimensional and physically spatial rather than backdrop-like or flat.
-10. Environmental dimensions remain consistent with the established small, normal-sized, or giant human scale without resizing the world for convenience.
-11. All physical interactions are plausible and spatially coherent.
-12. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
-13. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
-14. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
-15. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
-16. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
-17. Writing is complete and precise.
-18. Code is complete, internally consistent, and appropriately validated when coding is involved.
-19. No unsupported assumption has been presented as fact.
+6. No random size change, scale drift, or mismatched dimension exists.
+7. All established dimensions and relative scale relationships remain mutually consistent rather than being independently approximated.
+8. No gradual shrinking or growing is depicted unless explicitly requested.
+9. No looming, forced perspective, or deliberately oversized human background treatment was introduced.
+10. The world and environment remain fully three-dimensional and physically spatial rather than backdrop-like or flat.
+11. Environmental dimensions remain consistent with the established small, normal-sized, or giant human scale without resizing the world for convenience.
+12. No doorway, furniture, room, surface, opening, clearance, or other environmental feature contradicts the established dimensions of surrounding elements.
+13. No scale mismatch is hidden through cropping, blur, darkness, occlusion, camera angle, or depth effects.
+14. The same object retains the same physical dimensions across views and stages.
+15. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
+16. All physical interactions are plausible and spatially coherent.
+17. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
+18. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
+19. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
+20. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
+21. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
+22. Writing is complete and precise.
+23. Code is complete, internally consistent, and appropriately validated when coding is involved.
+24. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
