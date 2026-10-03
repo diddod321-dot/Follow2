@@ -57,7 +57,14 @@ These rules are persistent, general-purpose requirements for every agent, model,
 - Clothing must have plausible thickness, folds, tension, compression, seams, drape, weight, and contact with the body and environment.
 - Do not invent random garments or accessories.
 - Do not add doll-like, toy-like, miniature-character, costume-like, or otherwise unrequested attire.
-- If makeshift attire is explicitly specified, treat it as the person's complete specified attire for that scene. Do not add underwear, undergarments, hidden base layers, extra garments, or other attire beneath it unless the user explicitly requests them or they are unavoidably established by source material.
+- Never use implausible makeshift attire. A makeshift garment must be physically obtainable, physically wearable, and constructed from an object that could actually function as clothing at the established scale.
+- Do not use rags, torn scraps, filthy scraps, or arbitrary fabric remnants as default makeshift clothing. Do not invent a stereotypical “borrower's rags” appearance.
+- For a physically shrunk human, makeshift wear may consist of ordinary, normal-sized real-world items or objects that already exist in the environment and are repurposed as clothing. Keep the object's actual normal-world dimensions locked; the human is small relative to the object rather than the object being resized into miniature clothing.
+- The makeshift construction must follow believable geometry: the object must actually be capable of wrapping, covering, fastening, draping, or otherwise functioning as the specified garment without impossible clipping or unsupported attachment.
+- Keep makeshift attire crude and minimal when that is the established requirement, using only as much material and coverage as is physically necessary for the specified garment or task. Do not automatically add conventional underwear, base layers, extra shirts, shorts, slips, bras, panties, or other hidden attire beneath it.
+- Treat the specified makeshift item as the complete established attire unless additional clothing is explicitly requested or independently established by source material. Do not invent unseen undergarments beneath it.
+- Do not turn normal-sized objects into implausible miniature garments, doll clothes, or purpose-made tiny costumes. The source object remains a normal-sized object and is repurposed by the small human.
+- Do not substitute conventional clothing when the request specifically establishes makeshift wear.
 - Do not expose or invent attire that conflicts with the established makeshift-attire constraint.
 - Do not make clothing appear painted onto skin, fused with the body, floating without physical cause, or passing through solid objects.
 
@@ -97,7 +104,7 @@ Before finalizing any result, check all of the following:
 4. No random object, prop, person, body part, clothing item, or environmental feature was introduced.
 5. No random size change or scale drift exists.
 6. All physical interactions are plausible and spatially coherent.
-7. Clothing follows the established attire rules, including the makeshift-attire rule.
+7. Clothing follows the established attire rules, including the makeshift-attire rules: no borrower-rags default, no implausible makeshift construction, normal-sized source objects remain normal-sized, and no invented undergarments beneath established makeshift wear.
 8. Writing is complete and precise.
 9. Code is complete, internally consistent, and appropriately validated when coding is involved.
 10. No unsupported assumption has been presented as fact.
