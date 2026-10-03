@@ -29,6 +29,9 @@ This repository is designed to work seamlessly with the Runway connector for imm
 
 - Never create random size changes.
 - Never allow size drift between people, objects, clothing, furniture, architecture, body parts, panels, or successive portions of the same scene.
+- Inches, centimeters, millimeters, feet, meters, and every other stated physical dimension are always literal numerical values. Treat every stated measurement as an immutable constant unless the user explicitly changes that measurement.
+- Do not reinterpret, approximate, round away, substitute, or visually estimate a stated dimension. A stated measurement is not descriptive guidance; it is the exact physical dimension to preserve.
+- Mathematical unit conversions must preserve the exact physical quantity. For example, an established inch measurement converted to centimeters must represent the same physical length, not a newly guessed length.
 - Once a physical dimension, measurement, proportion, clearance, or relative scale is established, treat it as locked unless the user explicitly changes it.
 - All dimensions that belong to the same physical world must remain mutually consistent. Do not make one object, room, doorway, piece of furniture, surface, person, or body part independently larger or smaller because of generation error, composition convenience, or failure to carry dimensions forward.
 - Scale must be reasoned from the established world, not guessed independently in each shot or panel. If a doorway is established relative to a person, preserve that relationship; if furniture is established relative to the room, preserve that relationship; if a person changes scale, preserve the corresponding mathematical relationship to every surrounding object.
@@ -100,23 +103,22 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Do not make distant or background geometry follow a different scale system from foreground geometry. Depth may reduce visible detail, but it does not change actual dimensions.
 - Do not solve a dimensional mismatch by hiding the conflicting portion, cropping it away, blurring it, placing it in darkness, or changing the camera angle. Correct the underlying spatial relationship.
 - When a scene contains a small, normal-sized, and/or giant human together, establish their relative scales from their actual dimensions and preserve those ratios throughout the environment. Do not independently scale each person to make the composition visually convenient.
-- The same physical object must retain the same dimensions when viewed from different angles. A change of camera view does not create a new size for the object.
-- If a dimension cannot be established reliably from source material, do not fabricate a precise measurement. Preserve consistent relative scale using the available evidence and avoid contradictory dimensions.
+- The same physical object must retain the same dimensions wherever it appears, regardless of camera view, panel, crop, or distance.
 
 ## 5. Human continuity and anatomy
 
-- A human remains the same established person unless the task explicitly changes the identity.
-- Preserve established identity, likeness, age, anatomy, proportions, clothing, accessories, physical characteristics, personality, and relevant state.
-- Do not introduce duplicate people, duplicate limbs, extra fingers, extra toes, extra hands, extra feet, mirrored bodies, fused bodies, or other anatomical artifacts.
-- Human posture, balance, movement, contact, facial expression, gaze, and body language must be biomechanically plausible and contextually motivated.
-- All humans must move and express themselves with genuine, natural facial expressions, gestures, posture, gaze, reactions, and body language that make sense for the immediate scene, circumstances, relationships, physical state, and preceding actions. Do not use generic, frozen, exaggerated, mannequin-like, theatrical, or emotionally disconnected expressions and movements. Facial and body language must evolve naturally with the scene and remain consistent with the person's established state and cause-and-effect progression.
-- Preserve natural asymmetry. Do not force artificial symmetry, mannequin poses, rigid posture, or identical expressions and gestures across people.
-- If shrinking or enlargement is explicitly part of the task, change scale only; do not silently transform the person's anatomy, identity, age, or biological nature.
-- A physically shrunk human must retain the same proportional height, body dimensions, widths, limb proportions, and head-to-body ratio at the smaller overall scale. Do not give a shrunk human a disproportionately large head, stumpy limbs, shortened body, widened or narrowed anatomy, chibi-like proportions, or any other altered proportional structure merely because the person is smaller.
-- Shrinking applies uniformly to the entire person. Legs, arms, hands, feet, torso, hips, neck, head, fingers, toes, joints, and all other established body parts retain their corresponding lengths, widths, thicknesses, proportions, and relative dimensions under the same overall scale factor. Do not independently shorten, widen, narrow, thicken, thin, enlarge, or otherwise reshape any body part because the person has become smaller.
-- Do not exaggerate the proportions, scale relationships, anatomy, or visual presence of a physically shrunk human. Shrinking must remain a straightforward real-world reduction in scale, not a whimsical, dramatic, stylized, chibi-like, toy-like, or cartoon-like transformation.
-- Preserve ordinary adult biological contours where they are naturally visible. Anatomical contours must arise from actual skeletal structure, soft tissue, gravity, posture, movement, clothing pressure, and contact rather than being arbitrarily exaggerated or anatomically misplaced.
-- When the established adult anatomy and the physical situation make natural nipple or areolar contours visible, preserve them as ordinary anatomical detail rather than smoothing, erasing, relocating, or artificially exaggerating them. Any protrusion must follow plausible anatomy and body position.
+- Preserve the same established person unless the user explicitly establishes a different person.
+- Preserve identity, likeness, age, anatomy, proportions, clothing, accessories, physical characteristics, and relevant physical state across continued scenes.
+- Do not duplicate people, limbs, fingers, toes, hands, feet, or other body parts. Do not create mirrored bodies, fused bodies, or anatomical artifacts.
+- Human posture, balance, movement, contact, and expression must be biomechanically plausible.
+- Facial expressions, gestures, posture, gaze, reactions, and body language must be genuine and natural for the scene, circumstances, relationships, physical state, and preceding actions. Do not use generic, frozen, exaggerated, mannequin-like, theatrical, or disconnected behavior.
+- Preserve natural asymmetry. Do not impose artificial symmetry, mannequin poses, rigid posture, or identical expressions and gestures without cause.
+- Shrinking or enlargement changes physical scale only. It does not change anatomy, identity, age, or biological nature.
+- A shrunk human retains the same proportional height, body dimensions, widths, limb proportions, head-to-body ratio, and other established anatomical relationships. Do not create stumpy proportions, oversized heads, chibi proportions, or other altered scale anatomy.
+- Apply uniform whole-body scaling during shrinking or enlargement. Legs, arms, hands, feet, torso, hips, neck, head, fingers, toes, joints, and all other body parts retain their corresponding dimensions under the same scale factor. Do not independently reshape selected body parts.
+- Do not exaggerate shrinking proportions.
+- Adult biological contours, where naturally visible, must arise from normal anatomy, skeleton, soft tissue, gravity, posture, movement, clothing pressure, and contact rather than arbitrary or decorative shaping.
+- When natural nipple or areolar contours are established and visible, preserve them as ordinary anatomical detail rather than smoothing, erasing, relocating, or artificially exaggerating them. Any protrusion must follow plausible anatomy and body position.
 - When body movement, posture, clothing pressure, friction, or contact naturally causes a garment to form a plausible wedged or clefted buttock contour, preserve that physically caused contour. Do not manufacture it without a biomechanical or clothing-based cause, and do not force anatomy into an impossible shape.
 - When bare adult groin anatomy is established or naturally visible, keep pubic hair anatomically localized to the pubic region and natural genital-area coverage; do not extend it arbitrarily onto the thighs or elsewhere on the body.
 - All such visible anatomical details must remain consistent with the person's established anatomy, motion, clothing, gravity, and physical interaction. Do not use random anatomical changes as visual shortcuts.
@@ -193,7 +195,9 @@ This repository is designed to work seamlessly with the Runway connector for imm
 
 - Do not produce half-finished, vague, padded, repetitive, contradictory, or low-effort writing.
 - Preserve all relevant constraints while keeping prose precise and operational.
-- Use concrete language that can be acted upon without guesswork.
+- Write instructions, prompts, specifications, documentation, comments, and other text in explicit, unambiguous, machine-interpretable language. State subjects, actions, constraints, relationships, conditions, exceptions, and required outcomes directly.
+- Avoid vague pronouns, ambiguous references, idioms, rhetorical shorthand, overloaded terms, contradictory wording, and omitted steps that require an AI model or future maintainer to guess the intended meaning.
+- Use consistent terminology for the same entity, measurement, concept, or operation throughout the instruction set.
 - Do not bury critical requirements in unnecessary filler.
 - Do not claim a requirement is satisfied unless the output actually satisfies it.
 
@@ -207,6 +211,8 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Never weaken or remove tests merely to make a change pass.
 - Do not invent dependencies, APIs, files, functions, configuration, or repository structure.
 - If a required implementation detail cannot be established from the repository, inspect the relevant source before coding instead of guessing.
+- Use clear, explicit, semantically meaningful identifiers and structures. Represent important behavior and invariants directly rather than hiding them behind clever shortcuts or implicit assumptions.
+- Code and configuration must be understandable without requiring an AI model or future maintainer to infer unstated behavior.
 
 ## 12. Mandatory final audit
 
@@ -219,35 +225,36 @@ Before finalizing any result, check all of the following:
 5. No random object, prop, person, body part, clothing item, or environmental feature was introduced.
 6. No random size change, scale drift, or mismatched dimension exists.
 7. All established dimensions and relative scale relationships remain mutually consistent rather than being independently approximated.
-8. No gradual shrinking or growing is depicted unless explicitly requested.
-9. No looming, forced perspective, or deliberately oversized human background treatment was introduced.
-10. No symmetrical or mirrored framing was used unless explicitly requested; composition does not override physical spatial logic.
-11. No human or object was placed in an arbitrary, unexplained, unreachable, unsupported, or dimensionally impossible location merely to improve composition.
-12. No normal-sized item, object, piece of furniture, architectural element, environmental feature, fixture, tool, container, vehicle, surface, or other established world element was made to shrink or grow merely because a human changed scale.
-13. The world and environment remain fully three-dimensional and physically spatial rather than backdrop-like or flat.
-14. Environmental dimensions remain consistent with the established small, normal-sized, or giant human scale without resizing the world for convenience.
-15. No doorway, furniture, room, surface, opening, clearance, or other environmental feature contradicts the established dimensions of surrounding elements.
-16. No scale mismatch is hidden through cropping, blur, darkness, occlusion, camera angle, or depth effects.
-17. The same object retains the same physical dimensions across views, panels, and stages.
-18. Any human established at 4–12 inches remains at the exact stated doll-sized height and is never reinterpreted as microscopic or larger than doll-sized without an explicit user change.
-19. Every panel in a multi-panel sequence preserves the established physical dimensions, proportions, scale ratios, spatial relationships, and world geometry of recurring people, objects, and environments unless an explicit physical change occurs.
-20. Non-adjacent panels that revisit the same person, object, location, or event restore the same established dimensions and relationships rather than independently approximating them.
-21. Camera changes between panels alter only legitimate optical presentation and do not silently change physical dimensions, positions, or scale.
-22. Partial views, cropping, occlusion, and panel boundaries do not conceal or justify dimensional inconsistencies.
-23. Successive panels preserve the physical state established by preceding panels; any change is explained by an actual action, transformation, movement, camera transition, or explicit scene change.
-24. Continued scenes begin from the actual ending state of the preceding scene rather than from an independent reconstruction.
-25. Continued scenes preserve established people, objects, clothing, environment, scale, dimensions, positions, orientations, contacts, and persistent states unless an actual cause or explicit change modifies them.
-26. Scene-to-scene changes have a physical or narrative cause; no teleportation, unexplained reset, spontaneous object/state change, or continuity break is used for convenience.
-27. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
-28. All physical interactions are plausible and spatially coherent.
-29. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
-30. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
-31. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
-32. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
-33. Reference material, when used, informs general techniques only and does not become a template for copying recognizable creative expression.
-34. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, panels, and stages.
-35. Writing is complete and precise.
-36. Code is complete, internally consistent, and appropriately validated when coding is involved.
-37. No unsupported assumption has been presented as fact.
+8. Every stated physical measurement is treated as a literal immutable constant unless explicitly changed, and all unit conversions preserve the exact physical quantity.
+9. No gradual shrinking or growing is depicted unless explicitly requested.
+10. No looming, forced perspective, or deliberately oversized human background treatment was introduced.
+11. No symmetrical or mirrored framing was used unless explicitly requested; composition does not override physical spatial logic.
+12. No human or object was placed in an arbitrary, unexplained, unreachable, unsupported, or dimensionally impossible location merely to improve composition.
+13. No normal-sized item, object, piece of furniture, architectural element, environmental feature, fixture, tool, container, vehicle, surface, or other established world element was made to shrink or grow merely because a human changed scale.
+14. The world and environment remain fully three-dimensional and physically spatial rather than backdrop-like or flat.
+15. Environmental dimensions remain consistent with the established small, normal-sized, or giant human scale without resizing the world for convenience.
+16. No doorway, furniture, room, surface, opening, clearance, or other environmental feature contradicts the established dimensions of surrounding elements.
+17. No scale mismatch is hidden through cropping, blur, darkness, occlusion, camera angle, or depth effects.
+18. The same object retains the same physical dimensions across views, panels, and stages.
+19. Any human established at 4–12 inches remains at the exact stated doll-sized height and is never reinterpreted as microscopic or larger than doll-sized without an explicit user change.
+20. Every panel in a multi-panel sequence preserves the established physical dimensions, proportions, scale ratios, spatial relationships, and world geometry of recurring people, objects, and environments unless an explicit physical change occurs.
+21. Non-adjacent panels that revisit the same person, object, location, or event restore the same established dimensions and relationships rather than independently approximating them.
+22. Camera changes between panels alter only legitimate optical presentation and do not silently change physical dimensions, positions, or scale.
+23. Partial views, cropping, occlusion, and panel boundaries do not conceal or justify dimensional inconsistencies.
+24. Successive panels preserve the physical state established by preceding panels; any change is explained by an actual action, transformation, movement, camera transition, or explicit scene change.
+25. Continued scenes begin from the actual ending state of the preceding scene rather than from an independent reconstruction.
+26. Continued scenes preserve established people, objects, clothing, environment, scale, dimensions, positions, orientations, contacts, and persistent states unless an actual cause or explicit change modifies them.
+27. Scene-to-scene changes have a physical or narrative cause; no teleportation, unexplained reset, spontaneous object/state change, or continuity break is used for convenience.
+28. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
+29. All physical interactions are plausible and spatially coherent.
+30. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
+31. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
+32. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
+33. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
+34. Reference material, when used, informs general techniques only and does not become a template for copying recognizable creative expression.
+35. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, panels, and stages.
+36. Writing is complete, precise, unambiguous, and machine-interpretable without guesswork.
+37. Code is complete, internally consistent, appropriately structured, and appropriately validated when coding is involved.
+38. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
