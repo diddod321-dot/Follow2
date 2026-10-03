@@ -70,6 +70,7 @@ These rules are persistent, general-purpose requirements for every agent, model,
 - The makeshift construction must follow believable geometry: the object must actually be capable of wrapping, covering, fastening, draping, or otherwise functioning as the specified garment without impossible clipping or unsupported attachment.
 - Keep makeshift attire crude and minimal when that is the established requirement, using only as much material and coverage as is physically necessary for the specified garment or task. Do not automatically add conventional underwear, base layers, extra shirts, shorts, slips, bras, panties, or other hidden attire beneath it.
 - Treat the specified makeshift item as the complete established attire unless additional clothing is explicitly requested or independently established by source material. Do not invent unseen undergarments beneath it.
+- Makeshift attire, and any other established attire, may leave areas of the body uncovered when that degree of coverage is physically and contextually appropriate to the garment, its construction, the person's movement, and the established scene. Do not automatically add coverage solely to make the outfit more conventional.
 - Do not turn normal-sized objects into implausible miniature garments, doll clothes, or purpose-made tiny costumes. The source object remains a normal-sized object and is repurposed by the small human.
 - Do not substitute conventional clothing when the request specifically establishes makeshift wear.
 - Do not expose or invent attire that conflicts with the established makeshift-attire constraint.
@@ -113,7 +114,7 @@ Before finalizing any result, check all of the following:
 6. No random size change or scale drift exists.
 7. All physical interactions are plausible and spatially coherent.
 8. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
-9. Clothing follows the established attire rules, including the makeshift-attire rules: no borrower-rags default, no implausible makeshift construction, normal-sized source objects remain normal-sized, and no invented undergarments beneath established makeshift wear.
+9. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
 10. Writing is complete and precise.
 11. Code is complete, internally consistent, and appropriately validated when coding is involved.
 12. No unsupported assumption has been presented as fact.
