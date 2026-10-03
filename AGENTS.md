@@ -7,6 +7,9 @@ These rules are persistent, general-purpose requirements for every agent, model,
 - Read and account for the entire applicable instruction set before acting.
 - Do not skim, selectively remember, silently omit, dilute, paraphrase away, or replace requirements that materially affect the task.
 - When multiple repository files are relevant, inspect all relevant files before producing the final result.
+- All applicable repository files are parts of one unified instruction system. Agents must make them work together seamlessly rather than treating each file as an isolated or competing rule set.
+- Reconcile applicable instructions across files before acting. Preserve the strictest compatible requirement when wording overlaps, and resolve apparent conflicts by consulting the authoritative source or established repository hierarchy rather than silently choosing one file.
+- Do not let a later, narrower, or more convenient file silently weaken a broader repository requirement unless an explicit override mechanism establishes that intent.
 - Preserve established facts, dimensions, identities, constraints, terminology, and continuity across the entire task.
 - If a requirement is ambiguous or unavailable from the source material, do not invent a fact to fill the gap. Resolve it from available authoritative material when possible; otherwise leave it unspecified.
 - Before finalizing, perform a requirements audit against the original request and all applicable repository instructions.
@@ -104,14 +107,15 @@ Before finalizing any result, check all of the following:
 
 1. Every explicit user requirement is represented.
 2. Every applicable repository requirement is preserved.
-3. No established fact was silently changed.
-4. No random object, prop, person, body part, clothing item, or environmental feature was introduced.
-5. No random size change or scale drift exists.
-6. All physical interactions are plausible and spatially coherent.
-7. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
-8. Clothing follows the established attire rules, including the makeshift-attire rules: no borrower-rags default, no implausible makeshift construction, normal-sized source objects remain normal-sized, and no invented undergarments beneath established makeshift wear.
-9. Writing is complete and precise.
-10. Code is complete, internally consistent, and appropriately validated when coding is involved.
-11. No unsupported assumption has been presented as fact.
+3. All applicable instruction files were treated as one unified, coherent instruction system.
+4. No established fact was silently changed.
+5. No random object, prop, person, body part, clothing item, or environmental feature was introduced.
+6. No random size change or scale drift exists.
+7. All physical interactions are plausible and spatially coherent.
+8. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
+9. Clothing follows the established attire rules, including the makeshift-attire rules: no borrower-rags default, no implausible makeshift construction, normal-sized source objects remain normal-sized, and no invented undergarments beneath established makeshift wear.
+10. Writing is complete and precise.
+11. Code is complete, internally consistent, and appropriately validated when coding is involved.
+12. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
