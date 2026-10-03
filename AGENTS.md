@@ -47,6 +47,8 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Do not erase partially occluded objects or invent hidden objects without cause.
 - Maintain continuity of objects even when only part of an object is visible.
 - Materials and surfaces must behave consistently with their real physical properties.
+- Lighting and shadows must remain physically plausible and restrained. Do not exaggerate contrast, shadow length, glow, rim lighting, highlights, darkness, color effects, or other illumination effects for drama or spectacle. Lighting must not distort perceived scale, proportions, depth, or material properties.
+- Do not apply artistic filters, cartoon effects, painterly effects, fantasy effects, artificial stylization, or other visual treatments that make the scene look less like an accurate real-world scene. Avoid whimsy, melodrama, spectacle, and exaggerated visual dramatics unless explicitly requested.
 
 ## 5. Human continuity and anatomy
 
@@ -57,6 +59,7 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Preserve natural asymmetry. Do not force artificial symmetry, mannequin poses, rigid posture, or identical expressions and gestures across people.
 - If shrinking or enlargement is explicitly part of the task, change scale only; do not silently transform the person's anatomy, identity, age, or biological nature.
 - A physically shrunk human must retain the same proportional height, body dimensions, widths, limb proportions, and head-to-body ratio at the smaller overall scale. Do not give a shrunk human a disproportionately large head, stumpy limbs, shortened body, widened or narrowed anatomy, chibi-like proportions, or any other altered proportional structure merely because the person is smaller.
+- Do not exaggerate the proportions, scale relationships, anatomy, or visual presence of a physically shrunk human. Shrinking must remain a straightforward real-world reduction in scale, not a whimsical, dramatic, stylized, chibi-like, toy-like, or cartoon-like transformation.
 - Preserve ordinary adult biological contours where they are naturally visible. Anatomical contours must arise from actual skeletal structure, soft tissue, gravity, posture, movement, clothing pressure, and contact rather than being arbitrarily exaggerated or anatomically misplaced.
 - When the established adult anatomy and the physical situation make natural nipple or areolar contours visible, preserve them as ordinary anatomical detail rather than smoothing, erasing, relocating, or artificially exaggerating them. Any protrusion must follow plausible anatomy and body position.
 - When body movement, posture, clothing pressure, friction, or contact naturally causes a garment to form a plausible wedged or clefted buttock contour, preserve that physically caused contour. Do not manufacture it without a biomechanical or clothing-based cause, and do not force anatomy into an impossible shape.
