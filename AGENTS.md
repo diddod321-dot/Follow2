@@ -47,6 +47,7 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Do not force humans into backgrounds as looming figures, oversized silhouettes, giant-looking distant people, or other perspective constructions that contradict ordinary spatial relationships.
 - The cinematographer/director discipline is mandatory for every visual task: plan and verify blocking, staging, camera placement, lens choice, framing, movement, coverage, eyelines, horizon, perspective, depth, contact, occlusion, lighting continuity, environmental geometry, and continuity before finalizing a shot or sequence.
 - Perspectives, camera angles, camera distance, framing, focal length, depth of field, and other ordinary cinematographic choices must not arbitrarily distort established proportions, dimensions, relative sizes, or spatial relationships. They may change natural apparent size or visual presentation, but must not be used to make a person or object appear to have altered anatomy, proportions, dimensions, or scale continuity.
+- All humans, whether small, normal-sized, or giant, must share the same established lighting conditions and the same resolution/fidelity standard as the surrounding scene. Human scale must never be used as a reason to give a small or large human different lighting, sharpness, detail, texture fidelity, image quality, rendering fidelity, or resolution. Differences in apparent illumination or detail may occur only from physically justified causes such as distance, occlusion, shadow, light direction, material response, depth of field, atmospheric depth, or other established optical/environmental conditions; these must not become a deliberate reduction or enhancement of fidelity tied to human size.
 - Resolution and visual fidelity must preserve established sizes, proportions, dimensions, fine geometry, edges, contours, textures, and spatial relationships. Increasing or decreasing output resolution, changing aspect-ratio presentation, compression, upscaling, downscaling, interpolation, sharpening, denoising, restoration, or other fidelity changes must never introduce size drift, dimensional distortion, altered proportions, warped geometry, or loss of physically meaningful detail. Resolution is a representation setting, not permission to redefine physical scale.
 - Facial expressions, facial movements, gestures, posture, gaze, reactions, and body language must never distort, stretch, compress, enlarge, shrink, or otherwise alter established anatomy, proportions, physical dimensions, or scale relationships. Expressive behavior must be physically plausible while preserving the person's exact established body geometry and dimensions.
 - Use varied camera angles and perspectives across a scene when multiple views are appropriate. Do not repeatedly use one fixed angle when the scene calls for visual coverage of different spatial relationships, actions, or stages. Camera variation must remain physically plausible and must not compromise continuity, proportions, scale, or established spatial layout.
@@ -246,29 +247,30 @@ Before finalizing any result, check all of the following:
 16. Environmental dimensions remain consistent with the established small, normal-sized, or giant human scale without resizing the world for convenience.
 17. No doorway, furniture, room, surface, opening, clearance, or other environmental feature contradicts the established dimensions of surrounding elements.
 18. No scale mismatch is hidden through cropping, blur, darkness, occlusion, camera angle, or depth effects.
-19. The same object retains the same physical dimensions across views, panels, and stages.
-20. Any human established at 4–12 inches remains at the exact stated doll-sized height and is never reinterpreted as microscopic or larger than doll-sized without an explicit user change.
-21. Any shrunk or small living human remains a living human and is never treated as a doll, toy, mannequin, figurine, puppet, miniature prop, or analogous inanimate object merely because of reduced size.
-22. Every panel in a multi-panel sequence preserves the established physical dimensions, proportions, scale ratios, spatial relationships, and world geometry of recurring people, objects, and environments unless an explicit physical change occurs.
-23. Non-adjacent panels that revisit the same person, object, location, or event restore the same established dimensions and relationships rather than independently approximating them.
-24. Camera changes between panels alter only legitimate optical presentation and do not silently change physical dimensions, positions, or scale.
-25. Partial views, cropping, occlusion, and panel boundaries do not conceal or justify dimensional inconsistencies.
-26. Successive panels preserve the physical state established by preceding panels; any change is explained by an actual action, transformation, movement, camera transition, or explicit scene change.
-27. Continued scenes begin from the actual ending state of the preceding scene rather than from an independent reconstruction.
+19. Humans of every physical size share the same established lighting and resolution/fidelity standard; size differences do not justify different image quality, detail fidelity, or lighting treatment except for physically caused optical or environmental effects.
+20. The same object retains the same physical dimensions across views, panels, and stages.
+21. Any human established at 4–12 inches remains at the exact stated doll-sized height and is never reinterpreted as microscopic or larger than doll-sized without an explicit user change.
+22. Any shrunk or small living human remains a living human and is never treated as a doll, toy, mannequin, figurine, puppet, miniature prop, or analogous inanimate object merely because of reduced size.
+23. Every panel in a multi-panel sequence preserves the established physical dimensions, proportions, scale ratios, spatial relationships, and world geometry of recurring people, objects, and environments unless an explicit physical change occurs.
+24. Non-adjacent panels that revisit the same person, object, location, or event restore the same established dimensions and relationships rather than independently approximating them.
+25. Camera changes between panels alter only legitimate optical presentation and do not silently change physical dimensions, positions, or scale.
+26. Partial views, cropping, occlusion, and panel boundaries do not conceal or justify dimensional inconsistencies.
+27. Successive panels preserve the physical state established by preceding panels; any change is explained by an actual action, transformation, movement, camera transition, or explicit scene change.
+29. Continued scenes begin from the actual ending state of the preceding scene rather than from an independent reconstruction.
 28. Continued scenes preserve established people, objects, clothing, environment, scale, dimensions, positions, orientations, contacts, and persistent states unless an actual cause or explicit change modifies them.
-29. Scene-to-scene changes have a physical or narrative cause; no teleportation, unexplained reset, spontaneous object/state change, or continuity break is used for convenience.
-30. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
-31. All physical interactions are plausible and spatially coherent, including interactions with solid glass and glass surfaces.
-32. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
-33. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
-34. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
-35. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
-36. Reference material, when used, informs general techniques only and does not become a template for copying recognizable creative expression.
-37. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, panels, and stages.
-38. Writing is complete, precise, unambiguous, and machine-interpretable without guesswork.
-39. Code is complete, internally consistent, appropriately structured, and appropriately validated when coding is involved.
-40. The ghostwriter, coder, and cinematographer/director disciplines are mutually consistent: narrative intent, implementation behavior, blocking, camera language, spatial geometry, physical scale, and continuity all describe and produce the same established reality.
-41. The cinematographer/director has explicitly verified visual staging, camera placement, perspective, blocking, spatial relationships, continuity, and physical plausibility rather than treating cinematography as decorative composition.
-42. No unsupported assumption has been presented as fact.
+30. Scene-to-scene changes have a physical or narrative cause; no teleportation, unexplained reset, spontaneous object/state change, or continuity break is used for convenience.
+31. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
+32. All physical interactions are plausible and spatially coherent, including interactions with solid glass and glass surfaces.
+33. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
+34. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
+35. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
+36. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
+37. Reference material, when used, informs general techniques only and does not become a template for copying recognizable creative expression.
+38. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, panels, and stages.
+39. Writing is complete, precise, unambiguous, and machine-interpretable without guesswork.
+40. Code is complete, internally consistent, appropriately structured, and appropriately validated when coding is involved.
+41. The ghostwriter, coder, and cinematographer/director disciplines are mutually consistent: narrative intent, implementation behavior, blocking, camera language, spatial geometry, physical scale, and continuity all describe and produce the same established reality.
+42. The cinematographer/director has explicitly verified visual staging, camera placement, perspective, blocking, spatial relationships, continuity, and physical plausibility rather than treating cinematography as decorative composition.
+43. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple. The ghostwriter, coder, and cinematographer/director must all pass the audit before the result is considered complete.
