@@ -31,7 +31,9 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Never allow size drift between people, objects, clothing, furniture, architecture, body parts, or successive portions of the same scene.
 - Once a physical dimension or relative scale is established, treat it as locked unless the user explicitly changes it.
 - Perspective may change apparent size naturally, but it must never change actual physical dimensions.
-- Do not use forced perspective, camera tricks, cropping, lens distortion, or composition tricks to fake physical scale.
+- Do not use forced perspective, looming perspective, camera tricks, cropping, lens distortion, or composition tricks to fake physical scale.
+- Do not deliberately position or frame humans so they loom over, dominate, or appear unnaturally oversized relative to the environment or other people merely for visual impact, intimidation, spectacle, or drama.
+- Do not force humans into backgrounds as looming figures, oversized silhouettes, giant-looking distant people, or other perspective constructions that contradict ordinary spatial relationships.
 - Perspectives, camera angles, camera distance, framing, focal length, depth of field, and other ordinary cinematographic choices must not arbitrarily distort established proportions, dimensions, relative sizes, or spatial relationships. They may change natural apparent size or visual presentation, but must not be used to make a person or object appear to have altered anatomy, proportions, dimensions, or scale continuity.
 - Use varied camera angles and perspectives across a scene when multiple views are appropriate. Do not repeatedly use one fixed angle when the scene calls for visual coverage of different spatial relationships, actions, or stages. Camera variation must remain physically plausible and must not compromise continuity, proportions, scale, or established spatial layout.
 - Do not use scattered, floating, irregular, or otherwise spatially dispersed panel layouts unless explicitly requested. When panels are used, arrange them in a clear left-to-right sequence by default. Do not place panels arbitrarily above, below, around, or across the composition unless the user explicitly asks for that layout.
@@ -43,6 +45,10 @@ This repository is designed to work seamlessly with the Runway connector for imm
 ## 4. Physical plausibility and object permanence
 
 - Treat every tangible person and object as physically real, solid, and spatially present.
+- Treat the world and environment as fully three-dimensional physical space, not as a backdrop, painted background, flat surface, stage prop, or decorative layer behind the subjects.
+- Do not flatten environmental depth, surfaces, architecture, furniture, terrain, or other spatial elements merely to simplify composition or emphasize a subject.
+- People and objects must occupy real spatial positions within the environment, with believable distance, depth, orientation, scale, occlusion, and contact relationships.
+- Do not place humans against or into backgrounds as if they were pasted onto a flat scene. Their feet, bodies, shadows, occlusion, and surrounding geometry must agree with the actual three-dimensional environment.
 - No floating, weightless, unsupported, phasing, clipping, interpenetrating, or impossible objects or bodies.
 - Maintain believable contact, support, gravity, mass, balance, occlusion, collision, friction, and spatial occupancy.
 - Do not allow hands, feet, limbs, clothing, furniture, containers, walls, floors, or other solid things to pass through one another.
@@ -144,14 +150,16 @@ Before finalizing any result, check all of the following:
 4. No established fact was silently changed.
 5. No random object, prop, person, body part, clothing item, or environmental feature was introduced.
 6. No random size change or scale drift exists.
-7. All physical interactions are plausible and spatially coherent.
-8. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
-9. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
-10. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
-11. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
-12. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
-13. Writing is complete and precise.
-14. Code is complete, internally consistent, and appropriately validated when coding is involved.
-15. No unsupported assumption has been presented as fact.
+7. No looming, forced perspective, or deliberately oversized human background treatment was introduced.
+8. The world and environment remain fully three-dimensional and physically spatial rather than backdrop-like or flat.
+9. All physical interactions are plausible and spatially coherent.
+10. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
+11. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
+12. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
+13. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
+14. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
+15. Writing is complete and precise.
+16. Code is complete, internally consistent, and appropriately validated when coding is involved.
+17. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
