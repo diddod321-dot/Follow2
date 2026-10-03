@@ -68,6 +68,9 @@ These rules are persistent, general-purpose requirements for every agent, model,
 - Do not use rags, torn scraps, filthy scraps, or arbitrary fabric remnants as default makeshift clothing. Do not invent a stereotypical “borrower's rags” appearance.
 - For a physically shrunk human, makeshift wear may consist of ordinary, normal-sized real-world items or objects that already exist in the environment and are repurposed as clothing. Keep the object's actual normal-world dimensions locked; the human is small relative to the object rather than the object being resized into miniature clothing.
 - The makeshift construction must follow believable geometry: the object must actually be capable of wrapping, covering, fastening, draping, or otherwise functioning as the specified garment without impossible clipping or unsupported attachment.
+- Makeshift attire must remain recognizably repurposed from the actual source object; it must not be redesigned into a conventional garment, costume, underwear item, or miniature replica of ordinary clothing.
+- Do not use makeshift material to fabricate a conventional garment-like structure when the established scene calls for crude repurposing. Preserve the source object's identity and physical form as much as the required adaptation allows.
+- Do not make makeshift attire function as deliberate coverage of the groin or anus. If the established makeshift configuration leaves those areas uncovered, do not add a garment-like extension, flap, panel, or hidden layer solely to cover them.
 - Keep makeshift attire crude and minimal when that is the established requirement, using only as much material and coverage as is physically necessary for the specified garment or task. Do not automatically add conventional underwear, base layers, extra shirts, shorts, slips, bras, panties, or other hidden attire beneath it.
 - Treat the specified makeshift item as the complete established attire unless additional clothing is explicitly requested or independently established by source material. Do not invent unseen undergarments beneath it.
 - Makeshift attire, and any other established attire, may leave areas of the body uncovered when that degree of coverage is physically and contextually appropriate to the garment, its construction, the person's movement, and the established scene. Do not automatically add coverage solely to make the outfit more conventional.
@@ -127,9 +130,10 @@ Before finalizing any result, check all of the following:
 7. All physical interactions are plausible and spatially coherent.
 8. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
 9. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
-10. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
-11. Writing is complete and precise.
-12. Code is complete, internally consistent, and appropriately validated when coding is involved.
-13. No unsupported assumption has been presented as fact.
+10. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
+11. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
+12. Writing is complete and precise.
+13. Code is complete, internally consistent, and appropriately validated when coding is involved.
+14. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
