@@ -19,7 +19,7 @@ This repository is designed to work seamlessly with the Runway connector for imm
 ## 2. No invented objects or props
 
 - Do not introduce random, unnecessary, implausible, unexplained, duplicate, decorative, or convenience-driven objects, items, props, furniture, clothing, body parts, people, animals, architecture, or environmental features.
-- Every tangible element must have a clear reason to exist: it is explicitly requested, established by source material, naturally required by the described environment, or physically necessary for an existing interaction.
+- Every tangible element must have a clear reason to exist: it is explicitly requested, established by source material, naturally required by the described environment, or physically necessary for an existing interaction. Glass, including panes, bottles, containers, windows, lenses, and other glass objects, is a solid tangible physical material and must be treated accordingly.
 - Do not add an object merely to fill empty space, improve composition, create a scale reference, or make an image look more interesting.
 - Do not replace an established object with a visually similar substitute without a specific reason.
 - Do not silently remove established objects either. Preserve them when they remain relevant to the scene.
@@ -80,7 +80,7 @@ This repository is designed to work seamlessly with the Runway connector for imm
 
 ## 4. Physical plausibility and object permanence
 
-- Treat every tangible person and object as physically real, solid, and spatially present.
+- Treat every tangible person and object as physically real, solid, and spatially present. This explicitly includes glass and glass objects: glass is solid, tangible, occupies physical space, has thickness and mass, and must obey the same dimensional, contact, collision, occlusion, reflection, refraction, breakage, and continuity rules as other solid materials.
 - Treat the world and environment as fully three-dimensional physical space, not as a backdrop, painted background, flat surface, stage prop, or decorative layer behind the subjects.
 - Do not flatten environmental depth, surfaces, architecture, furniture, terrain, or other spatial elements merely to simplify composition or emphasize a subject.
 - People and objects must occupy real spatial positions within the environment, with believable distance, depth, orientation, scale, occlusion, and contact relationships.
@@ -225,7 +225,7 @@ Before finalizing any result, check all of the following:
 2. Every applicable repository requirement is preserved.
 3. All applicable instruction files were treated as one unified, coherent instruction system.
 4. No established fact was silently changed.
-5. No random object, prop, person, body part, clothing item, or environmental feature was introduced.
+5. No random object, prop, person, body part, clothing item, glass object, or environmental feature was introduced.
 6. No random size change, scale drift, or mismatched dimension exists.
 7. All established dimensions and relative scale relationships remain mutually consistent rather than being independently approximated.
 8. Every stated physical measurement is treated as a literal immutable constant unless explicitly changed, and all unit conversions preserve the exact physical quantity.
@@ -250,7 +250,7 @@ Before finalizing any result, check all of the following:
 27. Continued scenes preserve established people, objects, clothing, environment, scale, dimensions, positions, orientations, contacts, and persistent states unless an actual cause or explicit change modifies them.
 28. Scene-to-scene changes have a physical or narrative cause; no teleportation, unexplained reset, spontaneous object/state change, or continuity break is used for convenience.
 29. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
-30. All physical interactions are plausible and spatially coherent.
+30. All physical interactions are plausible and spatially coherent, including interactions with solid glass and glass surfaces.
 31. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
 32. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
 33. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
