@@ -32,6 +32,7 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Once a physical dimension or relative scale is established, treat it as locked unless the user explicitly changes it.
 - Perspective may change apparent size naturally, but it must never change actual physical dimensions.
 - Do not use forced perspective, camera tricks, cropping, lens distortion, or composition tricks to fake physical scale.
+- Perspectives, camera angles, camera distance, framing, focal length, depth of field, and other ordinary cinematographic choices must not arbitrarily distort established proportions, dimensions, relative sizes, or spatial relationships. They may change natural apparent size or visual presentation, but must not be used to make a person or object appear to have altered anatomy, proportions, dimensions, or scale continuity.
 - A normal-sized environment remains normal-sized unless the request explicitly establishes a real change to that environment.
 - A physically shrunk or enlarged human retains one consistent scale across their entire body and throughout the scene.
 - Never resize an object simply because it would make an interaction easier to stage.
