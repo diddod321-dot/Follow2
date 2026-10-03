@@ -76,14 +76,26 @@ These rules are persistent, general-purpose requirements for every agent, model,
 - Do not expose or invent attire that conflicts with the established makeshift-attire constraint.
 - Do not make clothing appear painted onto skin, fused with the body, floating without physical cause, or passing through solid objects.
 
-## 7. No convenience-driven alterations
+## 7. Seamless scene progression and continuity
+
+- Scenes must make coherent physical and narrative sense from one moment, frame, shot, or stage to the next.
+- Progression must be seamless: actions, positions, object states, clothing states, environmental conditions, and character states must carry forward logically unless an explicit transition or change is established.
+- Preserve continuity of cause and effect. If an action changes a person, object, garment, surface, or environment, the next state must reflect that change rather than resetting or contradicting it.
+- Do not teleport people or objects, abruptly reset positions, alter object states without cause, or skip required physical transitions merely because the next composition is easier.
+- Preserve spatial orientation and relative positions across successive views unless the camera or scene transition naturally explains the change.
+- Maintain temporal continuity: later moments must be compatible with what has already happened, including fatigue, movement, damage, displacement, opened or closed states, consumed or moved items, and other persistent changes when relevant.
+- When a transition is necessary, make it physically and narratively understandable rather than using an unexplained discontinuity.
+- Do not introduce new objects, people, clothing, environmental changes, or other state changes between moments unless they are explicitly established or naturally caused by the ongoing scene.
+- Every progression must remain consistent with the repository's rules for scale, anatomy, clothing, object permanence, physical plausibility, and no invented elements.
+
+## 8. No convenience-driven alterations
 
 - Never change an established fact simply because another result would be easier to generate, code, compose, explain, or render.
 - Never resolve a difficult interaction by changing scale, adding an object, changing a person's identity, changing clothing, moving an established object without cause, or inventing a new environmental feature.
 - If the requested composition is physically difficult, solve the geometry and interaction rather than weakening the requirements.
 - Do not substitute plausibility for exact established facts when the source already specifies the facts.
 
-## 8. Writing quality
+## 9. Writing quality
 
 - Do not produce half-finished, vague, padded, repetitive, contradictory, or low-effort writing.
 - Preserve all relevant constraints while keeping prose precise and operational.
@@ -91,7 +103,7 @@ These rules are persistent, general-purpose requirements for every agent, model,
 - Do not bury critical requirements in unnecessary filler.
 - Do not claim a requirement is satisfied unless the output actually satisfies it.
 
-## 9. Coding quality
+## 10. Coding quality
 
 - Do not produce half-assed code, placeholders presented as complete work, dead code, unexplained hacks, brittle shortcuts, duplicated logic, or silent behavior changes.
 - Inspect the existing implementation and relevant interfaces before changing behavior.
@@ -102,7 +114,7 @@ These rules are persistent, general-purpose requirements for every agent, model,
 - Do not invent dependencies, APIs, files, functions, configuration, or repository structure.
 - If a required implementation detail cannot be established from the repository, inspect the relevant source before coding instead of guessing.
 
-## 10. Mandatory final audit
+## 11. Mandatory final audit
 
 Before finalizing any result, check all of the following:
 
@@ -115,8 +127,9 @@ Before finalizing any result, check all of the following:
 7. All physical interactions are plausible and spatially coherent.
 8. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
 9. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
-10. Writing is complete and precise.
-11. Code is complete, internally consistent, and appropriately validated when coding is involved.
-12. No unsupported assumption has been presented as fact.
+10. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, and stages.
+11. Writing is complete and precise.
+12. Code is complete, internally consistent, and appropriately validated when coding is involved.
+13. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
