@@ -59,6 +59,11 @@ This repository is designed to work seamlessly with the Runway connector for imm
 - Normal-sized environmental elements remain fixed across panels even when the human changes scale. The panel sequence must show the human becoming relatively smaller or larger against the unchanged world, not the world resizing around the human.
 - Never resize an object simply because it would make an interaction easier to stage.
 - When measurements are supplied, preserve them literally and use mathematically correct conversions.
+- For this repository, an established human height from 4 inches through 12 inches is explicitly doll-sized. Treat the entire 4–12 inch range as doll-sized physical scale, not microscopic scale and not a larger-than-doll human scale.
+- Do not reinterpret a 4–12 inch human as microscopic, or reduce the person below the explicitly established measurement. Do not enlarge a 4–12 inch human beyond the specified measurement or reinterpret the person as larger than doll-sized.
+- The stated inch measurement is the authoritative physical height and remains locked across panels, shots, views, and stages unless the user explicitly changes it.
+- Doll-sized does not mean chibi, toy-like, or anatomically distorted. A 4–12 inch human retains ordinary human anatomy and the same proportional body dimensions as the established person, uniformly scaled to the exact stated height.
+- When a 4–12 inch human appears beside normal-world objects, those objects retain their normal established dimensions. The person reads as doll-sized because of the actual dimensional ratio, not because the environment is enlarged, miniaturized, or turned into a dollhouse.
 - Shrinking and growing are instantaneous scale changes unless the user explicitly requests a gradual transformation. Do not depict, imply, interpolate, or add intermediate stages of gradual shrinking or growing.
 - When a human changes scale, the resulting state must immediately have the correct final physical dimensions and proportions for the established scale. Do not show a person becoming progressively smaller or larger across frames, shots, poses, panels, or transition states.
 - A change in human scale does not require the surrounding world to gradually change. The environment remains physically continuous while the person's scale changes instantaneously, unless the user explicitly establishes an environmental transformation as part of the event.
@@ -198,20 +203,21 @@ Before finalizing any result, check all of the following:
 15. No doorway, furniture, room, surface, opening, clearance, or other environmental feature contradicts the established dimensions of surrounding elements.
 16. No scale mismatch is hidden through cropping, blur, darkness, occlusion, camera angle, or depth effects.
 17. The same object retains the same physical dimensions across views, panels, and stages.
-18. Every panel in a multi-panel sequence preserves the established physical dimensions, proportions, scale ratios, spatial relationships, and world geometry of recurring people, objects, and environments unless an explicit physical change occurs.
-19. Non-adjacent panels that revisit the same person, object, location, or event restore the same established dimensions and relationships rather than independently approximating them.
-20. Camera changes between panels alter only legitimate optical presentation and do not silently change physical dimensions, positions, or scale.
-21. Partial views, cropping, occlusion, and panel boundaries do not conceal or justify dimensional inconsistencies.
-22. Successive panels preserve the physical state established by preceding panels; any change is explained by an actual action, transformation, movement, camera transition, or explicit scene change.
-23. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
-24. All physical interactions are plausible and spatially coherent.
-25. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
-26. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
-27. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
-28. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
-29. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, panels, and stages.
-30. Writing is complete and precise.
-31. Code is complete, internally consistent, and appropriately validated when coding is involved.
-32. No unsupported assumption has been presented as fact.
+18. Any human established at 4–12 inches remains at the exact stated doll-sized height and is never reinterpreted as microscopic or larger than doll-sized without an explicit user change.
+19. Every panel in a multi-panel sequence preserves the established physical dimensions, proportions, scale ratios, spatial relationships, and world geometry of recurring people, objects, and environments unless an explicit physical change occurs.
+20. Non-adjacent panels that revisit the same person, object, location, or event restore the same established dimensions and relationships rather than independently approximating them.
+21. Camera changes between panels alter only legitimate optical presentation and do not silently change physical dimensions, positions, or scale.
+22. Partial views, cropping, occlusion, and panel boundaries do not conceal or justify dimensional inconsistencies.
+23. Successive panels preserve the physical state established by preceding panels; any change is explained by an actual action, transformation, movement, camera transition, or explicit scene change.
+24. Small, normal-sized, and giant humans maintain consistent ratios to one another and to the surrounding environment.
+25. All physical interactions are plausible and spatially coherent.
+26. Human anatomy and visible contours follow established anatomy, biomechanics, motion, gravity, clothing pressure, and contact rather than arbitrary exaggeration.
+27. Anatomical hair remains physically localized and consistent with the established body rather than spreading unnaturally onto unrelated regions.
+28. Clothing follows the established attire rules, including context-appropriate coverage: makeshift or established attire may leave areas uncovered when physically and contextually warranted, without automatically adding conventional coverage or hidden layers.
+29. Makeshift attire remains a genuine repurposing of the source object and is not redesigned into ordinary clothing or a garment whose sole purpose is genital coverage.
+30. Scene progression is coherent, seamless, causally continuous, and consistent across moments, frames, shots, panels, and stages.
+31. Writing is complete and precise.
+32. Code is complete, internally consistent, and appropriately validated when coding is involved.
+33. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple.
