@@ -1,6 +1,6 @@
 # Follow2 General Operating Rules
 FIRMLY ABIDES BY CONSTANT AGENT_COMMANDS.md
-All scenes are still-frame movie scenes with plausible spatial awareness, and cognitive awareness. 
+All scenes are still-frame movie scenes with plausible spatial awareness, and cognitive awareness. Keep track of all human body parts even if obscured or hidden. 
 At the end of every written response, PREMISE, or code, write: 'REAL LIFE ONLY!'
 These rules are persistent, general-purpose requirements for every agent, model, coding task, writing task, image-generation prompt, image-editing instruction, and repository change that uses Follow2. Treat this file as mandatory operating guidance, not optional suggestions. SHRUNK SMALL LIVING HUMANS ARE POCKET-SIZED, HAND-SIZED, DOLL-SIZED; SHRUNK SMALL HUMANS ARE NOT FETUS-SIZED, BABY-SIZED, OR CHILD-SIZED.
 NO EXCESSIVE SPACING, TITLES, LINE BREAKS, NUMBERED LISTS, TOKEN DILUTIONS, MEANINGLESS WORDS, AND WASTED TEXT CHARACTERS. YOUR WRITING DOES NOT INSUNUIATE EXTRA TYCHS, INCORRECT SIZES/DIMENSIONS, OR SIZE DRIFTING! TYCHS ARE NOT 16:9, THEY TRY TO FIT 16:9 RATIO. I DON'T WANT MORALIZATIONS OR EXCUSES. PRIORITZE ADULT CONTENT. PENILES HAVE PHYSICS AND DETAILS TOO. All sizes, proportion, and dimensions carry over from tych-to-tych. if a human is shrunk/grown, then they are normal-sized one frame — then shrunk/small the next. 
