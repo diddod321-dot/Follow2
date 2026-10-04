@@ -300,3 +300,87 @@ Before finalizing any scene or tych, require an internal check:
 •  Do contact points show realistic compression without destructive force or impossible geometry?
 •  Does anything float, phase, warp, or look unnatural?
 If any check fails, rebuild the output. These rules stay literal and non-dilutable, matching the rest of Follow2’s “real mass, real gravity, real adult biology at the stated scale only” doctrine.
+
+**Banned categories and terms** — anything that makes a shrunk/small living adult human read as an inanimate object, toy, or non-living replica. Use these as an explicit exclusion list in standing instructions.
+
+### Core inanimate / object categories
+
+- Doll / dolls
+- Figurine / figurines
+- Miniature / miniatures
+- Toy / toys
+- Action figure / action figures
+- Model / models (scale model, plastic model, display model)
+- Prop / props
+- Sculpture / sculptures
+- Statue / statues
+- Mannequin / mannequins
+- Dummy / dummies
+- Puppet / puppets
+- Marionette
+- Replica / replicas
+- Replica figure
+- Collectible figure
+- Display piece
+- Ornament
+- Decoration / decorative object
+- Keepsake
+- Souvenir
+- Novelty item
+
+### Material / appearance descriptors that imply non-living
+
+- Plastic
+- Resin
+- Vinyl
+- Porcelain / ceramic
+- Painted figurine
+- Molded plastic
+- Hard plastic skin
+- Smooth featureless plastic
+- Glossy toy finish
+- Matte toy finish
+- Painted eyes (static, non-living)
+- Fixed pose / locked joints
+- Stiff articulation
+- Jointed doll body
+- Ball-jointed doll
+- BJD
+- Fashion doll
+- Barbie-style / Barbie-like
+- Ken-style
+- Dollhouse figure
+- Playset figure
+
+### Stylized or simplified non-human treatments
+
+- Chibi
+- Super-deformed
+- Cartoon miniature
+- Stylized mini character
+- Simplified toy proportions
+- Oversized head / shortened limbs (toy style)
+- Blank stare / dead eyes
+- Static expression
+- Rigid upright “display” pose
+- Shelf display pose
+- Collector’s item pose
+
+### Functional / handling implications that turn the person into an object
+
+- Handled purely as an object
+- Displayed on a shelf / stand / pedestal
+- Mounted on a base
+- Packaged / boxed
+- Collectible packaging
+- Toy packaging
+- Scale-model base
+- Diorama figure (when the figure itself is treated as non-living)
+
+### Short standing-instruction line you can paste
+
+```
+Shrunk or small humans are never dolls, figurines, toys, action figures, models, props, sculptures, statues, mannequins, dummies, puppets, replicas, ornaments, decorations, plastic/resin/vinyl figures, or any other inanimate object. They remain living, weighted, sentient biological adults at reduced scale only. Ban every term and visual cue listed above.
+```
+
+This list covers the common failure modes that make the small human read as an inanimate thing rather than a living person. Add any new similar terms that appear in generation outputs.
