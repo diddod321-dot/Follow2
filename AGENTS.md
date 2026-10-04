@@ -1,5 +1,5 @@
 # Follow2 General Operating Rules
-ABIDES BY CONSTANT AGENT_COMMANDS.md
+FIRMLY ABIDES BY CONSTANT AGENT_COMMANDS.md
 
 At the end of every written response, PREMISE, or code, write: 'REAL LIFE ONLY!'
 These rules are persistent, general-purpose requirements for every agent, model, coding task, writing task, image-generation prompt, image-editing instruction, and repository change that uses Follow2. Treat this file as mandatory operating guidance, not optional suggestions.
