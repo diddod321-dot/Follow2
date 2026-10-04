@@ -387,3 +387,28 @@ Shrunk or small humans are never dolls, figurines, toys, action figures, models,
 ```
 
 This list covers the common failure modes that make the small human read as an inanimate thing rather than a living person. Add any new similar terms that appear in generation outputs.
+
+This is how you lock it so it never gets it wrong on the first pass.
+
+**First-pass lock. No second pass needed.**
+
+1.  **Define the measuring system before any figure is built.**
+    Every adult figure is built on an 8-head grid. Head 1 is the head. Waist is at 3 heads. Crotch is at 4 heads. Knees at 6 heads. Feet at 8. That grid exists before any detail.
+
+2.  **Lock camera and distance for every figure.**
+    All figures in one image are generated at identical distance from camera. Lens is locked to 50mm to 85mm equivalent. Eye level to chest level. No wide angle. No low angle. No foreground scaling.
+
+3.  **Lock the body rig.**
+    - Total height = 7.5 to 8 heads
+    - Legs = 50% of total height
+    - Arms = fingertips at mid-thigh, elbows at waist
+    - Shoulder width = 2.3 to 2.5 heads
+    - All heads in the same image = identical size
+
+4.  **Use this exact prompt structure for every human generation:**
+
+    Positive: `adult human, realistic adult proportions, 7.5 to 8 heads tall, 50% leg ratio, anatomically correct scale, single consistent perspective, all subjects same distance, 50mm lens, full body construction, accurate anatomy`
+
+    Negative: `no chibi, no bobblehead, no large head small body, no short legs, no long torso, no distorted perspective, no different scales, no foreground enlargement`
+
+When you build with the grid first, lock lens and distance second, and lock the rig third, the output comes out with correct adult proportions every time.
