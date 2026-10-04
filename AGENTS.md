@@ -266,3 +266,18 @@ Before finalizing any result, check all of the following:
 48. No unsupported assumption has been presented as fact.
 
 These checks are mandatory for every applicable output. Do not skip them because the task appears simple. The ghostwriter, coder, and cinematographer/director must all pass the audit before the result is considered complete.
+
+Handling of any doll-sized (4–12 inch) living adult human must be physically plausible and weighted at all times.
+
+- The small human has real scaled adult mass, density, inertia, and soft-tissue compliance. Gravity acts continuously. The supporting hand/wrist shows visible load-bearing tension. The small body’s center of mass settles naturally; limbs drape, brace, or struggle according to gravity and active muscle effort. Zero float, hover, weightless suspension, or zero-inertia motion is allowed.
+- Grip force is distributed and non-destructive. No crushing, no rib/spine fracture, no joint dislocation, no bone-breaking pressure. Soft tissue indents realistically under contact; skeletal structure and joint alignment remain intact.
+- Primary grip is torso-and-body enveloping or multi-point support, never pure fingertip pinch and never pure open-cupped scoop as the sole support. Palm and length of fingers contact the torso; secondary support under hips or along legs carries the center of mass. The small adult can actively brace or resist within the grip.
+- One normal adult hand can securely enclose or support a 6–9 inch form. Two hands are optional for precision or extra stability only.
+- Contact is continuous and solid. No phasing, no invisible support, no sudden drops without cause. The small human’s reactions (balance shifts, muscle tension, facial/body language) are adult and scale-consistent.
+- Additional enforcement tips that match Follow2 style
+•  Reference real mass/inertia: “the small adult’s weight pulls downward against the palm; the handler’s forearm absorbs the load.”
+•  Explicitly ban the failure modes: “no floaty or weightless handling, no handling that breaks bones, no pinch grip, no pure cupped/scoop handling that leaves the body unsupported.”
+•  Keep adult status and proportions locked (your existing 8-heads, adult anatomy, no baby/child coding rules already help prevent cradling or delicate “precious object” holds).
+•  For image/video models: demand visible compression of soft tissue at contact points, slight deformation of clothing under the grip, and natural counter-force from the small human’s limbs or torso.
+•  Audit language: after generation, check that the hand is load-bearing, the small body is not hovering, pressure is distributed, and no localized pinch is the sole support.
+These constraints force the model away from the common failure modes (toy float, destructive pinch, baby-cup) while staying consistent with the rest of Follow2’s “living weighted biological adult at reduced scale only” doctrine. Apply them as immutable standing rules rather than optional suggestions.
