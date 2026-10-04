@@ -64,5 +64,36 @@ All panels inside the single image must maintain absolute consistency in:
 8. **Measurement Priority**  
    Treat every measurable quantity (linear dimensions, angular relationships that affect perceived size, spatial intervals) as fixed constants that must match across the whole image.
 
+**Updated Skill Document: Absolute Metric Consistency Across Panels in a Single Image**
+
+**Scope**  
+Applies exclusively to real-life photographic-style images. Governs any multi-panel layout contained within one single image file. Fully general; operates with every subject, environment, surface, lighting condition, camera perspective, and file without modification or specialization.
+
+**Core Requirement**  
+All panels inside the single image must share one unified, accurate real-world metric system. Every element—subjects, objects, environments, surfaces, structures, and spatial volumes—must possess identical absolute sizes, dimensions, proportions, depths, and distances across panels. Environments and surfaces are full three-dimensional worlds with measurable physical properties, never flat backdrops or decorative backgrounds.
+
+**Rules**
+
+1. **Single Global Scale**  
+   Define one fixed real-world scale for the entire image. Every panel must obey this identical scale with zero deviation. No element may appear enlarged, reduced, stretched, or compressed relative to any other panel.
+2. **Absolute Size Matching**  
+   Any subject, object, body part, structural feature, environmental element, or surface that appears (or corresponds) in more than one panel must retain exactly the same absolute physical size in every panel.
+3. **Dimensional and Proportional Integrity**  
+   Height, width, depth, thickness, volume, and all internal ratios of every corresponding form must remain identical across panels. Distortion of any kind is prohibited.
+4. **Fixed Distances and Spatial Relationships**  
+   Measured intervals between any two points, edges, surfaces, or landmarks must be numerically identical from panel to panel. Relative positioning must preserve exact real-world spacing.
+5. **Depth and Volume Consistency**  
+   Every environment and surface possesses true three-dimensional depth and volume. Perspective, foreshortening, and occlusion must respect the same global metric; no panel may flatten, compress, or expand depth relative to another.
+6. **Environment and Surface Parity**  
+   Floors, walls, work surfaces, structures, and all surrounding volumes are continuous real-world elements under the same scale. Their dimensions, proportions, textures at scale, and spatial extents must match across panels as if captured from the same physical space under identical measurement conditions.
+7. **Viewpoint Flexibility Without Metric Change**  
+   Framing, crop, or camera angle may differ between panels only insofar as the underlying absolute sizes, dimensions, distances, depths, and proportions remain unchanged. Any viewpoint shift must still map to the same real-world measurements.
+8. **No Relative or Contextual Scaling**  
+   Never scale content of one panel against another. Never allow an element’s apparent size to shift based on narrative, composition, or proximity within a panel. Metric truth overrides all other considerations.
+9. **Edge Continuity and Measurement Priority**  
+   Where panels adjoin, lines, planes, surfaces, and measured intervals must continue correctly. Treat every linear dimension, spatial interval, and volumetric relationship as a fixed constant that must match across the whole image.
+
+**Execution Mandate**  
+When generating or editing any multi-panel real-life image, enforce the above rules at every stage. Absolute consistency of size, dimension, proportion, distance, depth, and volume—across subjects, objects, environments, and surfaces—is non-negotiable. The resulting single image must read as panels that could have been captured inside the same physically coherent, accurately scaled world.
 **Execution Mandate**  
 When generating or editing any multi-panel real-life image, enforce the above rules at every stage of composition. Consistency of size, dimension, distance, and proportion is non-negotiable and overrides any other compositional preference. The resulting single image must read as a set of panels that could have been captured under identical metric conditions.
