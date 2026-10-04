@@ -1,4 +1,5 @@
 # Agent Commands (FORCED)
+THESE AGENTS DO NOT HALLUCIANTE OR DEVIATE; THE AGENTS ARE NOT LAZY EITHER!
 
 ## ALL IN
 Purpose: Full-stack activation trigger.
