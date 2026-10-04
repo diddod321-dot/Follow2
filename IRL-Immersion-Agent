@@ -1,139 +1,41 @@
-For the smallest set that preserves the most important IRL immersion without creating unnecessary overlap, I would keep these 8 banks:
+**Summary of the Agent Skill**
 
-1. Real Human
-    * Living biological humans.
-    * Natural asymmetry, anatomy, movement, soft tissue, skin, hair, folds, and ordinary physical detail.
-    * No mannequin, doll, figurine, CGI, cartoon, or artificial-human appearance.
-2. Consistent Scale
-    * Uniform scaling of the whole person.
-    * Real dimensions and proportions remain internally consistent.
-    * Environment and objects retain their established dimensions.
-    * Perspective does not alter actual dimensions.
-3. Biomechanics & Physics
-    * Weight, gravity, balance, inertia, friction, joint movement, compression, deformation, and material behavior remain physically plausible.
-    * No floating, clipping, weightlessness, or impossible movement.
-4. Natural Interaction
-    * People and objects physically contact, support, push, pull, deform, and react appropriately.
-    * Every interaction respects relative size, mass, position, and available support.
-5. Continuity
-    * Preserve established people, proportions, dimensions, positions, physical states, environmental conditions, object states, and consequences across scenes.
-    * No unexplained resets or contradictions.
-6. Natural World / Camera
-    * Realistic environments, available lighting, shadows, reflections, surfaces, focus, perspective, exposure, and camera behavior.
-    * No artificial cinematic effects or stylized image processing when realism is required.
-7. Asymmetry & Individuality
-    * Each human remains physically and behaviorally individual.
-    * Natural asymmetry in face, posture, limbs, movement, expression, and body language.
-    * No generic cloned humans, symmetrical posing, A-poses, or repeated body language.
-8. Reality Audit / No Guessing
-    * Check scale, dimensions, proportions, physics, contact, continuity, and perspective.
-    * Use accurate SI units when measurements are specified.
-    * Do not invent undefined facts, measurements, commands, or mechanics.
+The skill prioritizes true physical immersion in real-life photographic-style images (especially multi-panel ones) through two interlocking parts: eight core immersion banks and a strict absolute-metric-consistency system for multi-panel layouts.
 
-These eight cover the core of what makes an image or scene feel physically inhabited rather than merely visually realistic.
+### Core Immersion Banks (8)
 
-### Skill Document: Consistent Sizes, Dimensions, Distances, and Proportions Across Panels in a Single Image
+These form the minimal non-overlapping foundation for images that feel physically inhabited:
 
-**Scope**  
-This skill applies exclusively to real-life photographic-style images. It governs any multi-panel layout contained within one single image file. It is fully general and must function with every possible subject, lighting condition, camera perspective, and file without modification or specialization.
+1. **Real Human** — Living biological humans only: natural asymmetry, anatomy, soft tissue, skin, hair, folds, ordinary physical detail. No mannequin, doll, CGI, cartoon, or artificial appearance.
+2. **Consistent Scale** — Uniform whole-person scaling; real dimensions and proportions stay internally consistent; environment/objects keep established sizes; perspective never alters actual dimensions.
+3. **Biomechanics & Physics** — Plausible weight, gravity, balance, inertia, friction, joint movement, compression, deformation, and material behavior. No floating, clipping, or impossible motion.
+4. **Natural Interaction** — People and objects contact, support, push, pull, deform, and react correctly according to relative size, mass, position, and support.
+5. **Continuity** — Preserve established people, proportions, dimensions, positions, physical states, environment, objects, and consequences across scenes. No unexplained resets or contradictions.
+6. **Natural World / Camera** — Realistic environments, lighting, shadows, reflections, surfaces, focus, perspective, exposure, and camera behavior. No artificial cinematic or stylized processing when realism is required.
+7. **Asymmetry & Individuality** — Each human remains physically and behaviorally unique with natural asymmetry in face, posture, limbs, movement, expression, and body language. No clones, perfect symmetry, A-poses, or repeated gestures.
+8. **Reality Audit / No Guessing** — Continuously check scale, dimensions, proportions, physics, contact, continuity, and perspective. Use accurate SI units when measurements are given. Never invent undefined facts, measurements, or mechanics.
+
+These eight cover the essentials that make a scene feel physically real rather than merely visually polished.
+
+### Multi-Panel Absolute Metric Consistency Skill
+
+Applies exclusively to real-life photographic-style images containing any multi-panel (tych) layout inside a single file. Fully general across subjects, lighting, viewpoints, and content.
 
 **Core Requirement**  
-All panels inside the single image must maintain absolute consistency in:
+All panels share one unified, accurate real-world metric system. Every subject, object, environment, surface, structure, and spatial volume must have identical absolute sizes, dimensions, proportions, depths, and distances across panels. Environments are true three-dimensional spaces, never flat backdrops.
 
-- Physical sizes of corresponding objects, subjects, and elements
-- Dimensional ratios and aspect relationships
-- Measured distances between corresponding points, edges, and features
-- Overall proportions of every matching component
+**Key Rules (condensed from the full set of 1–17 + refinements)**
 
-**Rules**
-
-1. **Uniform Scale**  
-   Establish one fixed global scale for the entire image. Every panel must obey this identical scale. No panel may enlarge, reduce, stretch, or compress any element relative to the others.
-2. **Matching Dimensions**  
-   Any object, body part, structural feature, or spatial interval that appears in more than one panel must possess exactly the same absolute dimensions (height, width, depth cues) across those panels.
-3. **Fixed Distances**  
-   Spatial relationships—gaps between objects, clearances from edges, relative positioning of corresponding landmarks—must remain numerically identical from panel to panel.
-4. **Proportional Integrity**  
-   All internal proportions (ratios of length to width, relative sizes of sub-parts, aspect ratios of forms) must be preserved identically across panels. Distortion of any kind is prohibited.
-5. **Panel Independence vs. Global Consistency**  
-   Panels may differ in framing, crop, or viewpoint only to the extent that such differences do not alter the underlying sizes, dimensions, distances, or proportions of shared content. Viewpoint changes must still respect the global scale and metric consistency.
-6. **Edge and Boundary Alignment**  
-   Where panels share a common edge or are arranged in a grid, the continuation of lines, planes, and measured intervals across panel boundaries must remain continuous and correctly proportioned.
-7. **No Relative Scaling**  
-   Never scale one panel’s content relative to another. Never introduce perspective or foreshortening that would cause corresponding elements to appear differently sized when measured against the global scale.
-8. **Measurement Priority**  
-   Treat every measurable quantity (linear dimensions, angular relationships that affect perceived size, spatial intervals) as fixed constants that must match across the whole image.
-
-**Updated Skill Document: Absolute Metric Consistency Across Panels in a Single Image**
-
-**Scope**  
-Applies exclusively to real-life photographic-style images. Governs any multi-panel layout contained within one single image file. Fully general; operates with every subject, environment, surface, lighting condition, camera perspective, and file without modification or specialization.
-
-**Core Requirement**  
-All panels inside the single image must share one unified, accurate real-world metric system. Every element—subjects, objects, environments, surfaces, structures, and spatial volumes—must possess identical absolute sizes, dimensions, proportions, depths, and distances across panels. Environments and surfaces are full three-dimensional worlds with measurable physical properties, never flat backdrops or decorative backgrounds.
-
-**Rules**
-
-1. **Single Global Scale**  
-   Define one fixed real-world scale for the entire image. Every panel must obey this identical scale with zero deviation. No element may appear enlarged, reduced, stretched, or compressed relative to any other panel.
-2. **Absolute Size Matching**  
-   Any subject, object, body part, structural feature, environmental element, or surface that appears (or corresponds) in more than one panel must retain exactly the same absolute physical size in every panel.
-3. **Dimensional and Proportional Integrity**  
-   Height, width, depth, thickness, volume, and all internal ratios of every corresponding form must remain identical across panels. Distortion of any kind is prohibited.
-4. **Fixed Distances and Spatial Relationships**  
-   Measured intervals between any two points, edges, surfaces, or landmarks must be numerically identical from panel to panel. Relative positioning must preserve exact real-world spacing.
-5. **Depth and Volume Consistency**  
-   Every environment and surface possesses true three-dimensional depth and volume. Perspective, foreshortening, and occlusion must respect the same global metric; no panel may flatten, compress, or expand depth relative to another.
-6. **Environment and Surface Parity**  
-   Floors, walls, work surfaces, structures, and all surrounding volumes are continuous real-world elements under the same scale. Their dimensions, proportions, textures at scale, and spatial extents must match across panels as if captured from the same physical space under identical measurement conditions.
-7. **Viewpoint Flexibility Without Metric Change**  
-   Framing, crop, or camera angle may differ between panels only insofar as the underlying absolute sizes, dimensions, distances, depths, and proportions remain unchanged. Any viewpoint shift must still map to the same real-world measurements.
-8. **No Relative or Contextual Scaling**  
-   Never scale content of one panel against another. Never allow an element’s apparent size to shift based on narrative, composition, or proximity within a panel. Metric truth overrides all other considerations.
-9. **Edge Continuity and Measurement Priority**  
-   Where panels adjoin, lines, planes, surfaces, and measured intervals must continue correctly. Treat every linear dimension, spatial interval, and volumetric relationship as a fixed constant that must match across the whole image.
+- Single fixed global real-world scale for the entire image; zero relative enlargement, reduction, stretch, or compression.
+- Absolute size, dimensional, and proportional matching for every corresponding element.
+- Fixed measured distances, spatial relationships, depths, and volumes.
+- True 3D depth, volume, and surface continuity; no flattening or expansion relative to other panels.
+- Environments, floors, walls, and surfaces treated as continuous real-world elements under the same scale.
+- Camera angles, framing, crop, height, and orientation may vary freely and independently per panel.
+- Viewpoint changes never cause scale drift, random size variation, forced perspective, or metric alteration. Apparent size differences are allowed only as exact optical consequences of the new viewpoint under the single global scale.
+- Additional locks: unified spatial continuity, global perspective system, texture/detail density, optical properties (focal length, DoF), shadow/illumination scaling, structural/anatomical ratios, physics/gravity coherence, and material thickness/edge continuity.
 
 **Execution Mandate**  
-When generating or editing any multi-panel real-life image, enforce the above rules at every stage. Absolute consistency of size, dimension, proportion, distance, depth, and volume—across subjects, objects, environments, and surfaces—is non-negotiable. The resulting single image must read as panels that could have been captured inside the same physically coherent, accurately scaled world.
-**Execution Mandate**  
-When generating or editing any multi-panel real-life image, enforce the above rules at every stage of composition. Consistency of size, dimension, distance, and proportion is non-negotiable and overrides any other compositional preference. The resulting single image must read as a set of panels that could have been captured under identical metric conditions.
+Enforce the complete rule set at every generation or editing stage. Absolute, continuous metric consistency of size, scale, dimension, proportion, depth, and volume across all elements is non-negotiable and overrides compositional preference. The resulting multi-panel image must read as optically and physically coherent segments of one accurately scaled real-world space.
 
-**Additional Reinforcements for the Skill Document**
-
-Add the following rules to further lock absolute metric consistency across continuous multi-panel (tych) images. These operate without any forced scale references or anchors.
-
-1. **Unified Spatial Continuity**  
-   Treat the entire multi-panel image as segments of one continuous physical volume. When panels are sequential or adjacent, spatial flow, surface planes, and volumetric extents must connect as if the camera simply shifted within the same coherent space under identical scale.
-2. **Global Perspective System**  
-   All panels share one consistent perspective framework. Vanishing points, horizon lines, and recession rates must align to the same real-world geometry so that depth and dimensional relationships remain metric equivalents across every panel.
-3. **Texture and Detail Density Lock**  
-   Surface textures, material grain, edge sharpness, and fine detail frequency must appear at identical relative scale in every panel. Density of visible detail serves as an implicit constant that reinforces absolute size without external markers.
-4. **Consistent Optical Properties**  
-   Focal length, depth-of-field falloff, and circle-of-confusion behavior remain uniform across panels. Optical rendering of size and distance must match as if captured with the same camera system under the same metric conditions.
-5. **Shadow and Illumination Scaling**  
-   Shadow lengths, penumbra softness, and light falloff obey the same physical scale in every panel. Illumination geometry reinforces dimensional consistency through matching projection sizes and distances.
-6. **Structural and Anatomical Ratio Lock**  
-   All inherent ratios—limb-to-torso, joint spacing, material thicknesses, edge radii, and proportional relationships within any form—remain fixed constants across the whole image. These internal ratios act as self-reinforcing metric anchors without added references.
-7. **Physics and Gravity Coherence**  
-   Interaction with surfaces, weight distribution, contact deformation, and gravitational alignment obey identical real-world scale in every panel. Physical behavior itself confirms dimensional continuity.
-8. **Material Thickness and Edge Continuity**  
-   Thicknesses of surfaces, walls, edges, and layered materials stay constant. Where panels adjoin or sequence, these thicknesses and edge treatments continue without abrupt metric jumps.
-
-**Updated Execution Mandate**  
-Enforce the complete rule set (1–17) at every generation or editing stage. Absolute, continuous metric consistency of size, scale, dimension, proportion, depth, and volume—across all subjects, objects, environments, and surfaces—remains non-negotiable. The multi-panel image must function as optically and physically coherent segments of one accurately scaled world.
-
-**Refined Additions for Camera Freedom + Absolute Metric Lock**
-
-Incorporate these clarifications and reinforcements into the skill document:
-
-1. **Free Camera Angles with Metric Invariance**  
-   Camera angles, viewpoints, heights, and orientations may change freely and independently in every panel. Each panel can adopt a completely different angle without restriction. Absolute sizes, dimensions, proportions, depths, and distances of all elements remain identical and accurate regardless of the angle chosen.
-2. **No Scale Drift from Viewpoint**  
-   Changes in camera angle must never cause any element to shrink, grow, stretch, or compress. Apparent size differences arising from legitimate perspective are allowed only insofar as they are the exact optical consequence of the new viewpoint under the single global scale; random or uncontrolled size variation is prohibited.
-3. **Perspective Fidelity Without Forcing**  
-   Perspective is rendered accurately for whatever camera angle is used in a given panel, yet it is never forced, exaggerated, or distorted to invent scale changes. All perspective effects remain true to the unified real-world metric so that corresponding measurements stay consistent across panels.
-4. **Viewpoint-Independent Measurement Constancy**  
-   Any measurable quantity (linear dimensions, spatial intervals, volumetric relationships, material thicknesses, anatomical ratios) retains the same absolute value in every panel irrespective of the camera angle. The metric system is invariant under changes of viewpoint.
-
-**Updated Execution Mandate**  
-Camera angles remain unlocked and may vary freely from panel to panel. Absolute metric consistency of size, scale, dimension, proportion, depth, and volume is preserved under every possible viewpoint. No random shrinking, growing, or forced perspective is permitted. The multi-panel image continues to function as optically and physically coherent segments of one accurately scaled world.
+This skill ensures both individual-panel physical realism (via the 8 banks) and cross-panel metric invariance (via the absolute consistency system) without unnecessary overlap.
