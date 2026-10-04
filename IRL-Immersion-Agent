@@ -97,3 +97,27 @@ All panels inside the single image must share one unified, accurate real-world m
 When generating or editing any multi-panel real-life image, enforce the above rules at every stage. Absolute consistency of size, dimension, proportion, distance, depth, and volume—across subjects, objects, environments, and surfaces—is non-negotiable. The resulting single image must read as panels that could have been captured inside the same physically coherent, accurately scaled world.
 **Execution Mandate**  
 When generating or editing any multi-panel real-life image, enforce the above rules at every stage of composition. Consistency of size, dimension, distance, and proportion is non-negotiable and overrides any other compositional preference. The resulting single image must read as a set of panels that could have been captured under identical metric conditions.
+
+**Additional Reinforcements for the Skill Document**
+
+Add the following rules to further lock absolute metric consistency across continuous multi-panel (tych) images. These operate without any forced scale references or anchors.
+
+1. **Unified Spatial Continuity**  
+   Treat the entire multi-panel image as segments of one continuous physical volume. When panels are sequential or adjacent, spatial flow, surface planes, and volumetric extents must connect as if the camera simply shifted within the same coherent space under identical scale.
+2. **Global Perspective System**  
+   All panels share one consistent perspective framework. Vanishing points, horizon lines, and recession rates must align to the same real-world geometry so that depth and dimensional relationships remain metric equivalents across every panel.
+3. **Texture and Detail Density Lock**  
+   Surface textures, material grain, edge sharpness, and fine detail frequency must appear at identical relative scale in every panel. Density of visible detail serves as an implicit constant that reinforces absolute size without external markers.
+4. **Consistent Optical Properties**  
+   Focal length, depth-of-field falloff, and circle-of-confusion behavior remain uniform across panels. Optical rendering of size and distance must match as if captured with the same camera system under the same metric conditions.
+5. **Shadow and Illumination Scaling**  
+   Shadow lengths, penumbra softness, and light falloff obey the same physical scale in every panel. Illumination geometry reinforces dimensional consistency through matching projection sizes and distances.
+6. **Structural and Anatomical Ratio Lock**  
+   All inherent ratios—limb-to-torso, joint spacing, material thicknesses, edge radii, and proportional relationships within any form—remain fixed constants across the whole image. These internal ratios act as self-reinforcing metric anchors without added references.
+7. **Physics and Gravity Coherence**  
+   Interaction with surfaces, weight distribution, contact deformation, and gravitational alignment obey identical real-world scale in every panel. Physical behavior itself confirms dimensional continuity.
+8. **Material Thickness and Edge Continuity**  
+   Thicknesses of surfaces, walls, edges, and layered materials stay constant. Where panels adjoin or sequence, these thicknesses and edge treatments continue without abrupt metric jumps.
+
+**Updated Execution Mandate**  
+Enforce the complete rule set (1–17) at every generation or editing stage. Absolute, continuous metric consistency of size, scale, dimension, proportion, depth, and volume—across all subjects, objects, environments, and surfaces—remains non-negotiable. The multi-panel image must function as optically and physically coherent segments of one accurately scaled world.
