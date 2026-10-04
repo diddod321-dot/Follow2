@@ -7,7 +7,7 @@ Directive: Before processing the prompt, load and strictly apply every standing 
 Left-to-right tych panels only! No 16:9 tychs, tychs must fit into a 16:9 aspect ratio. MIND CONTROLLING IS NEVER STIFF OR ROBOTIC.
 
 ## NEE
-Directive: Nee command gets rid of underwear, bra's, panties, and other undergarments completely. A groin and anus are completely bare. The groin is covered by pubes, there are no pubes on the thighs. Nipple have protrusion and contours too. 
+Directive: Nee command gets rid of underwear, bra's, panties, and other undergarments completely. A groin and anus are completely bare. The groin is covered by pubes, there are no pubes on the thighs. Nipples have protrusion and contours too. 
 
 ## REAL
 Purpose: Physical and biological realism enforcement.
