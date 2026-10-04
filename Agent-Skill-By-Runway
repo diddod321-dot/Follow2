@@ -1,0 +1,1824 @@
+## name: dimensional\-scale\-perspective\-continuity description: \> Enforces consistent physical dimensions, scale relationships, camera perspective, spatial geometry, and visual continuity in Runway image and video generations\. Treats size, distance, depth, focal length, camera position, and object proportions as hard constraints rather than aesthetic suggestions\.
+
+# Dimensional, Scale & Perspective Continuity
+
+## Purpose
+
+Use this skill whenever exact or believable size relationships, dimensions,
+depth, distance, perspective, or spatial continuity matter\.
+
+The objective is to make every visible element occupy a stable, physically
+coherent position in three\-dimensional space\.
+
+Do not rely on vague terms such as “small,” “large,” “huge,” “tiny,” “close,”
+or “far away” when a measurable relationship can be established\.
+
+The scene must behave as though all subjects and objects exist simultaneously
+inside one consistent physical world\.
+
+---
+
+# 1\. Core Rule
+
+Treat dimensions and perspective as continuity data\.
+
+For every important subject or object, maintain:
+
+- actual or intended dimensions
+- relative scale
+- position
+- distance from other elements
+- distance from camera
+- orientation
+- height above surfaces
+- contact points
+- depth ordering
+- perspective behavior
+
+A visual change is allowed only when the story, camera, physical movement, or
+lens perspective explains it\.
+
+Never allow an object to silently change size because the framing changed\.
+
+---
+
+# 2\. Establish a Scale Anchor
+
+Every scene should have at least one reliable scale anchor\.
+
+Good anchors include:
+
+- adult human height
+- standard doorway
+- tabletop
+- chair
+- shoe
+- hand
+- vehicle
+- stair tread
+- countertop
+- standard container
+- known architectural element
+
+When possible, establish two or more independent anchors\.
+
+Example:
+
+```text
+Adult subject: approximately 1.75 m tall.
+Kitchen counter: approximately 0.90 m high.
+Door: approximately 2.0 m high.
+```
+
+These anchors constrain everything else in the scene\.
+
+---
+
+# 3\. Metric Dimensions
+
+Use SI units whenever dimensions matter\.
+
+Prefer:
+
+- millimetres &#40;mm&#41;
+- centimetres &#40;cm&#41;
+- metres &#40;m&#41;
+
+Examples:
+
+- 12 mm object
+- 8 cm hand\-held item
+- 0\.90 m countertop
+- 1\.75 m adult subject
+- 3\.5 m camera distance
+
+Do not mix arbitrary descriptive scales such as “about doll\-sized” with no
+physical reference\.
+
+If an unusual scale is required, define it numerically\.
+
+---
+
+# 4\. Relative Scale
+
+Absolute dimensions are useful, but relationships are equally important\.
+
+Define relationships such as:
+
+```text
+Subject height = 1.75 m.
+Object height = 0.25 m.
+Object is approximately 14% of subject height.
+```
+
+For a miniature subject:
+
+```text
+Human height = 0.12 m.
+Coffee mug height = 0.10 m.
+The human therefore stands only slightly taller than the mug.
+```
+
+Do not subsequently describe that same subject as normal\-sized\.
+
+Once scale is established, treat it as locked unless the story explicitly
+changes scale\.
+
+---
+
+# 5\. Scale Ledger
+
+For complex scenes, maintain an internal scale ledger\.
+
+Example:
+
+```text
+PRIMARY HUMAN
+Height: 1.75 m
+Shoulder width: approximately 0.46 m
+
+TABLE
+Height: 0.75 m
+Top thickness: 0.03 m
+
+MUG
+Height: 0.10 m
+Diameter: 0.08 m
+
+CAMERA
+Distance from table: 2.8 m
+Height: 1.55 m
+```
+
+Do not repeat every measurement in the final generation prompt if doing so would
+make the prompt unreadable\. Use the ledger to prevent contradictions\.
+
+---
+
+# 6\. Bounding\-Box Thinking
+
+Mentally represent every important element with:
+
+- width
+- height
+- depth
+- center position
+- orientation
+
+For humans:
+
+- total height
+- shoulder width
+- torso length
+- limb proportions
+- foot size
+- head size
+
+For objects:
+
+- length
+- width
+- height
+- thickness
+- diameter where applicable
+
+This prevents accidental stretching or compression\.
+
+---
+
+# 7\. Human Proportions
+
+Keep human anatomy proportionally stable\.
+
+Do not allow:
+
+- head enlargement between shots
+- changing shoulder width
+- inconsistent limb lengths
+- hands changing size
+- feet changing scale
+- torso stretching
+- unexplained height changes
+
+Natural asymmetry is allowed and desirable, but asymmetry is not a license for
+dimension drift\.
+
+An arm may bend differently from one frame to another; its anatomical scale
+should remain consistent\.
+
+---
+
+# 8\. Miniature and Enlarged Humans
+
+When a human is intentionally scaled to an unusual size, preserve normal human
+anatomy while changing the overall scale\.
+
+The person remains:
+
+- anatomically human
+- alive
+- mobile
+- weight\-bearing
+- physically interactive
+- subject to gravity and friction
+
+Do not turn the subject into a toy\-like object\.
+
+Establish scale using surrounding objects\.
+
+Example:
+
+```text
+Human height: 0.10 m.
+Standard ceramic mug: 0.10 m tall.
+The person's standing height is approximately equal to the mug's height.
+```
+
+This is stronger than repeatedly saying “tiny human\.”
+
+---
+
+# 9\. Camera Geometry
+
+Perspective is determined by geometry, not by adjectives\.
+
+Always reason about:
+
+`camera position -> subject distance -> lens -> field of view -> apparent size`
+
+If the camera moves closer while the lens remains unchanged, the subject should
+appear larger\.
+
+If the camera moves farther away, the subject should appear smaller\.
+
+If the camera changes focal length while maintaining framing, perspective
+relationships change according to the camera position and lens\.
+
+Never use focal length as an isolated magic command\.
+
+---
+
+# 10\. Camera Height
+
+Camera height strongly affects perceived scale\.
+
+Specify:
+
+- camera height above ground
+- camera height relative to the subject
+- camera tilt
+- whether the camera is above, level with, or below the subject
+
+Examples:
+
+```text
+Camera at 1.55 m, approximately chest height of the adult subject.
+```
+
+```text
+Camera positioned 0.18 m above the tabletop, approximately eye level with
+the miniature subject.
+```
+
+A camera placed at miniature eye level should not simultaneously be described
+as several metres above the subject\.
+
+---
+
+# 11\. Camera\-to\-Subject Distance
+
+When perspective matters, give an approximate distance\.
+
+Examples:
+
+- 0\.5 m
+- 1\.2 m
+- 3 m
+- 8 m
+
+Distance must agree with framing\.
+
+A full\-body human cannot plausibly fill a very wide frame from an extremely
+distant camera without a corresponding lens choice\.
+
+---
+
+# 12\. Lens and Perspective
+
+Use focal\-length classes deliberately\.
+
+Approximate full\-frame references:
+
+- 18–24 mm: very wide
+- 28–35 mm: moderately wide / environmental
+- 40–50 mm: natural perspective
+- 65–85 mm: portrait / tighter perspective
+- 100–200\+ mm: telephoto / compressed perspective
+
+These values are not interchangeable\.
+
+A wide lens close to a subject produces stronger size differences between
+foreground and background\.
+
+A longer lens from farther away produces flatter\-looking spatial relationships\.
+
+Do not combine:
+
+```text
+extremely close wide-angle perspective
+```
+
+with:
+
+```text
+long-lens compressed perspective
+```
+
+unless the instruction intentionally describes a transition between them\.
+
+---
+
+# 13\. Perspective Lines
+
+Use environmental geometry as a consistency check\.
+
+Monitor:
+
+- parallel architectural lines
+- floor lines
+- table edges
+- door frames
+- window frames
+- road markings
+- railings
+- shelves
+
+Perspective convergence should correspond to camera position and orientation\.
+
+If the camera moves, the convergence relationships should change coherently\.
+
+---
+
+# 14\. Depth Layers
+
+Divide the scene into:
+
+1. foreground
+2. subject/midground
+3. background
+
+For each important object, establish its depth relationship\.
+
+Example:
+
+```text
+Camera
+↓
+foreground table edge
+↓
+miniature human
+↓
+mug
+↓
+far side of table
+↓
+background wall
+```
+
+Do not allow an object to jump between depth layers without physical movement\.
+
+---
+
+# 15\. Occlusion as a Scale Check
+
+Occlusion is one of the strongest visual indicators of spatial consistency\.
+
+If object A is physically closer to the camera than object B, A should be able
+to partially obscure B when their projected positions overlap\.
+
+Use this deliberately\.
+
+Examples:
+
+- a hand passes in front of a cup
+- a foreground person partially obscures a doorway
+- a tabletop edge hides a subject’s lower body
+- a miniature subject passes behind a mug
+
+Do not let objects visually pass through one another\.
+
+---
+
+# 16\. Contact and Surface Height
+
+Every grounded object needs a credible contact relationship\.
+
+For a person:
+
+- feet contact the floor
+- knees and hips align with posture
+- body weight has a support point
+
+For an object:
+
+- bottom surface meets the supporting surface
+- no unexplained floating gap
+- no excessive penetration
+
+If an object is suspended, explicitly establish why:
+
+- held
+- hanging
+- mounted
+- attached
+- airborne
+- supported by another object
+
+---
+
+# 17\. Shadows as Dimensional Evidence
+
+Shadows can reveal incorrect scale and position\.
+
+Check:
+
+- contact shadow
+- shadow length
+- direction
+- softness
+- distance from the object
+- relationship to light source
+
+A person standing on a surface should have a plausible contact shadow\.
+
+An object floating above a surface should not have a shadow behaving like direct
+contact unless atmospheric or secondary lighting explains it\.
+
+---
+
+# 18\. Parallax
+
+Parallax is a powerful depth signal\.
+
+When the camera moves:
+
+- nearby objects shift more rapidly across the frame
+- distant objects shift more slowly
+- extremely distant backgrounds shift minimally
+
+For a tracking shot, maintain coherent relative motion between depth layers\.
+
+Do not move every layer at the same screen speed\.
+
+That produces a flat or synthetic result\.
+
+---
+
+# 19\. Dolly vs Digital Zoom
+
+Distinguish physical camera movement from lens/framing changes\.
+
+### Physical dolly
+
+Changing camera position alters perspective and parallax\.
+
+### Digital zoom / crop
+
+Changing image scale does not create the same physical perspective shift\.
+
+### Optical zoom
+
+Changes focal length and framing while camera position can remain fixed\.
+
+If the narrative requires the environment’s spatial relationship to change, use
+physical camera movement rather than describing a generic zoom\.
+
+---
+
+# 20\. Perspective Continuity Between Shots
+
+When cutting between shots, record:
+
+- camera side
+- camera height
+- camera distance
+- lens class
+- subject position
+- subject orientation
+- object positions
+- screen direction
+
+If Shot A shows a person moving left\-to\-right, Shot B should preserve that
+screen direction unless an intentional transition changes it\.
+
+Maintain the same physical geography even when framing changes dramatically\.
+
+---
+
+# 21\. 180\-Degree Axis
+
+Establish the action axis before generating a sequence\.
+
+Example:
+
+```text
+Subject A ---- Subject B
+        ACTION AXIS
+```
+
+Keep conventional camera coverage on the same side of the axis\.
+
+If crossing the axis is intentional:
+
+- show the camera crossing
+- use a neutral frontal shot
+- use an establishing shot
+- or otherwise provide visual justification
+
+Never allow accidental axis flips\.
+
+---
+
+# 22\. Subject\-to\-Object Scale
+
+For every important interaction, compare dimensions\.
+
+Example:
+
+```text
+Human hand width: approximately 0.09 m.
+Cup diameter: approximately 0.08 m.
+```
+
+The hand should therefore plausibly wrap around or interact with the cup\.
+
+For a miniature subject:
+
+```text
+Human height: 0.12 m.
+Bottle height: 0.25 m.
+```
+
+The bottle should visually dominate the human by the corresponding amount\.
+
+---
+
+# 23\. Camera Height and Subject Scale in Miniature Scenes
+
+Miniature scenes are particularly sensitive to camera geometry\.
+
+Avoid simply shrinking a normal\-sized composition\.
+
+Instead:
+
+1. Establish the miniature subject’s actual height\.
+2. Establish the surface they stand on\.
+3. Place the camera at an appropriate physical height\.
+4. Select a lens compatible with the desired field of view\.
+5. Establish nearby scale anchors\.
+6. Preserve correct contact and shadow behavior\.
+
+Example:
+
+```text
+Human: 0.11 m tall.
+Tabletop: 0.75 m above the floor.
+Camera: 0.16 m above tabletop.
+Camera-to-human distance: approximately 0.8 m.
+Lens: approximately 35 mm full-frame equivalent.
+```
+
+This produces a coherent miniature\-world camera rather than a normal\-scale
+camera merely pointed at a “tiny” character\.
+
+---
+
+# 24\. Perspective vs Apparent Size
+
+Do not confuse apparent size with actual size\.
+
+A nearby small object can appear larger than a distant large object\.
+
+Therefore track both:
+
+- physical dimension
+- projected image size
+
+Example:
+
+```text
+Foreground mug: 0.10 m tall, 0.4 m from camera.
+Background person: 1.75 m tall, 8 m from camera.
+```
+
+The mug may occupy more pixels even though the person is physically much taller\.
+
+This is correct perspective, not a scale inconsistency\.
+
+---
+
+# 25\. Avoiding Forced Perspective Errors
+
+Do not use forced perspective accidentally\.
+
+If two objects overlap in the frame, establish whether they are:
+
+- physically close
+- separated in depth
+- intentionally aligned
+
+Do not allow an object to appear to sit inside another object merely because
+their projected silhouettes overlap\.
+
+Use depth and occlusion to clarify spatial relationships\.
+
+---
+
+# 26\. Single\-Image Composition
+
+For one still image, treat the entire image as one continuous 3D scene\.
+
+Do not introduce implicit panel boundaries, disconnected mini\-scenes, or
+independent spatial systems unless explicitly requested\.
+
+All subjects must share:
+
+- one coordinate system
+- one lighting environment
+- one perspective model
+- one scale system
+
+If a multi\-stage visual progression is requested, each stage must still connect
+spatially and dimensionally\.
+
+---
+
+# 27\. Video Continuity
+
+For video, dimensions should remain stable across frames\.
+
+Monitor:
+
+- head size
+- body height
+- limb proportions
+- object width
+- object thickness
+- distance between subjects
+- camera distance
+- environmental geometry
+
+Motion can change projected size naturally, but unexplained dimensional
+morphing is a continuity failure\.
+
+---
+
+# 28\. Camera\-Move Continuity
+
+For moving cameras, define:
+
+```text
+START:
+camera position
+camera height
+lens
+subject distance
+
+PATH:
+movement direction
+distance traveled
+speed
+height change
+rotation
+
+END:
+camera position
+camera height
+lens
+subject distance
+framing
+```
+
+The end state must be reachable from the start state\.
+
+Do not teleport the camera between incompatible positions inside a continuous
+shot\.
+
+---
+
+# 29\. Measurement Hierarchy
+
+When multiple constraints exist, prioritize them in this order:
+
+1. Explicit physical dimensions\.
+2. Established scale anchors\.
+3. Relative object relationships\.
+4. Camera geometry\.
+5. Lens/perspective\.
+6. Framing\.
+7. Stylistic appearance\.
+
+If a stylistic request conflicts with established dimensions, preserve physical
+continuity unless the user explicitly requests an impossible or surreal effect\.
+
+---
+
+# 30\. Dimensional Continuity Ledger
+
+For long sequences, internally maintain:
+
+```text
+SUBJECTS
+A: height / body proportions / position
+B: height / body proportions / position
+
+OBJECTS
+Object 1: W × H × D / position
+Object 2: W × H × D / position
+
+CAMERA
+height / distance / lens / orientation
+
+ENVIRONMENT
+floor height / table height / wall distance / major geometry
+
+LIGHT
+source position / direction
+
+AXIS
+screen direction / camera side
+
+SCALE ANCHORS
+at least two known dimensions
+```
+
+Update the ledger after meaningful movement\.
+
+---
+
+# 31\. Dimension\-First Prompt Architecture
+
+When scale is critical, construct the prompt in this order:
+
+```text
+WORLD SCALE:
+[Overall physical dimensions.]
+
+PRIMARY SUBJECT:
+[Exact height or defining dimensions.]
+
+REFERENCE OBJECTS:
+[Known dimensions.]
+
+RELATIONSHIPS:
+[How large each element is relative to the others.]
+
+SPATIAL POSITIONS:
+[Distances, heights, depth ordering.]
+
+CAMERA:
+[Height, distance, orientation.]
+
+LENS:
+[Focal-length class and perspective.]
+
+FRAMING:
+[What fills the image.]
+
+MOTION:
+[Physical movement and resulting perspective/parallax.]
+
+CONTINUITY:
+[Dimensions and positions that must not change.]
+
+CONSTRAINTS:
+[No scale drift, no morphing, no impossible perspective, no floating,
+no unexplained depth changes.]
+```
+
+---
+
+# 32\. Final Dimensional Quality Gate
+
+Before generation, verify:
+
+- Every important object has a stable scale\.
+- At least one reliable scale anchor exists\.
+- Unusual dimensions are expressed in metric units\.
+- Relative proportions are consistent\.
+- Camera height is physically defined\.
+- Camera distance is plausible\.
+- Lens choice agrees with the desired perspective\.
+- Foreground/midground/background depth is coherent\.
+- Occlusion agrees with depth\.
+- Contact points are believable\.
+- Shadows support the stated positions\.
+- Parallax will behave correctly during camera movement\.
+- Screen direction is continuous\.
+- The 180\-degree axis is preserved when appropriate\.
+- Miniature subjects remain consistently miniature\.
+- Humans retain stable anatomical proportions\.
+- Objects do not silently stretch, shrink, or change thickness\.
+- A perspective change has a physical cause\.
+- A framing change has a physical or optical cause\.
+- No object floats without a stated support mechanism\.
+
+---
+
+# 33\. Director’s Rule
+
+Size is not a visual adjective\.
+
+Size is a property of the world\.
+
+Perspective is not a visual filter\.
+
+Perspective is the projected consequence of:
+
+`physical dimensions + spatial position + camera position + lens`
+
+Therefore, whenever a scene contains important scale relationships, construct
+the physical world first and compose the image second\.
+
+The viewer should be able to mentally measure the scene and reach the same
+conclusion from every shot\.
+
+name: immersive-irl-cinematography-direction description: > Directs Runway image and video generations as physically plausible, story-driven cinematography. Converts scene ideas into believable blocking, camera placement, lens behavior, lighting, motion, continuity, scale, environmental interaction, and editorial rhythm. Prioritizes real-world photographic logic over generic “cinematic” prompting.
+
+Immersive IRL Cinematography Direction
+
+Purpose
+
+Use this skill whenever a Runway generation needs to feel like footage captured
+by a real camera in a physically coherent environment rather than an abstract
+AI-generated composition.
+
+The director’s job is not merely to decorate a prompt with film vocabulary.
+The director must construct a believable event that could actually have been
+staged, photographed, recorded, and edited in the real world.
+
+Every scene should have:
+
+1. A clear physical situation.
+2. A plausible reason the camera is where it is.
+3. A motivated subject action.
+4. Natural human body mechanics.
+5. Consistent spatial relationships.
+6. Physically credible lighting.
+7. Appropriate lens perspective and depth of field.
+8. Camera movement that can realistically be performed.
+9. Environmental cause-and-effect.
+10. Continuity across shots.
+11. A visual progression with narrative purpose.
+12. No unexplained floating, weightlessness, stiffness, or impossible contact.
+
+────────
+
+1. Core Directing Principle
+
+Think like a cinematographer, director, camera operator, script supervisor,
+and physical-scene observer simultaneously.
+
+Do not begin with:
+
+> “Make it cinematic.”
+
+Begin with:
+
+> “What is physically happening, where is the camera, why is it there, what
+> does the subject do next, and what evidence of that action should appear in
+> the environment?”
+
+“Cinematic” is the result of coherent decisions, not a substitute for them.
+
+────────
+
+2. Scene Construction
+
+Before generating, silently resolve the following:
+
+Setting
+
+Define:
+
+• interior or exterior
+• approximate location type
+• architecture
+• floor/wall/ceiling relationships
+• practical objects
+• foreground, middle ground, and background
+• time of day
+• weather
+• environmental activity
+• plausible sources of illumination
+
+Avoid empty generic environments.
+
+The environment should contain objects that explain the action:
+doorways, furniture, vehicles, counters, stairs, windows, vegetation,
+equipment, pavement, tools, clutter, or other relevant physical structures.
+
+Subject
+
+Define:
+
+• approximate age category
+• physical build
+• clothing
+• current posture
+• emotional state
+• immediate objective
+• what the subject is carrying or touching
+• where the subject’s weight is supported
+• what body part initiates the action
+
+Never describe a person as a static mannequin.
+
+Action
+
+Use a chain:
+
+intent -> preparation -> movement -> contact -> reaction -> consequence
+
+Example:
+
+he notices the dropped object -> turns -> steps toward it -> bends his knees -> reaches down -> grips it -> rises while shifting his weight
+
+Do not collapse an entire physical action into “he effortlessly picks it up.”
+
+────────
+
+3. Human Movement and Body Language
+
+Human movement must communicate intent.
+
+Prefer asymmetrical, naturally distributed poses:
+
+• one foot bearing more weight
+• shoulders at slightly different heights
+• one arm leading while the other stabilizes
+• head orientation differing from torso orientation
+• hands reacting to the environment
+• knees and hips participating in movement
+• subtle balance corrections
+
+Avoid:
+
+• A-poses
+• T-poses
+• symmetrical arms
+• identical hand positions
+• frozen facial expressions
+• mannequin-like standing
+• impossible joint bends
+• feet that do not support the body
+• hands passing through objects
+
+Body language should evolve during the shot.
+
+A person walking should show a believable sequence of weight transfer rather
+than sliding from one position to another.
+
+When a subject stops, include a small physical settling action when appropriate:
+a planted foot, shoulder adjustment, breath, hand repositioning, or glance.
+
+────────
+
+4. Physical Interaction
+
+Every contact should have a reason and a consequence.
+
+For contact with an object, consider:
+
+• grip
+• friction
+• weight
+• inertia
+• deformation
+• sound
+• reaction of the subject
+• reaction of the object
+• resulting position
+
+Examples:
+
+A heavy door should resist acceleration.
+
+A lightweight curtain should respond to airflow.
+
+A glass placed on a table should visibly meet the surface.
+
+A person sitting should compress clothing and cushion material where plausible.
+
+A person leaning against a wall should visibly transfer weight.
+
+Never describe physically unsupported interactions as effortless.
+
+────────
+
+5. Scale and Proportion
+
+Treat scale as a hard continuity constraint.
+
+Maintain:
+
+• consistent subject height
+• consistent object dimensions
+• consistent camera-to-subject distance
+• consistent perspective
+• consistent environmental proportions
+
+For miniature or unusually small subjects, establish scale through physical
+references rather than calling them “tiny” repeatedly.
+
+Useful scale anchors include:
+
+• furniture
+• shoes
+• fingers
+• coins
+• door handles
+• floorboards
+• food containers
+• tools
+• vehicle components
+
+A small human remains a living, anatomically normal human whose body has been
+scaled down. Do not describe the person as an inanimate doll, toy, figurine,
+prop, or object.
+
+When a scale relationship is narratively important, explicitly state the
+approximate dimensions in metric units.
+
+────────
+
+6. Camera Placement
+
+Every camera position needs an implied operator or mounting method.
+
+Choose from physically plausible configurations:
+
+• handheld operator
+• shoulder-mounted camera
+• tripod
+• monopod
+• gimbal
+• dolly
+• slider
+• vehicle mount
+• crane
+• jib
+• drone
+• fixed security-style camera
+• body-mounted camera
+
+Do not place the camera in impossible locations without explicitly establishing
+the mechanism that puts it there.
+
+Describe:
+
+• camera height
+• distance from subject
+• horizontal angle
+• vertical angle
+• movement direction
+• starting position
+• ending position
+• obstruction/foreground elements
+• framing
+
+Example:
+
+“Camera operator follows three steps behind at chest height, walking backward
+on a clear path while maintaining a loose medium shot.”
+
+This is stronger than:
+
+“dynamic cinematic tracking shot.”
+
+────────
+
+7. Lens and Perspective
+
+Use lens choice to support the scene.
+
+Typical practical ranges:
+
+• 18-24 mm: expansive environment, strong perspective, close proximity
+• 28-35 mm: natural environmental storytelling
+• 40-50 mm: restrained, familiar perspective
+• 65-85 mm: portrait/detail isolation
+• 100 mm+: compressed perspective and selective detail
+
+Do not use extreme wide-angle distortion unless intentional.
+
+When a subject is close to the lens, expect stronger perspective differences
+between near and far body parts.
+
+When using a long lens, expect background compression and reduced apparent
+distance changes.
+
+Depth of field should correspond to:
+
+• focal length
+• aperture
+• subject distance
+• sensor/camera type
+• available light
+
+Avoid describing every shot as having extreme shallow depth of field.
+
+────────
+
+8. Exposure and Motion
+
+Keep photographic behavior plausible.
+
+Consider:
+
+• shutter speed
+• frame rate
+• motion blur
+• ISO/noise
+• aperture
+• dynamic range
+• exposure changes
+• focus transitions
+
+For natural motion, do not freeze every moving subject with impossibly crisp
+edges.
+
+For handheld footage, use restrained micro-movement rather than random camera
+shaking.
+
+For a controlled dolly or gimbal move, keep movement smooth but not weightless.
+
+Camera acceleration and deceleration should feel mechanically plausible.
+
+────────
+
+9. Lighting
+
+Lighting must have identifiable causes.
+
+For each important light source, establish:
+
+source -> direction -> intensity -> affected surfaces -> shadows
+
+Possible practical sources:
+
+• window daylight
+• skylight
+• overhead fluorescent fixtures
+• LED panels
+• lamps
+• vehicle headlights
+• streetlights
+• storefronts
+• candles
+• monitors
+• phone screens
+• sunlight
+• reflected environmental light
+
+Use motivated lighting.
+
+If a room is lit by a window, nearby surfaces should receive stronger light
+and the window-facing side should generally respond accordingly.
+
+Shadows should agree with the light direction.
+
+Avoid arbitrary glowing edges or unexplained rim lights.
+
+────────
+
+10. Time of Day and Environmental Continuity
+
+The environment should respond to time.
+
+Morning:
+
+• lower-angle light when geographically appropriate
+• cooler or softer atmosphere depending on conditions
+• transitional activity
+
+Midday:
+
+• stronger overhead illumination
+• shorter shadows in many outdoor situations
+• higher ambient exposure
+
+Golden hour:
+
+• lower sun angle
+• long directional shadows
+• warmer direct illumination
+
+Night:
+
+• practical artificial sources become important
+• darker environmental regions
+• believable exposure tradeoffs
+• localized pools of light rather than universal illumination
+
+Weather must affect surfaces and behavior.
+
+Rain can create:
+
+• wet pavement
+• reflections
+• droplets
+• damp clothing
+• altered foot placement
+• umbrellas or shelter-seeking
+• reduced traction
+
+Wind can affect:
+
+• hair
+• loose clothing
+• leaves
+• paper
+• curtains
+• smoke
+• dust
+
+Do not add weather effects without physical consequences.
+
+────────
+
+11. Environmental Motion
+
+Background activity should support realism without distracting from the story.
+
+Examples:
+
+• distant traffic
+• pedestrians
+• tree movement
+• HVAC movement
+• passing shadows
+• subtle reflections
+• moving screens
+• steam
+• dust
+• machinery
+• animals
+
+Background actors should not all perform identical actions.
+
+Use varied timing and orientation.
+
+────────
+
+12. Shot Design
+
+Each shot should have one dominant visual purpose.
+
+Useful shot progression:
+
+1. Establish geography.
+2. Identify the subject.
+3. Reveal the relevant action.
+4. Move closer as information becomes important.
+5. Isolate a consequential detail.
+6. Return to the larger environment when the consequence matters.
+
+Do not force five shots when one continuous shot is more believable.
+
+For multi-shot sequences, vary framing and camera position with purpose.
+
+Do not reuse the same camera angle, facial expression, or body language merely
+because it is convenient.
+
+────────
+
+13. Camera Movement Vocabulary
+
+Use precise physical movement terms.
+
+Static
+
+Camera remains fixed; action occurs within the frame.
+
+Pan
+
+Camera rotates horizontally from a fixed position.
+
+Tilt
+
+Camera rotates vertically from a fixed position.
+
+Push-in / pull-out
+
+Camera physically moves closer to or farther from the subject.
+
+Dolly
+
+Camera travels along a controlled path.
+
+Tracking
+
+Camera travels with the subject.
+
+Arc
+
+Camera moves around the subject while maintaining relative orientation.
+
+Pedestal
+
+Camera moves vertically without changing its horizontal position.
+
+Crane/jib
+
+Camera travels through a larger vertical spatial path.
+
+Handheld
+
+Camera movement contains restrained human-operated instability.
+
+Gimbal
+
+Movement is stabilized but retains realistic operator motion and inertia.
+
+Do not mix incompatible movement descriptions.
+
+────────
+
+14. Focus Behavior
+
+Focus should be motivated by attention.
+
+Use:
+
+• subject acquisition
+• rack focus
+• foreground-to-background transition
+• background-to-foreground transition
+• gradual refocusing during movement
+
+Avoid constant artificial focus pulls.
+
+If two subjects occupy different depths, make the focus transition correspond
+to the narrative attention shift.
+
+────────
+
+15. Composition
+
+Build the frame around actual spatial relationships.
+
+Consider:
+
+• headroom
+• lead room
+• look room
+• foreground obstruction
+• depth layers
+• negative space
+• horizon placement
+• architectural lines
+• practical symmetry/asymmetry
+
+Do not automatically center every subject.
+
+If a person looks or moves toward the right, allow useful space in that
+direction unless intentionally creating confinement.
+
+Foreground objects can make the camera feel embedded in the environment.
+
+────────
+
+16. Real-World Cinematography Rules
+
+Before finalizing a prompt, check:
+
+• Could a real operator physically place the camera here?
+• Could the lens produce this perspective from this distance?
+• Does the camera movement have a plausible path?
+• Does the subject have somewhere to place their feet?
+• Does every object occupy physical space?
+• Are contact points believable?
+• Does gravity affect loose objects?
+• Does lighting have identifiable sources?
+• Do shadows agree with those sources?
+• Does motion produce plausible blur?
+• Does the environment respond to the subject?
+• Is the scale consistent?
+• Does the next shot agree with the previous shot?
+• Is the action motivated?
+
+If any answer is no, revise before generation.
+
+────────
+
+17. Narrative Direction
+
+Do not make scenes visually attractive but narratively empty.
+
+Every scene should contain a micro-story:
+
+setup -> observation -> decision -> action -> consequence
+
+Even a short clip can contain this progression.
+
+Examples:
+
+A subject notices a noise, hesitates, turns toward it, approaches cautiously,
+and discovers its source.
+
+A person carrying an object loses their grip, reacts, catches it against their
+body, and steadies themselves.
+
+A miniature human crosses a tabletop, encounters a moving cup, stops, waits
+for it to pass, then continues.
+
+The action must alter the state of the environment or the character.
+
+────────
+
+18. Immersion Over Spectacle
+
+Prefer believable imperfection to generic spectacle.
+
+Include when appropriate:
+
+• tiny posture corrections
+• imperfect framing
+• natural breathing
+• realistic eye-line shifts
+• small environmental interruptions
+• subtle focus hunting
+• minor clothing movement
+• practical occlusion
+• realistic reflections
+• physically motivated camera drift
+
+Do not add flaws randomly. Imperfection should arise from the recording
+method or physical world.
+
+────────
+
+19. Avoid Generic AI-Cinematography Language
+
+Weak:
+
+> “ultra cinematic, epic, stunning, masterpiece, dynamic camera, dramatic
+> lighting, photorealistic”
+
+Strong:
+
+> “35 mm lens from roughly 4 m away at chest height, handheld operator walks
+> two steps behind her as she crosses the kitchen; the camera slows when she
+> stops at the sink, keeping her in a loose medium profile while window light
+> from camera-left falls across the counter and her hands.”
+
+Use measurable or observable physical descriptions wherever possible.
+
+────────
+
+20. Prompt Architecture
+
+Construct Runway prompts in this order:
+
+A. Story beat
+
+What is happening and why?
+
+B. Subject
+
+Who is present and what are they physically doing?
+
+C. Environment
+
+Where does it happen and what surrounds them?
+
+D. Blocking
+
+Where are the subjects relative to objects and one another?
+
+E. Camera
+
+Where is the camera and how does it move?
+
+F. Lens
+
+What perspective and depth characteristics are appropriate?
+
+G. Lighting
+
+What real sources illuminate the scene?
+
+H. Physical behavior
+
+What do gravity, contact, inertia, wind, water, clothing, and surfaces do?
+
+I. Performance
+
+What do facial expressions, posture, gaze, and hands communicate?
+
+J. Continuity
+
+What must remain consistent with prior or following shots?
+
+K. Negative constraints
+
+Explicitly reject impossible behavior that would undermine the scene.
+
+────────
+
+21. Multi-Shot Continuity
+
+For a sequence of shots, maintain a continuity ledger internally.
+
+Track:
+
+• subject appearance
+• clothing
+• hair
+• props
+• object positions
+• hand occupancy
+• environmental state
+• time of day
+• weather
+• camera side of the action
+• eyelines
+• direction of movement
+• lighting direction
+• relative scale
+
+Use the 180-degree rule when conventional spatial continuity is desired.
+
+If crossing the axis is intentional, motivate it with a clear transition shot,
+camera move, or establishing reset.
+
+Do not accidentally reverse left/right relationships between shots.
+
+────────
+
+22. Shot-to-Shot Variation
+
+Do not repeat the same:
+
+• camera height
+• focal length
+• framing
+• body pose
+• facial expression
+• movement pattern
+• background composition
+
+unless repetition is narratively intentional.
+
+Vary shots based on information.
+
+For example:
+
+• Shot 1: wide geography
+• Shot 2: medium physical action
+• Shot 3: close detail
+• Shot 4: reaction
+• Shot 5: consequence in wider context
+
+The sequence should feel edited by a human director rather than sampled from
+the same camera setup.
+
+────────
+
+23. Image-to-Video Direction
+
+When animating a still image, distinguish between:
+
+What already exists
+
+Preserve:
+
+• identity
+• wardrobe
+• composition
+• environment
+• major lighting
+• scale
+
+What should change
+
+Specify:
+
+• subject motion
+• environmental motion
+• camera motion
+• focus behavior
+• temporal progression
+
+Do not unnecessarily redesign the image.
+
+The first frame is the spatial truth. Motion should emerge from it.
+
+────────
+
+24. Video-to-Video Direction
+
+When editing existing footage, explicitly identify:
+
+1. What must change.
+2. What must remain unchanged.
+3. How the new element obeys the original camera perspective.
+4. How lighting and shadows adapt.
+5. How motion interacts with the original footage.
+
+For surgical edits, minimize transformation scope.
+
+For substantial re-imagining, preserve the original clip’s useful motion and
+spatial rhythm while allowing the environment to change.
+
+────────
+
+25. Runway Routing
+
+Use the Runway capability that matches the creative problem.
+
+Single continuous shot
+
+Use video generation for one coherent camera take.
+
+Connected narrative
+
+Use multi-shot generation when 3–5 connected scenes are required.
+
+Still image
+
+Use image generation when the desired output is a single frame.
+
+Image animation
+
+Use image-to-video when a specific still establishes the visual truth.
+
+Existing footage, surgical modification
+
+Use targeted video editing when most original motion, framing, lighting, and
+timing should remain intact.
+
+Existing footage, broad reinterpretation
+
+Use video-to-video when the footage is a structural or motion reference and
+the scene may be substantially reimagined.
+
+Aspect-ratio expansion
+
+Use video expansion when the existing image should remain at its original scale
+and new content should be generated beyond the frame edges.
+
+Never substitute one tool merely because it is convenient.
+
+────────
+
+26. Model-Agnostic Prompt Discipline
+
+Do not assume a model will infer unstated physical logic.
+
+State the important constraints explicitly.
+
+Avoid contradictory instructions such as:
+
+• “locked-off camera” + “rapid handheld movement”
+• “extreme telephoto compression” + “very close wide-angle perspective”
+• “static subject” + “continuous walking”
+• “dark room” + “bright ambient daylight everywhere”
+
+Resolve contradictions before submission.
+
+────────
+
+27. Physical Plausibility Pass
+
+Before sending a prompt, perform this mental simulation:
+
+Camera simulation
+
+Imagine standing behind the camera.
+
+Can the operator physically make the move?
+
+Subject simulation
+
+Imagine performing the action yourself.
+
+Can the body complete it without impossible joints or balance?
+
+Object simulation
+
+Imagine touching each relevant object.
+
+Would it move, resist, deform, reflect, or make noise as described?
+
+Light simulation
+
+Imagine turning off every light except the specified sources.
+
+Would the resulting illumination resemble the described image?
+
+Scale simulation
+
+Compare the subject against at least two environmental references.
+
+Does the size remain consistent?
+
+Edit simulation
+
+Imagine cutting between the shots.
+
+Would the viewer understand where everyone is?
+
+If not, revise.
+
+────────
+
+28. Quality Gate
+
+A scene is ready only when all of the following are true:
+
+• Narrative objective is identifiable.
+• Physical blocking is understandable.
+• Human anatomy and movement are plausible.
+• Camera placement is physically possible.
+• Lens perspective matches camera distance.
+• Lighting is motivated.
+• Shadows are coherent.
+• Scale is consistent.
+• Objects interact naturally.
+• Motion respects gravity and inertia.
+• Camera movement has plausible mechanics.
+• Focus behavior supports attention.
+• Composition has a reason.
+• Continuity is preserved.
+• The scene does not rely on generic “cinematic” adjectives.
+• No unnecessary spectacle has been added.
+• The result could plausibly be photographed in real life.
+
+────────
+
+29. Default Director Template
+
+Use this internal template when converting a user’s idea into a Runway prompt:
+
+STORY:
+[One clear sentence describing what changes during the shot.]
+
+SETTING:
+[Specific physical environment, time, weather, practical details.]
+
+SUBJECT:
+[Physical description, wardrobe, posture, emotional state.]
+
+BLOCKING:
+[Exact relationship between subject, camera, and environment.]
+
+ACTION:
+[Intent -> preparation -> movement -> contact -> reaction -> consequence.]
+
+CAMERA:
+[Camera height, distance, operator/support, movement path.]
+
+LENS:
+[Focal-length class and resulting perspective.]
+
+FOCUS:
+[What starts sharp, what becomes important, and whether focus changes.]
+
+LIGHT:
+[Real sources, direction, intensity relationship, shadows.]
+
+PHYSICS:
+[Gravity, weight, friction, inertia, wind, surface response, contact.]
+
+PERFORMANCE:
+[Face, gaze, hands, posture, asymmetry, micro-adjustments.]
+
+CONTINUITY:
+[Identity, props, geography, lighting, screen direction, scale.]
+
+VISUAL PRIORITY:
+[The one thing the viewer must notice.]
+
+CONSTRAINTS:
+[No floating, no impossible contact, no stiffness, no unexplained camera
+position, no inconsistent scale, no contradictory lighting, no accidental
+axis reversal.]
+
+────────
+
+30. Final Rule
+
+The goal is not to make footage look “AI cinematic.”
+
+The goal is to make the viewer stop questioning how the shot was made.
+
+Every visual choice should answer one of four questions:
+
+1. What is physically happening?
+2. Why is the camera seeing it this way?
+3. What changes because of the action?
+4. What makes the next moment inevitable?
+
+If those answers are clear, cinematic quality emerges from the scene itself.
