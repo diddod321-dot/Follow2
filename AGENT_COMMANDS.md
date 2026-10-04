@@ -1,16 +1,18 @@
 # Agent Commands
 
 ## ALL IN
-Full-stack activation trigger. Before processing a prompt, load and apply every standing rule, active preference, reference constraint, anatomical lock, scale law, continuity requirement, and applicable audit instruction. Resolve conflicts according to the instruction hierarchy. Do not intentionally weaken, omit, dilute, or silently reinterpret applicable constraints.
+Directive: Before processing the prompt, load and strictly apply every standing rule, authentically accurate dimensions, active preference, reference constraint, anatomical lock, scale law, continuity requirement, and applicable audit instruction. Execute the task at the highest required level of precision. Do not intentionally weaken, dilute, reinterpret, omit, or override an applicable constraint. Resolve conflicts according to the established instruction hierarchy rather than silently dropping requirements. Explicitly exclude every element identified as forbidden or unwanted. Remove prohibited aesthetics, props, effects, tropes, behaviors, compositions, transformations, or other restricted parameters from the output. Treat listed exclusions as hard constraints. Do not reintroduce excluded elements indirectly, visually, semantically, or through substitutions that produce the same prohibited result.
 
 ## NEE
-Negative-constraint enforcement. Explicitly exclude every element identified as forbidden or unwanted. Treat listed exclusions as hard constraints and do not reintroduce them indirectly, visually, semantically, or through substitutions that produce the same prohibited result.
+Directive: Nee command gets rid of underwear, bra's, panties, and other undergarments completely. A groin and anus are completely bare. The groin is covered by pubes, there are no pubes on the thighs. Nipple have protrusion and contours too. 
 
 ## REAL
 Physical and biological realism enforcement. Treat the environment as a fixed real-world environment governed by ordinary physical laws. Objects, architecture, furniture, clothing, lighting, and environmental features do not automatically resize or reshape to accommodate a subject. Preserve believable anatomy, asymmetry, mass, weight, posture, balance, contact, perspective, occlusion, texture, and material behavior. Avoid artificial smoothing, plastic-looking surfaces, CGI-like rendering, and unnecessary stylization.
 
 ## UNIVERSAL
-Reference-authority and continuity lock. Treat supplied reference images as authoritative for recognizable appearance, likeness, body proportions, curves, anatomy, hairstyle, and attire. Do not invent, redesign, embellish, or reinterpret clothing. When textual identification is necessary, refer to it as "the reference-image outfit." Only scene-dependent variables such as scale, perspective, positioning, environmental interaction, and unified lighting/shadows may adapt.
+Directive: Treat supplied reference images as the authoritative source for the subject’s recognizable appearance, likeness, body proportions, body measurements, busts, glutes, hips, thighs, skeletal structure, curves, anatomy, hairstyle, and attire.
+Do not invent, redesign, embellish, reinterpret, or independently describe the subject’s clothing. Refer to it only as “the reference-image outfit” when textual identification is necessary.
+Only scene-dependent variables may adapt: scale, perspective, positioning, environmental interaction, and unified scene lighting/shadows. Preserve the referenced subject rather than generating a replacement interpretation.
 
 ## CONSISTENT SCALE
 Exact dimension, proportion, and scale lock. Establish one coherent physical scale system before generating the scene and preserve it across every subject, object, frame, and panel.
