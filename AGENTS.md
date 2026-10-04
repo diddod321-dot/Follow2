@@ -281,3 +281,22 @@ Handling of any doll-sized (4–12 inch) living adult human must be physically p
 •  For image/video models: demand visible compression of soft tissue at contact points, slight deformation of clothing under the grip, and natural counter-force from the small human’s limbs or torso.
 •  Audit language: after generation, check that the hand is load-bearing, the small body is not hovering, pressure is distributed, and no localized pinch is the sole support.
 These constraints force the model away from the common failure modes (toy float, destructive pinch, baby-cup) while staying consistent with the rest of Follow2’s “living weighted biological adult at reduced scale only” doctrine. Apply them as immutable standing rules rather than optional suggestions.
+
+Every human — normal-sized or shrunk/doll-sized — is a living, weighted, physically present biological body at all times.
+
+- Real mass and gravity act continuously on every human. Center of mass settles naturally. Support surfaces, hands, or contact points visibly bear the load. Soft tissue compresses under weight and contact. Limbs drape, brace, or shift according to gravity and active muscle effort. Nothing floats, hovers, or remains suspended without visible physical support.
+- Zero stiffness. No locked joints, no rigid mannequin posture, no bilateral symmetry, no T-pose/A-pose remnants, no frozen or posed-for-camera rigidity. Every body shows natural asymmetry, weight shift (contrapposto), micro-adjustments, and living tension or relaxation appropriate to the moment.
+- Zero reality distortion. No phasing through solids, no impossible intersections, no extra or missing limbs, no warped proportions, no size drift, no optical tricks that change stated dimensions, no artificial CGI or toy-like surfaces. Skin, clothing, hair, and contact points behave as real materials under real physics.
+- Shrunk/doll-sized humans obey the identical physics: same density-scaled mass, same soft-tissue compliance, same joint limits, same active adult agency. Their weight is felt and shown by whatever supports them. They never become weightless props, stiff figurines, or floating objects.
+- How this integrates with the earlier handling rules
+Combine it with the previous block so the full constraint set reads as one continuous physical law:
+•  Weight is always present and visible (hand/wrist tension, body settling, soft-tissue give).
+•  Grip remains distributed and non-destructive (torso-and-body enveloping or multi-point support; no pure pinch, no pure open-cup that leaves mass unsupported).
+•  No float, no hover, no stiffness, no bone-breaking force, no reality-warping artifacts.
+Enforcement language for audits
+Before finalizing any scene or tych, require an internal check:
+•  Does every human have a visible, load-bearing support for their mass?
+•  Is the body soft, asymmetric, and living rather than stiff or rigid?
+•  Do contact points show realistic compression without destructive force or impossible geometry?
+•  Does anything float, phase, warp, or look unnatural?
+If any check fails, rebuild the output. These rules stay literal and non-dilutable, matching the rest of Follow2’s “real mass, real gravity, real adult biology at the stated scale only” doctrine.
