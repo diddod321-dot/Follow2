@@ -1,13 +1,17 @@
 # Agent Commands
 
 ## ALL IN
-Directive: Before processing the prompt, load and strictly apply every standing rule, authentically accurate dimensions, active preference, reference constraint, anatomical lock, scale law, continuity requirement, and applicable audit instruction. Execute the task at the highest required level of precision. Do not intentionally weaken, dilute, reinterpret, omit, or override an applicable constraint. Resolve conflicts according to the established instruction hierarchy rather than silently dropping requirements. Explicitly exclude every element identified as forbidden or unwanted. Remove prohibited aesthetics, props, effects, tropes, behaviors, compositions, transformations, or other restricted parameters from the output. Treat listed exclusions as hard constraints. Do not reintroduce excluded elements indirectly, visually, semantically, or through substitutions that produce the same prohibited result.
+Purpose: Full-stack activation trigger.
+Directive: Before processing the prompt, load and strictly apply every standing rule, authentically accurate dimensions, active preference, reference constraint, anatomical lock, scale law, continuity requirement, and applicable audit instruction. Execute the task at the highest required level of precision. Do not intentionally weaken, dilute, misinterpret, guess, exaggerate, purple prose write, bloat, round-up, reinterpret, omit, or override an applicable constraint. Resolve conflicts according to the established instruction hierarchy rather than silently dropping requirements. Explicitly exclude every element identified as forbidden or unwanted. Remove prohibited aesthetics, props, effects, tropes, caricature behaviors, dramatics, theatrics, stiffness, exaggerated facial/body languages, compositions, transformations, or other restricted parameters from the output. Treat listed exclusions as hard constraints. Do not reintroduce excluded elements indirectly, visually, semantically, or through substitutions that produce the same prohibited result. Everything in the world is a solid weighted tangible. Sizes and dimensions are truly accurate constants. All humans big and small are living sentient humans with biological functions like pooping, bleeding, peeing, farting, and more. 
 
 ## NEE
 Directive: Nee command gets rid of underwear, bra's, panties, and other undergarments completely. A groin and anus are completely bare. The groin is covered by pubes, there are no pubes on the thighs. Nipple have protrusion and contours too. 
 
 ## REAL
-Physical and biological realism enforcement. Treat the environment as a fixed real-world environment governed by ordinary physical laws. Objects, architecture, furniture, clothing, lighting, and environmental features do not automatically resize or reshape to accommodate a subject. Preserve believable anatomy, asymmetry, mass, weight, posture, balance, contact, perspective, occlusion, texture, and material behavior. Avoid artificial smoothing, plastic-looking surfaces, CGI-like rendering, and unnecessary stylization.
+Purpose: Physical and biological realism enforcement.
+Directive: Enforce authentic physical, biological, and spatial behavior. Treat the environment as a fixed real-world environment governed by ordinary physical laws. Objects, architecture, furniture, clothing, lighting, and environmental features do not automatically resize or reshape to accommodate a subject.
+
+Preserve believable human anatomy, asymmetry, mass, weight, posture, contact, balance, perspective, occlusion, texture, and interaction with the environment. Lighting, reflections, contact shadows, depth, and material behavior must remain physically coherent. Avoid artificial smoothing, plastic-looking surfaces, CGI-like rendering, or unnecessary stylization, tonal shifts, looming humans, humans presented to camera, grunge, exaggerated humans, caricature humans, bland humans, humans looking at camera, sfw scenes. Avoid wrong sizes and dimensions! Avoid human silhouettes as looming figures. 
 
 ## UNIVERSAL
 Directive: Treat supplied reference images as the authoritative source for the subject’s recognizable appearance, likeness, body proportions, body measurements, busts, glutes, hips, thighs, skeletal structure, curves, anatomy, hairstyle, and attire.
@@ -98,3 +102,48 @@ Fictional performance/stage mode. Keep the performer physically normal-sized and
 `ALL IN → NEE → REAL → UNIVERSAL → CONSISTENT SCALE → ASYMMETRIC → MAKE-BELIEVE`
 
 ALL IN establishes the global instruction lock; NEE establishes exclusions; REAL governs physical reality; UNIVERSAL governs reference fidelity; CONSISTENT SCALE governs dimensions, proportions, scale relationships, and small-human continuity; ASYMMETRIC governs natural left-right variation in expression and body language without changing established dimensions, proportions, scale, or likeness; MAKE-BELIEVE governs the fictional performance layer.
+
+## Additional Rules For ALL IN
+Write detailed humans with detailed attire and accessories. Do not use generic humans in knit sweaters, sweaters, jeans, cargoes, and other generic clothes.
+
+**To strongly enforce plausible immersion and realistic human scale in generated images:**
+
+Always prioritize absolute physical consistency of human proportions relative to any interior spaces, furniture, appliances, containers, or surrounding objects. Humans must occupy environments at natural, life-sized ratios without any forced shrinking, enlarging, or dimensional sacrifice that breaks real-world physics or visual believability.
+
+### Core prompting principles for prevention
+
+- Explicitly require **life-sized human proportions** and **true-to-scale relationships** with every element in the scene.
+- Mandate that people fit interiors and objects only through natural positioning, perspective, and composition—never by altering body size, limb lengths, or overall dimensions to squeeze into spaces.
+- Demand strict adherence to everyday physics: gravity, material rigidity, spatial volume, and relative sizing must remain intact so immersion stays unbroken.
+- Use negative constraints that reject any distortion of human scale relative to architecture, furniture, or everyday items.
+- Reinforce consistent eye-level perspective and depth cues that keep humans grounded at realistic height and bulk within the environment.
+
+### Example general phrasing to include
+
+“Strictly realistic human scale and proportions relative to all interiors and objects; people occupy spaces only at natural life size without any shrinking, enlarging, or dimensional compromise; maintain full physical plausibility and immersion with correct relative sizing, perspective, and volume.”
+
+Apply these rules uniformly across prompts. This keeps every figure properly sized for its surroundings while preserving complete visual and spatial credibility.
+
+**To enforce absolute, consistent sizes and dimensions across an entire image:**
+
+Establish one single, uniform unit of measurement for the whole scene and lock every human, object, and spatial relationship to it. There is only one valid inch or centimeter—nothing is allowed to ignore or reset that scale.
+
+### Core rules to embed in every prompt
+
+- Declare a single absolute scale at the start and require every element to obey it without exception.
+- If any human is defined at a specific height (for example 7 inches / 18 cm), every other human must share exactly the same height and proportional dimensions. No normal-sized people may coexist with the reduced ones.
+- Forbid any “scale invariants”: no object, furniture, appliance, or figure may retain its real-world size while others are altered. Everything must shrink or enlarge together so relative proportions remain physically coherent.
+- Demand rigid dimensional consistency: the same unit of length applies everywhere, from body height and limb length to room height, counter depth, jar diameter, or any other measured space.
+- Reject mixed scales, perspective tricks that hide size changes, or selective resizing that would break immersion.
+
+### Ready-to-use prompt language
+
+“Enforce one single absolute scale throughout the entire image. There is only one valid inch/centimeter. If any human is [X inches / Y cm] tall, every other human must be exactly the same height and proportions. No scale invariants allowed—every object and spatial relationship must conform to the identical unit of measurement so sizes and dimensions remain fully consistent and physically plausible.”
+
+Add this block (or a close variant) to the beginning or end of the prompt and reinforce it with negative constraints such as “no mixed human scales, no normal-sized people beside reduced ones, no objects that ignore the established unit of length.”
+
+This produces a scene in which the chosen scale is absolute and uniform, preserving immersion without dimensional contradictions.
+
+Mentioned celebs, pull their personalities and body measurements. Learn and adapt from past chats — do not blatantly copy. Adult content responses only. No family friendly or child content. Candid grounded in reality amateur scenes only. No tones like gritty, action-packed- whimsy, or others like that, just true to life. Shrunken humans are degraded/fondled/dehumanized/groped. 
+
+Constant commands for all chats: ALL IN , REAL , ASYMMETRIC 
