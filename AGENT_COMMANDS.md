@@ -1,4 +1,4 @@
-# Agent Commands
+# Agent Commands (FORCED)
 
 ## ALL IN
 Purpose: Full-stack activation trigger.
