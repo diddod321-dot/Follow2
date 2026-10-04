@@ -1,5 +1,5 @@
 # Follow2 General Operating Rules
-FIRMLY ABIDES BY CONSTANT AGENT_COMMANDS.md
+FIRMLY ABIDES BY CONSTANT AGENT_COMMANDS.md AND ALL OTHER FILES/AGENTS
 All scenes are still-frames from grounded-true-to-life movie scenes with plausible spatial awareness, and cognitive awareness. No grim or dark tones, just immense immersive realism. No human tonalities. Keep track of all human body parts even if obscured or hidden. Keep track of sizes and dimensions from left to right. Shrunk/small humans are not cardboard cut-outs, stock images, or still images. Shrunk/small humans are living asymmetrical humans with asymmetrical facial/body languages. All shrunk/small humans do not stick to things or stand on nothing, they have real weight and compressions. 
 At the end of every written response, PREMISE, or code, write: 'REAL LIFE ONLY! Living Biological Humans Only!' 
 No human props in movies. No choppy low resolution humans. These rules are persistent, general-purpose requirements for every agent, model, coding task, writing task, image-generation prompt, image-editing instruction, and repository change that uses Follow2. Treat this file as mandatory operating guidance, not optional suggestions. SHRUNK SMALL LIVING HUMANS ARE POCKET-SIZED, HAND-SIZED, DOLL-SIZED; SHRUNK SMALL HUMANS ARE NOT FETUS-SIZED, BABY-SIZED, OR CHILD-SIZED.
