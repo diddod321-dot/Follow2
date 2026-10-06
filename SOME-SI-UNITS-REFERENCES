@@ -1,0 +1,392 @@
+Use this as an optional catalog, never as a mandatory prop list.
+Placement law:
+Select an item only when its listed location and current action naturally justify it.
+Using zero items is valid. Never add an object merely to advertise scale.
+Preserve the chosen variant, dimensions, position and orientation between panels unless a visible action moves it.
+Keep every measurement and label out of the picture.
+L × W × H; Ø = diameter; C = circumference; T = thickness.
+Spatial values are metres; mass is kilograms; force uses g=9.80665\ \mathrm{m/s^2}.
+“Variable” means no value may be invented.
+#
+Optional nonhuman reference
+Accurate SI specification
+Plausible locations only
+1
+A4 paper⁠
+0.210 × 0.297 m
+Office desk, printer tray, classroom, copy area
+2
+ISO ID-1 card⁠
+0.08560 × 0.05398 m; nominal T=0.00076\ \mathrm m
+Wallet, card reader, checkout counter
+3
+U.S. Federal Reserve note⁠
+0.155956 × 0.066294 m
+Wallet, cash drawer, bank counter
+4
+120 mm optical disc⁠
+Ø=0.12000\pm0.00030\ \mathrm m; T=0.00114–0.00150\ \mathrm m; mass 0.013–0.020 kg; force 0.127–0.196 N
+Disc tray, archive case, media shelf
+5
+355 mL beverage can⁠
+Ø=0.0660\ \mathrm m; H=0.12222\ \mathrm m; capacity 0.000355 m³
+Kitchen, dining table, vending area, recycling point
+6
+750 mL glass bottle No. 960⁠
+Ø=0.0858\ \mathrm m; H=0.312\ \mathrm m; mass 0.960 kg; force 9.414 N
+Cellar, bar, restaurant table, bottle crate
+7
+Typical modular clay brick⁠
+0.19050 × 0.08890 × 0.05715 m
+Brick wall, masonry pallet, building site
+8
+Two-core concrete block⁠
+Actual 0.396875 × 0.193675 × 0.193675 m
+Block wall, masonry yard, building site
+9
+Specific 2×4 lumber piece⁠
+Actual 2.4384 × 0.0889 × 0.0381 m
+Framing, lumber rack, workshop
+10
+Specific OSB floor panel⁠
+Actual 2.435225 × 1.216025 × 0.017856 m
+Floor deck, material rack, active building work
+11
+USG gypsum panel⁠
+2.4384 × 1.2192 × 0.0095 m; nominal mass ≈20.3 kg; force ≈199 N
+Interior renovation, panel stack, unfinished wall
+12
+Specific interior door slab⁠
+W×H×T= 0.9144 × 2.032 × 0.034925 m
+Doorway, renovation area, door rack
+13
+EPAL Euro pallet⁠
+1.200 × 0.800 × 0.144 m; mass ≈25 kg; force ≈245 N
+Warehouse, loading dock, freight terminal
+14
+IBC-1000D container⁠
+1.200 × 1.000 × 1.149 m; capacity 1.05 m³; mass 62 kg; force 608 N
+Agricultural yard, loading bay, warehouse
+15
+20-foot freight container⁠
+External 6.058 × 2.438 × 2.591 m
+Port, container yard, rail terminal
+16
+40-foot freight container⁠
+External 12.192 × 2.438 × 2.591 m
+Port, container yard, rail terminal
+17
+SULO 1000 L waste bin⁠
+Approximately 1.265 × 1.105 × 1.295 m; volume 1.000 m³; empty mass ≈56 kg; force ≈549 N
+Communal waste point, service alley, facility yard
+18
+High-speed traffic cone⁠
+H\ge0.7112\ \mathrm m
+Active road work, parking control, marked event route
+19
+Road-work drum⁠
+H\ge0.9144\ \mathrm m; W\ge0.4572\ \mathrm m
+Active lane closure or roadway work
+20
+Vertical road-work panel⁠
+Face W=0.2032–0.3048\ \mathrm m; H\ge0.6096\ \mathrm m
+Active roadway work or lane division
+21
+Type 3 barricade⁠
+Three rails; each L\ge1.2192\ \mathrm m, W=0.2032–0.3048\ \mathrm m
+Road closure or active work zone
+22
+Minimum R1-1 stop-sign panel⁠
+Octagonal bounding size 0.762 × 0.762 m
+Actual stop-controlled intersection only
+23
+Table-tennis ball⁠
+Ø=0.0400\ \mathrm m; mass 0.0027 kg; force 0.0265 N
+Table-tennis court, club, gym
+24
+Table-tennis table⁠
+Top 2.740 × 1.525 m; top height 0.760 m
+Table-tennis club, gym, recreation room
+25
+Type 1 or Type 2 tennis ball⁠
+Ø=0.0654–0.0686\ \mathrm m; mass 0.0560–0.0594 kg; force 0.549–0.583 N
+Tennis court, club, equipment bag
+26
+Golf ball legal bounds⁠
+Ø\ge0.04267\ \mathrm m; mass \le0.04593\ \mathrm{kg}; force \le0.4504\ \mathrm N
+Golf course, practice range, golf bag
+27
+2026 MLB baseball⁠
+C=0.22860–0.23495\ \mathrm m; derived Ø=0.072766–0.074787\ \mathrm m; mass 0.141748–0.148835 kg
+Baseball diamond, dugout, equipment bag
+28
+2026 MLB base bag⁠
+0.4572 × 0.4572 m; T=0.0762–0.1270\ \mathrm m
+Properly anchored on a baseball diamond
+29
+MLB home plate⁠
+Front edge 0.4318 m; adjacent edges 0.2159 m; point edges 0.3048 m
+Baseball diamond or grounds storage during setup
+30
+MLB wooden bat legal maxima⁠
+L\le1.0668\ \mathrm m; thickest Ø\le0.066294\ \mathrm m
+Baseball diamond, dugout, bat rack
+31
+FIBA size-7 basketball⁠
+C=0.750–0.770\ \mathrm m; derived Ø=0.238732–0.245099\ \mathrm m; mass 0.580–0.620 kg
+Basketball court, gym, ball rack
+32
+Association-football ball⁠
+C=0.680–0.700\ \mathrm m; derived Ø=0.216451–0.222817\ \mathrm m; mass 0.410–0.450 kg; pressure 60,795–111,458 Pa
+Football pitch, training ground, equipment bag
+33
+FIVB volleyball⁠
+C=0.650–0.670\ \mathrm m; derived Ø=0.206901–0.213268\ \mathrm m; mass 0.260–0.280 kg; pressure 29,430–31,882 Pa
+Volleyball court, gym, ball cart
+34
+IIHF ice-hockey puck⁠
+Ø=0.0762\ \mathrm m; T=0.0254\ \mathrm m; mass 0.156–0.170 kg
+Ice rink, team bench, puck bucket
+35
+USBC bowling ball⁠
+Ø=0.215900–0.218313\ \mathrm m; mass \le7.25748\ \mathrm{kg}
+Bowling lane, ball return, ball rack
+36
+USBC tenpin⁠
+H=0.380213–0.381787\ \mathrm m; belly Ø=0.120269–0.121844\ \mathrm m; mass 1.530874–1.644272 kg
+Pin deck, pinsetter service bay, pin rack
+37
+Association-football goal⁠
+Inside width 7.32 m; crossbar underside 2.44 m above ground; member width/depth \le0.12\ \mathrm m
+Proper football pitch, stadium, training ground
+38
+FIBA basket and backboard⁠
+Backboard 1.800–1.830 × 1.050–1.070 m; glass T=0.0118–0.0135\ \mathrm m; ring inside Ø=0.450–0.459\ \mathrm m; ring top 3.050 ± 0.006 m
+Proper basketball-court installation
+39
+New Flyer 40-foot Xcelsior XD bus⁠
+Over-bumper L=12.50\ \mathrm m; body L=12.24\ \mathrm m; W=2.60\ \mathrm m; H=3.20\ \mathrm m
+Public road, transit stop, bus depot
+40
+2026 Toyota Corolla LE⁠
+4.6355 × 1.78054 × 1.4351 m; listed curb mass ≈1,340 kg; force ≈13,145 N
+Public road, parking stall, driveway, garage
+
+Audit complete: 40 items exactly; all are nonhuman and tangible; all measurements use SI; approximations, legal limits and variable quantities remain identified; every item has restricted plausible placement; no item is compulsory.
+
+Here are references 41–80. They are optional scale anchors only: include one only when its listed location and purpose already exist.
+L length, W width, H height, D depth, T thickness, Ø diameter. Downward force uses F=mg, with g=9.80665\ \text{m/s}^2. “Not fixed” means the maker did not provide an object-only value or the value changes with use.
+#
+Tangible reference
+Precise SI scale
+Mass → downward force
+Plausible-location gate
+41
+STAEDTLER Noris 120 HB pencil⁠
+New L=0.175\ \text{m}; listed core/line width 0.002\ \text{m}
+Not fixed
+Pencil case, occupied desk, classroom or drawing table. It shortens only through sharpening.
+42
+Post-it Super Sticky note⁠
+Sheet 0.076\times0.076\ \text{m}; 70 sheets per pad
+Not fixed
+Planner, notebook, working desk, notice wall or monitor bezel when a note is needed.
+43
+Scotch 600 clear office tape⁠
+Width 0.019\ \text{m}; new length 32.9\ \text{m}; core inner Ø=0.025\ \text{m}
+Not fixed
+Tape dispenser, office desk, mailroom, packing bench or craft table. Outer roll diameter decreases with use.
+44
+STAEDTLER Mars 526 50 eraser⁠
+New 0.065\times0.023\times0.013\ \text{m}
+Not published
+Pencil case, drawing desk or classroom supply tray. It becomes smaller only through wear.
+45
+Westcott M-109 ruler⁠
+Overall L=0.3302\ \text{m}, W=0.03810\ \text{m}, T=0.001524\ \text{m}; metric scale 0.300\ \text{m}
+Not published
+Desk, drafting surface, classroom or measuring-tool drawer.
+46
+ACCO No. 1 paper clip⁠
+L=0.03302\ \text{m}
+Not published
+Attached to papers, in a document tray or office-supply container.
+47
+ACCO medium binder clip⁠
+Body W=0.03175\ \text{m}; paper-stack capacity 0.015875\ \text{m}
+Not published
+Thick document stack, filing desk or mail-sorting tray.
+48
+Swingline S.F.4 staple⁠
+Leg L=0.00635\ \text{m}; 210 staples per full strip
+Not published
+Loaded into a compatible stapler, in its strip box or in an office drawer.
+49
+Swingline 747 stapler⁠
+D=0.187452\ \text{m}, W=0.042926\ \text{m}, H=0.060452\ \text{m}
+Listed unit gross mass 0.5216\ \text{kg} → 5.115\ \text{N}
+Office, reception, school or copy-room desk.
+50
+Oxford 3×5 index card⁠
+Face 0.1270\times0.0762\ \text{m}
+Stock-dependent
+Study desk, card file, classroom or research box.
+51
+No. 10 business envelope⁠
+Face 0.241300\times0.104775\ \text{m}
+Stock-dependent
+Mailroom, outbox, office desk or postal counter.
+52
+ANSI A/US Letter sheet⁠
+W=0.2159\ \text{m}, H=0.2794\ \text{m}
+Stock-dependent
+Printer tray, document folder, office or classroom desk.
+53
+US Legal sheet⁠
+W=0.2159\ \text{m}, H=0.3556\ \text{m}
+Stock-dependent
+Legal office, compatible printer tray, records desk or file folder.
+54
+Duracell MN1500 AA cell⁠
+Maximum Ø=0.0145\ \text{m}, H=0.0505\ \text{m}
+Typical 0.024\ \text{kg} → 0.2354\ \text{N}
+Compatible device, retail pack or dedicated battery drawer.
+55
+Duracell MN2400 AAA cell⁠
+Maximum Ø=0.0105\ \text{m}, H=0.0445\ \text{m}
+Typical 0.011\ \text{kg} → 0.1079\ \text{N}
+Compatible remote, keyboard, meter or battery drawer.
+56
+Duracell MN1400 C cell⁠
+Maximum Ø=0.0262\ \text{m}, H=0.0500\ \text{m}
+Typical 0.069\ \text{kg} → 0.6767\ \text{N}
+Compatible flashlight, radio, equipment cabinet or sealed pack.
+57
+Duracell MN1300 D cell⁠
+Maximum Ø=0.0342\ \text{m}, H=0.0615\ \text{m}
+Typical 0.139\ \text{kg} → 1.363\ \text{N}
+Large flashlight, lantern, radio or battery cabinet.
+58
+Duracell MN1604 9 V cell⁠
+Maximum W=0.0265\ \text{m}, D=0.0175\ \text{m}, H=0.0485\ \text{m}
+Typical 0.045\ \text{kg} → 0.4413\ \text{N}
+Compatible alarm, meter, radio or battery drawer.
+59
+Duracell CR2032 coin cell⁠ (dimensions⁠)
+Ø=0.0200\ \text{m}, T=0.0032\ \text{m}
+Typical 0.0030\ \text{kg} → 0.02942\ \text{N}
+Inside a compatible device or sealed child-resistant pack; never loose near children.
+60
+US nickel⁠
+Ø=0.02121\ \text{m}, T=0.00195\ \text{m}
+0.00500\ \text{kg} → 0.04903\ \text{N}
+Wallet, cash till, bank counter or US vending location.
+
+
+#
+Tangible reference
+Precise SI scale
+Mass → downward force
+Plausible-location gate
+61
+US quarter⁠
+Ø=0.02426\ \text{m}, T=0.00175\ \text{m}
+0.005670\ \text{kg} → 0.05560\ \text{N}
+Wallet, cash till, bank counter, parking meter or US vending location.
+62
+€1 coin⁠
+Ø=0.02325\ \text{m}, T=0.00233\ \text{m}
+0.00750\ \text{kg} → 0.07355\ \text{N}
+Wallet, till, bank or vending location where euros are used.
+63
+€2 coin⁠
+Ø=0.02575\ \text{m}, T=0.00220\ \text{m}
+0.00850\ \text{kg} → 0.08336\ \text{N}
+Wallet, till, bank or vending location where euros are used.
+64
+Kingston DataTraveler Exodia⁠
+0.0673\times0.02104\times0.01014\ \text{m}
+0.011\ \text{kg} → 0.1079\ \text{N}
+Computer desk, laptop bag, key ring or secured drawer.
+65
+Logitech M240 mouse⁠
+H=0.099\ \text{m}, W=0.060\ \text{m}, D=0.039\ \text{m}
+Listed with cell and receiver: 0.0752\ \text{kg} → 0.7375\ \text{N}
+Active workstation, meeting-room desk or laptop bag.
+66
+Logitech MK370 keyboard⁠
+Footprint 0.441\times0.149\ \text{m}; body depth 0.018\ \text{m}
+0.498\ \text{kg} → 4.884\ \text{N}
+Office, reception, school-computer or control desk.
+67
+Casio fx-991CW calculator⁠
+D=0.162\ \text{m}, W=0.077\ \text{m}, H=0.0107\ \text{m}
+0.095\ \text{kg} → 0.9316\ \text{N}
+School desk, laboratory bench, office drawer or permitted examination desk.
+68
+Full-size SD card⁠
+0.032\times0.024\times0.0021\ \text{m}
+Maker-dependent
+Camera slot, card reader, labeled card case or media desk.
+69
+microSD card⁠
+0.015\times0.011\times0.0010\ \text{m}
+Maker-dependent
+Compatible device, adapter or protective card case.
+70
+13-inch MacBook Air M5⁠
+W=0.3041\ \text{m}, D=0.215\ \text{m}, closed H=0.0113\ \text{m}
+Listed approximately 1.23\ \text{kg} → 12.06\ \text{N}
+Workstation, classroom desk, meeting table or fitted laptop bag.
+71
+iPhone 17⁠
+H=0.1496\ \text{m}, W=0.0715\ \text{m}, D=0.00795\ \text{m}
+0.177\ \text{kg} → 1.736\ \text{N}
+Pocket, occupied desk, charging stand or fitted case.
+72
+Dell P2425H monitor body⁠
+Without stand: W=0.53864\ \text{m}, H=0.31423\ \text{m}, D=0.05003\ \text{m}
+Panel 3.12\ \text{kg} → 30.60\ \text{N}
+VESA arm, matching stand, workstation or reception desk.
+73
+Nalgene 32 oz wide-mouth bottle⁠
+H=0.210\ \text{m}, Ø=0.089\ \text{m}, cap Ø=0.063\ \text{m}; nominal V=0.00094635\ \text{m}^3
+Empty 0.17725\ \text{kg} → 1.738\ \text{N}
+Hiking gear, gym bag, kitchen, workshop or occupied desk.
+74
+IKEA GLADELIG mug⁠
+Ø=0.090\ \text{m}, H=0.090\ \text{m}; V=0.000300\ \text{m}^3
+Object-only mass not published
+Kitchen cupboard, dining table, café or office break area.
+75
+IKEA GOKVÄLLÅ plate⁠
+Ø=0.270\ \text{m}
+Object-only mass not published
+Dining table, kitchen cupboard, serving counter or café table.
+76
+Philips A19 E26 LED bulb⁠
+Overall H=0.111125\ \text{m}, Ø=0.0619125\ \text{m}; 2700\ \text{K}, 800\ \text{lm}
+Net 0.060\ \text{kg} → 0.5884\ \text{N}
+Compatible E26 lamp, spare-bulb package or maintenance shelf.
+77
+Kidde FX210R fire extinguisher⁠
+H=0.37465\ \text{m}, overall W=0.19050\ \text{m}
+3.234\ \text{kg} → 31.72\ \text{N}
+Correct wall bracket in a building location chosen under the applicable fire code.
+78
+Uline S-26424 clear 5-gallon pail⁠
+Top outer Ø=0.307975\ \text{m}; bottom Ø=0.260350\ \text{m}; H=0.368300\ \text{m}; nominal V=0.0189271\ \text{m}^3
+Empty 0.680389\ \text{kg} → 6.672\ \text{N}
+Janitorial room, workshop, warehouse or active material-handling area.
+79
+Skolnik 55-gallon steel-drum family⁠
+Ø=0.57150\ \text{m}, H=0.83820\ \text{m}; nominal V=0.208198\ \text{m}^3
+Gauge-dependent; cited upper value 36.29\ \text{kg} → 355.9\ \text{N}
+Upright in a warehouse, loading area or industrial store with suitable floor support and labeling.
+80
+Alabama/AAMVA-format passenger plate⁠
+W=0.3048\ \text{m}, H=0.1524\ \text{m}; thickness varies by jurisdiction
+Not fixed
+Registered vehicle, issuing office, plate-production facility or secured evidence storage.
+
+Audit complete: exactly 40 new entries; pencil, sticky note and clear office tape are 41–43; every measurement is in SI; variable dimensions or masses are identified instead of guessed; every placement is optional and location-gated.
