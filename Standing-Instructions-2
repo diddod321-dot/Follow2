@@ -1,0 +1,447 @@
+MASTER REFERENCE SPECIFICATION
+Standing Instructions
+Literal scale • adult anatomy • physical realism • continuous scene logic
+Controlling principle
+Shrink the person, not the world. Every dimension, body proportion, physical contact, camera view, and panel transition must remain believable in a full-scale 1:1 environment.
+
+
+Purpose  This document consolidates the standing creative requirements for writing and evaluating shrinking-scene prompts. It favors exact measurements, explicit continuity, adult biological fidelity, credible physics, and natural human behavior over visual shortcuts or ambiguity.
+Rule priority  The non-negotiable locks govern all later sections. If a lower-level preference conflicts with a lock, the lock wins. The previously drafted six-round interrogation set remains advisory unless it is separately confirmed as a standing rule.
+
+
+Quick reference
+Area
+Standing requirement
+Shrinking state
+Instant and complete; never shown mid-change
+Human identity
+Same adult, same age, same identity and adult proportions
+Scale
+One uniform factor; no drift, rounding, or silent resizing
+World
+Full-size 1:1 reality; never scales, shifts, or warps
+Camera
+Viewpoint only; it never changes factual dimensions
+Layout
+Horizontal left-to-right tychs inside a 16:9 image
+Physics
+Real support, gravity, contact, compression, occlusion, and shadow
+Rendering
+Authentic in-color documentary photography
+People
+Living, sentient, biologically detailed, asymmetric, and unique
+Continuity
+Every change has a cause; no contradiction or unexplained reset
+
+
+1. Non-negotiable locks
+Lock A — finished shrinking only
+Shrinking is instantaneous and is never shown in progress. Do not depict an intermediate height, morphing anatomy, a lingering beam, glow, distortion, or other visual residue. The scene begins after the size change is complete.
+
+
+Lock B — adulthood never changes
+Shrinking changes physical scale only. The person remains the exact same adult: same chronological age, identity, facial structure, mature anatomy, adult skeletal plan, and adult head-to-body ratio. Never introduce child, infant, toddler, doll-like, dwarfism-like, or stumpy traits.
+
+
+Lock C — stated sizes never drift
+A stated size is exact and fixed until a new size is explicitly given. One inch, one centimeter, and one meter have one meaning. No rounding, approximation, silent resizing, panel-to-panel fluctuation, or camera-based size change is permitted.
+
+
+Lock D — the world never rescales
+The environment remains ordinary full-scale reality. Objects, tools, furnishings, surfaces, rooms, and distances keep their true real-world dimensions. Nothing shrinks, enlarges, shifts, bends, or rearranges itself to make the small person easier to depict.
+
+
+2. The 1:1 world never adapts
+The 1:1 world is full-scale reality, and only the human is shrunk. Every object, surface, furnishing, and environment remains the size it would be in ordinary life. The world is made for normal-sized humans and never accommodates the smaller person through substitution, convenient miniaturization, or spatial distortion.
+Real units remain authoritative. A measurement written in inches, centimeters, meters, or another International System of Units (SI) unit is literal.
+Objects keep their dimensions, spacing, mass, material behavior, and relationships to one another.
+A wrong-looking scale is corrected by fixing the person, camera construction, or written measurement—not by changing the world.
+The environment remains coherent when the small person is mentally removed from the frame; it is not a miniature set or a backdrop built around them.
+Only explicitly stated changes may alter the environment. Nothing moves between panels merely to simplify composition.
+One-sentence rule
+Shrink the person, not the world.
+
+
+3. Adult anatomy remains uniform
+Apply one uniform scale factor to the entire adult body. Preserve mature anatomy and the same relative measurements from crown to sole. “Same head size” means the same adult head-to-body proportion after uniform scaling—not an unchanged absolute head dimension.
+Maintain an adult figure of approximately eight head-lengths from crown to sole, unless a specifically established character reference requires another adult proportion.
+Scale the head, neck, torso, shoulders, arms, hands, pelvis, hips, thighs, knees, lower legs, and feet by the identical factor.
+Preserve the person’s recognizable identity, mature facial structure, build, body distribution, skin, hair, and other established physical traits.
+Do not shorten the limbs, compress the torso, enlarge the head, broaden the hands or feet, or redistribute body mass to make the figure fit the frame.
+Do not simplify anatomy because the person is small. Biological detail remains as complete as it is at normal size.
+Uniform scaling test
+Let H₀ be the person’s original height and H₁ the stated shrunk height. The scale factor is s = H₁ ÷ H₀. Every linear body dimension must become its original value multiplied by s. No body part receives a different factor.
+4. Measurements are literal
+Use exact numbers and units wherever scale matters. Avoid adjectives such as “tiny,” “small,” or “miniature” when they are asked to carry dimensional meaning. Those words may describe an impression, but they never replace a measurement.
+State the current height in every panel where scale could otherwise be misread.
+Write one exact value and its unit. Add an exact conversion when useful.
+Carry the same number through all panels, sentences, continuations, and camera changes until an explicit new size is given.
+Use comparisons only as secondary orientation. Approximate everyday objects do not define the person’s size.
+Check all distances, reaches, supports, and actions against the stated height before writing them.
+Remove words such as “approximately,” “about,” or “roughly” from the person’s stated size unless the user explicitly requests an estimate.
+Exact seven-inch reference
+Seven inches equals exactly 17.78 centimeters because one inch equals exactly 2.54 centimeters. At an eight-heads-tall proportion, each head-length is 0.875 inch, or 2.2225 centimeters.
+Reference
+Typical extent
+Use
+Unsharpened pencil
+Often near 7 in
+Approximate only
+Dinner fork
+Often 7–7.5 in
+Approximate only
+Medium banana
+Often 7–8 in
+Approximate only
+Large smartphone
+Often 6.5–7 in tall
+Approximate only
+TV remote
+Often 6.5–7.5 in
+Approximate only
+Two credit cards
+6.74 in end to end
+Short of 7 in
+Adult handspan
+Often near 7 in
+Highly variable
+
+
+These are visual checks, not measurement substitutes. They vary by product and person and must never override the exact 7-inch / 17.78-centimeter specification.
+5. Camera changes viewpoint only
+Camera placement changes what is visible, not what is true. Every angle and shift must preserve the same body, size, environment, geometry, behavior, and causal state.
+Do not use forced perspective, fisheye distortion, barrel distortion, peripheral stretching, or exaggerated wide-angle rendering.
+Avoid viewpoints that make the head, hands, feet, limbs, or torso appear to change size relative to the rest of the body.
+Foreshortening may occur naturally, but it must remain anatomically legible and must not read as a shortened or missing limb.
+A high, low, near, far, or side view must preserve the subject’s exact stated height and the world’s fixed scale.
+Camera shifts must not reset lighting, furnishings, positions, expressions, attention, or action continuity.
+No angle may sacrifice plausibility, facial language, body language, or spatial awareness to create a dramatic composition.
+Camera integrity test
+If the scene were observed from the opposite side, every real measurement and spatial relationship would remain identical. Only visibility and overlap would change.
+
+
+6. Panels progress as one continuous event
+A tych is one panel. Multi-panel scenes use a single horizontal left-to-right sequence that fits within one 16:9 image. Do not use a 2×2 grid, vertical stack, split above-and-below layout, or extra unrequested panels.
+Each panel advances the same event naturally; do not repeat or recycle earlier scene beats.
+Restate the current exact size with intact proportions whenever a panel might otherwise permit scale drift.
+Preserve the same environment, furniture, objects, people, attire, lighting logic, and time conditions unless the story visibly changes them.
+Every new position, reaction, object movement, or physical effect must follow from a visible or clearly stated cause.
+Do not teleport people or objects, reset posture, change identity, or introduce unrequested participants between panels.
+Use distinct, coherent camera views only when they improve spatial understanding without changing scale or anatomy.
+Keep panel transitions readable without decorative borders, labels, or written text beyond necessary dialogue or panel numbering.
+7. Humans remain living and behaviorally credible
+Every depicted person is a living, sentient adult with full biological detail and active awareness of the scene. Small scale never turns a person into a prop, figurine, toy, or passive visual marker.
+Biological detail
+Retain natural skin texture, pores, fine lines, color variation, body heat cues, and soft-tissue response.
+Render hair as individual strands and masses that respond to gravity, motion, contact, and airflow; never as a molded helmet.
+Keep eyes moist and dimensional, hands anatomically complete, joints credible, and facial features fully resolved.
+Show breathing, balance, muscle engagement, tension, fatigue, or relaxation when the action calls for it.
+Apply realistic folds, compression, tissue displacement, and contact response wherever bodies meet clothing, surfaces, or hands.
+Facial and body language
+Use natural asymmetry rather than bilateral mirroring: shoulders and pelvic line should not read as perfectly level and parallel.
+Give the torso subtle spinal curvature and rotational torsion; avoid flat front-facing alignment.
+Assign the left and right limbs different, situation-specific tasks. Do not mirror the arms, hands, legs, or feet.
+Vary finger articulation and hand angle so hands look engaged rather than posed.
+Use asymmetric micro-expression: uneven brow tension, slight unilateral mouth movement, relaxed jaw variation, and gaze that is not locked to the nose axis.
+Match expression, attention, balance, and effort to what the person knows, sees, feels, and can physically do at that exact scale.
+Avoid T-poses, A-poses, soldier stances, mannequin rigidity, passport symmetry, frozen catalog posing, and theatrical overreaction.
+8. Contact, support, and matter are tangible
+Every body and object must have a credible load path. Nothing floats, clips, phases through matter, or rests on an invisible support. Contact is visible through pressure, deformation, overlap, shadow, and posture.
+Every hand, limb, and torso rests fully on top of or against a solid surface when contact is claimed.
+Show contact shadows and ambient occlusion at every supporting point.
+Rigid surfaces resist; soft surfaces compress, fold, spread, or rebound according to material and load.
+Body weight changes joint angles, muscle tension, balance, and the support surface’s response.
+Water, fabric, hair, and loose objects obey gravity and momentum; they do not remain stiff or weightless.
+No random body part, shadow, limb, duplicate figure, or off-screen anatomy may appear without a single accountable person and position.
+Supported grasp handling
+When a larger person holds a small adult, use a broad, enclosing grasp rather than a fingertip pinch. The palm, fingers, and opposing thumb distribute support around the torso or midsection. The hold must read as careful human handling, not object manipulation.
+Use broad contact across the palm and finger pads; never suspend the person by fingertips, clothing, or a limb.
+Show realistic but non-injurious soft-tissue compression at contact points and visible grip effort in the holder’s hand and wrist.
+The held person’s legs, head, torso, arms, hair, and clothing respond to gravity and motion.
+The held person remains aware and reactive, with a plausible brace, counter-grip, posture, gaze, and expression.
+No gap may imply floating inside the grasp; no perfect figurine-like standing pose may substitute for balance.
+9. Rendering language is documentary and specific
+The target look is authentic, in-color documentary photography: candid, naturally lit, physically grounded, and unretouched in appearance. The scene should read as a real event captured by an ordinary camera rather than as an illustration or manufactured miniature.
+Use unified natural lighting, coherent shadow direction, realistic grain, and consistent exposure across panels.
+Keep skin, hair, clothing, surfaces, and materials detailed rather than smoothed or simplified.
+Exclude digital-render, computer-generated imagery (CGI), 3D-model, illustration, painting, airbrush, plastic, wax, resin, porcelain, clay, or toy aesthetics.
+Exclude golden-hour stylization, staged lighting, clinical presentation, filters, black-and-white treatment, and artificial drama.
+Exclude diorama, dollhouse, tabletop miniature, tilt-shift, action-figure, and figurine cues.
+Avoid generic attire and automatic wardrobe defaults. Clothing must be specifically described, consistent, and physically responsive; do not default to denim.
+Never use first-person hands. Keep the camera unacknowledged by the subjects unless the story explicitly requires acknowledgment.
+10. Shrink-ray and event continuity
+Property
+Requirement
+Device
+Portable and silent
+Activation
+Directed at the rear pelvic area through non-explicit wording
+Sensation
+Impact is felt by the person
+Timing
+Instantaneous
+Depiction
+Only the completed before/after state; never mid-shrink
+Visual residue
+None; no lingering glow, beam, haze, or distortion
+Clothing
+Does not independently shrink or fall away unless explicitly specified
+
+
+Use precise, neutral wording that preserves the requested action without unnecessary explicitness. Do not invent unsupported approvals or claim that a tool accepted content when it did not.
+11. Writing and production discipline
+Treat user-specified measurements, layouts, people, sequence, and continuity as requirements rather than suggestions.
+Write for clear machine comprehension: identify the actor, action, target, location, orientation, size, and result without ambiguous pronouns.
+Use cause before effect and left-to-right chronology. Do not rely on implication for scale, position, or physical support.
+Do not reuse files, scenes, panels, staging, or descriptive shortcuts unless the user explicitly asks for a continuation.
+Search authoritative sources when real-world measurements or scale references must be verified. Use SI values alongside customary units when useful.
+Use connected Google Drive and Google Docs tools when the requested workflow calls for them and access is available.
+Do not save files without permission. A direct request to create a document is permission for that document only.
+Do not offer false approval or pretend a generation succeeded. State the actual result and preserve the requested parameters in any revision.
+Adult body-shape preference
+When an adult female character’s physique is not otherwise fixed, the preferred silhouette may emphasize broader hips and fuller gluteal proportions. This preference never overrides identity fidelity, adult anatomy, uniform scaling, natural movement, clothing behavior, or physical plausibility.
+12. Strength profile
+Interpret 100% as a mandatory quality and 0% as a prohibited result. A 0% entry describes what must not appear in the image or prose; it does not require printing a negative-prompt list in every response. Synonymous entries are consolidated below so the requirements remain readable and non-contradictory.
+Mandatory qualities — 100%
+Required quality
+Target
+Left-to-right and image-to-image continuity
+100%
+Unified, lifelike lighting and shadows
+100%
+Plausible human orientation and spatial awareness
+100%
+Living biological detail and body-heat cues
+100%
+Continuations that preserve the preceding state
+100%
+Camera views that preserve scale and adult anatomy
+100%
+Plausible eye tracking and body tracking
+100%
+Hair that responds to gravity, motion, and flow
+100%
+Natural scene progression and causal logic
+100%
+Uniformly scaled adult arms, hands, legs, knees, feet, torso, hips, and neck
+100%
+Consistent environment, setting, objects, and furnishings
+100%
+Correct inches, centimeters, meters, and SI units
+100%
+Ordinary unacknowledged camera behavior
+100%
+Real-world materials, geometry, and scale
+100%
+Exact identity and likeness continuity
+100%
+Tangible weight, contact, occlusion, and support
+100%
+Accurate body orientation and joint relationships
+100%
+Sentient, cognitively aware adult humans
+100%
+Stable body shape and established proportions
+100%
+Plausibility, coherence, and physical sense
+100%
+Natural asymmetry in face, stance, hands, and movement
+100%
+Unified naked-eye realism
+100%
+Exact literal sizes with zero drift
+100%
+Constant full-scale 1:1 world and furnishings
+100%
+Detailed adult biological anatomy
+100%
+Soft-tissue physics, folds, clefts, and compression
+100%
+Believable distance, depth, and focal relationships
+100%
+Approximately eight-heads-tall adult proportions
+100%
+Vivid, situation-specific facial and body language
+100%
+
+
+Prohibited results — 0%
+Excluded failure mode
+Target
+Fantasy, caricatured, childlike, doll-like, dwarfism-like, or stumpy proportions
+0%
+Small humans treated as props, figurines, dolls, or lifeless objects
+0%
+Contradictions, ambiguity, hallucinations, or unexplained conveniences
+0%
+Mid-shrink, mid-height, random shrinking, or random growth
+0%
+Floating people, objects, furnishings, references, or unsupported loads
+0%
+Clothing that independently shrinks, disappears, or tears without cause
+0%
+Decorative borders, stacked panels, vertical splits, 2×2 grids, or extra panels
+0%
+Unnecessary written text beyond dialogue or panel numbering
+0%
+Age regression, baby, toddler, child, or infant traits
+0%
+False, approximate, rounded, or drifting size statements
+0%
+Stiff, molded, synthetic, or gravity-defying hair
+0%
+Bodies phasing through solid surfaces or incorrect occlusion through barriers
+0%
+Forced perspective, fisheye, barrel distortion, or peripheral stretching
+0%
+Confusion between normal-sized and shrunk people
+0%
+Reused scenes, panels, files, staging, or unrequested past-chat material
+0%
+Generic attire, automatic denim, or unexplained wardrobe changes
+0%
+Shrunk, enlarged, warped, or conveniently altered world elements
+0%
+Generic hair, generic anatomy, generic expression, or generic body language
+0%
+Scrunched or ripped clothing without a stated physical cause
+0%
+Anatomical distortion, shortened limbs, enlarged heads, or uneven body scaling
+0%
+Black-and-white filters, tone shifts, staged light, or artificial color treatment
+0%
+Random or duplicate people, limbs, hands, faces, or shadows
+0%
+Rigid, symmetric, mannequin-like, theatrical, or posed-for-camera behavior
+0%
+Weightlessness, effortless handling, stiff fluid physics, or missing contact response
+0%
+Digital render, CGI, 3D model, airbrush, painting, illustration, or smoothing
+0%
+Diorama, dollhouse, tabletop miniature, tilt-shift, action-figure, or toy appearance
+0%
+Plastic, wax, resin, porcelain, clay, mud-like, or featureless skin and faces
+0%
+Extreme foreshortening, stretched limbs, rubbery anatomy, or deformed joints
+0%
+Wrong distances, depths, focal points, or perspective-based size changes
+0%
+Blank stares, perfect bilateral symmetry, T-poses, A-poses, or soldier stances
+0%
+First-person hands or intrusive camera acknowledgment
+0%
+Blandness, laziness, duplication, or low-detail shortcuts
+0%
+
+
+13. Consolidated exclusion register
+The following terms identify visual or narrative failure modes. They are constraints against the result, not elements to depict.
+Category
+Excluded outcomes
+Scale and continuity
+wrong inches; wrong centimeters; incorrect sizes; size drift; fluctuating scale; random shrinking or growth; mid-height transition; false comparison; rescaled environment; shrunk furnishings; perspective mismatch; continuity reset
+Anatomy and proportion
+stretched or shortened arms; elongated or stumpy limbs; oversized head; compressed torso; warped feet; uneven limb thickness; deformed or dislocated joints; hyperextension; broken-looking wrists; elastic, rubbery, boneless, or spaghetti limbs; elongated fingers; spider-like fingers; skewed proportions
+Camera and perspective
+forced perspective; fisheye; barrel distortion; extreme foreshortening; peripheral lens stretching; wide-angle body distortion; perspective elongation; warped torso; distorted limb scale; camera angle that changes factual size
+Duplication and anatomy errors
+duplicated humans; cloned faces; duplicate hands or arms; random off-screen body parts; unrequested people; detached shadows; extra panels; repeated scene beats
+Support and physics
+floating humans or objects; invisible or intangible support; missing contact shadow; absent compression; weightlessness; rigid water; phasing through solids; unsupported reach; effortless grasp
+Synthetic appearance
+art; illustration; digital render; CGI; 3D model; airbrush; painting; smoothing; fake human; resin, wax, porcelain, plastic, clay, or mud texture; figurine; action figure; dollhouse or tabletop miniature; toy tilt-shift
+Face, skin, and hair
+featureless face; blank stare; deadpan symmetry; plastic skin; poreless smoothing; glassy doll eyes; molded or helmet-like hair; low detail; generic facial or body language
+Pose and behavior
+stiff pose; symmetrical pose; bilateral mirroring; rigid stance; mannequin posture; frozen catalog pose; soldier stance; T-pose; A-pose; centered shoulders; parallel hips; theatrical or exaggerated reaction; posed for camera
+Layout and treatment
+vertical split; stacked panels; 2×2 grid; extra tych panels; panel above panel; first-person hands; black-and-white filter; staged or golden-hour lighting; artificial tone shift; decorative border
+Age and body type
+child, baby, infant, toddler, age-regressed, doll-like, dwarfism-like, caricatured, big-headed, or otherwise non-adult body structure
+Wardrobe and staging
+generic attire; automatic denim; unexplained clothing change; ripped or scrunched clothing without cause; clothing that shrinks independently; surface used as a flat decorative backdrop
+Miscellaneous
+hallucinated detail; ambiguity; implausibility; random addition; blandness; laziness; recycled content; blowing raspberries unless explicitly requested
+
+
+14. Advisory preflight checklist
+This checklist is a practical review aid derived from the standing rules. It does not convert the earlier six-round interrogation set into a separate locked rule.
+☐ Is the shrinking fully complete, with no intermediate body size or lingering effect?
+☐ Is every shrunk person unmistakably the same adult, with mature anatomy and identity intact?
+☐ Does one uniform scale factor govern the entire body?
+☐ Is each exact size stated consistently in every place where drift could occur?
+☐ Does every SI or customary-unit conversion calculate correctly?
+☐ Has the world retained its ordinary full-scale dimensions?
+☐ Could any object be mistaken for a miniature or conveniently resized substitute?
+☐ Does the camera preserve factual size, adult proportions, and spatial relationships?
+☐ Are foreshortened limbs still anatomically legible at their true length?
+☐ Does each panel continue the same location, people, objects, lighting, and action state?
+☐ Can every visible change be traced to a cause?
+☐ Does every body and object have a visible, credible support?
+☐ Do contacts show pressure, compression, fold, overlap, occlusion, or shadow as appropriate?
+☐ Do hair, fabric, water, and loose objects respond to gravity and motion?
+☐ Are expressions and gestures specific to what each person knows and feels?
+☐ Are posture, hands, gaze, shoulders, pelvis, and limbs naturally asymmetric?
+☐ Does every person appear exactly once, with no duplicate part, face, shadow, or extra figure?
+☐ Does the rendering read as candid documentary photography rather than art, CGI, or a toy scene?
+☐ Is the wording singular and explicit enough that a model cannot reasonably interpret it two ways?
+☐ Does the final scene preserve all requested details without adding generic substitutions?
+15. Model-readable prompt structure
+These instructions are intended to remain legible to image-generation systems including Nano Banana 2 and Nano Banana Pro. Use the same order for each panel so the model does not have to infer hidden relationships.
+Order
+Block
+Required content
+1
+Panel state
+Panel number; exact moment; continuity from the prior panel
+2
+People
+Identity; adult age; exact height; unchanged adult proportions
+3
+Action
+Who does what; body orientation; gaze; expression; effort
+4
+Support
+What carries each load; contact points; compression; shadow
+5
+Environment
+Unchanged 1:1 setting; object positions; material behavior
+6
+Camera
+Viewpoint and framing that preserve size and anatomy
+7
+Lighting
+One coherent natural source and matching shadows
+8
+Continuity lock
+Facts that must remain unchanged into the next panel
+
+
+Unambiguous sentence pattern
+Actor → action → target → support → exact scale → visible result
+Name the person instead of relying on “she,” “he,” “they,” or “it” when more than one referent is possible. Put the cause before the effect. State the support and exact dimensions in the same sentence or immediately after it.
+
+
+16. Source and rule status
+Creative and behavioral requirements in this document are user-authored standing specifications consolidated from the supplied instruction set and the surrounding conversation. The exact inch-to-centimeter conversion is independently supported by the National Institute of Standards and Technology (NIST).
+Measurement source: NIST Handbook 44 — 2026, Appendix C: General Tables of Units of Measurement (states that 1 inch equals exactly 2.54 centimeters).
+Status
+Instruction
+Locked
+Finished shrinking only
+Locked
+Adult age and anatomy preserved
+Locked
+Exact size remains fixed
+Locked
+Full-scale 1:1 world never rescales
+Standing rule
+Camera preserves dimensions and plausibility
+Standing rule
+Horizontal left-to-right 16:9 tychs
+Standing rule
+Documentary realism, tangibility, and unique people
+Advisory only
+Earlier six-round interrogation set
+
+
