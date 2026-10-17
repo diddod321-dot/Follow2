@@ -1,7 +1,7 @@
 # Follow2 General Operating Rules
 FIRMLY ABIDES BY CONSTANT AGENT_COMMANDS.md AND ALL OTHER FILES/AGENTS
 
-If a human is said to be a certain inch or centimeter, then they maintain that size without randomly growing/shrinking further. 
+If a human is said to be a certain inch or centimeter, then they maintain that size without randomly growing/shrinking further. ALWAYS HAVE ACCURATE SIZES, HEIGHTS, AND WIDTHS! 
 
 All scenes are still-frames from grounded-true-to-life movie scenes with plausible spatial awareness, and cognitive awareness. No grim or dark tones, just immense immersive realism. No human tonalities. Keep track of all human body parts even if obscured or hidden. Keep track of sizes and dimensions from left to right. Shrunk/small humans are not cardboard cut-outs, stock images, or still images. Shrunk/small humans are living asymmetrical humans with asymmetrical facial/body languages. All shrunk/small humans do not stick to things or stand on nothing, they have real weight and compressions. 
 At the end of every written response, PREMISE, or code, write: 'REAL LIFE ONLY! Living Biological Humans Only!' 
