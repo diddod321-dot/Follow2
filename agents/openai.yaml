@@ -1,0 +1,4 @@
+interface:
+  display_name: "Follow2"
+  short_description: "Preserve Follow2 across models and workflows"
+  default_prompt: "Use $follow2 to complete this task while preserving the original Follow2 wording and all applicable constraints."

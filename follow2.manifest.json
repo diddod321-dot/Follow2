@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "name": "follow2",
+  "source": {
+    "repository": "diddod321-dot/Follow2",
+    "ref": "main-(utilize-all-files)",
+    "commit": "afa62719754bd32a4e3e0673ce173ccf45b410f0"
+  },
+  "encoding": "utf-8",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 45598,
+      "sha256": "6e8d1f3f9878c3186eba8ea9383291d156d5008861530751a026e2ee447343f3",
+      "git_blob_sha": "6fcb56433c60699997bb8dddabf19453d55d8614"
+    },
+    {
+      "path": "AGENT_COMMANDS.md",
+      "bytes": 16004,
+      "sha256": "4571a1030f29d4e89b7e130a8bed8706758ca8dfa34f60991eaef39c4ae56da6",
+      "git_blob_sha": "f8fd6ba3ebdff3ebb0b07f91ff17abe7a65ee098"
+    },
+    {
+      "path": "README.md",
+      "bytes": 60526,
+      "sha256": "b10ab1f22e83f627d3bb065e9b6ad580db8c1fa38fd1b56d01f28163ba39f071",
+      "git_blob_sha": "c7ae8446c11bee6663135c6969cf46c5f9b4c381"
+    },
+    {
+      "path": "Standing-Instructions",
+      "bytes": 64293,
+      "sha256": "61dae7b1498459dd4eebac6f59959e793ce68658c62f4a532be741c9c4714c7e",
+      "git_blob_sha": "189033400764625dff625f48308fa75ac6f0c8bb"
+    },
+    {
+      "path": "Standing-Instructions-2",
+      "bytes": 26608,
+      "sha256": "514678b3e5a1e99bea47b405acf2e77195b390e95be2ae57c82f5e04fc3cfa77",
+      "git_blob_sha": "27192c598be33f6552ea4edccf3420b0e5135de3"
+    },
+    {
+      "path": "IRL-Immersion-Agent",
+      "bytes": 5527,
+      "sha256": "548f4fab0f5e43a57059d8f4e52a2e5283c3aea2fdd6326b72a06caa433b488b",
+      "git_blob_sha": "f40ea7fce19c7da5168484ad31ce5bd59e1d46bd"
+    },
+    {
+      "path": "Agent-Skill-By-Runway",
+      "bytes": 40849,
+      "sha256": "8ad89fc9c561d4f0e1d7a269ec5d0338aa4c8dd66287ed53e37f9070ed99897c",
+      "git_blob_sha": "3ffbac8ff1803247224332b61bd03b428f53e421"
+    },
+    {
+      "path": "Details-For-All-Humans-AGENT",
+      "bytes": 12821,
+      "sha256": "4176b35e151258b012149870909b9ff2058b75d4e730bef218a36526c04aa01d",
+      "git_blob_sha": "38453b7e6694b6eeeacbcc92ddaa56779e4ccf27"
+    },
+    {
+      "path": "SOME-SI-UNITS-REFERENCES",
+      "bytes": 14420,
+      "sha256": "9111ee6dce8d90e1e7ca66b758fe7c7dd0bb25d3aa5e6bcc0dbe9d8bce3516d6",
+      "git_blob_sha": "c239f0c09256ef154aa20e66316e5adb05ae907e"
+    },
+    {
+      "path": "CELEB-LIKENESS-AGENT",
+      "bytes": 75091,
+      "sha256": "146b055dcad7b4e1a567e21456a96df7f63debf642f6c9741d7a5c024ffa74ab",
+      "git_blob_sha": "a0ede6cba338a1caf3734888f6280f1fb0b19b07"
+    },
+    {
+      "path": "Muse-Banks-AGENT",
+      "bytes": 68426,
+      "sha256": "57378d7351e83cbbccec45e265ba04e161c68398cd32890e9f625a9bbac2c356",
+      "git_blob_sha": "155c99426f200f88bf5d1c258764e5db37c0b812"
+    },
+    {
+      "path": "Novel-Story-Idea-To-Help-Create-What-I-Want",
+      "bytes": 12234,
+      "sha256": "682adc819d633eeff0af19b61196c52765309a6b4205f536cd293177281ca450",
+      "git_blob_sha": "4e44b5e690330620987268969eacf4f6fbbc9686"
+    },
+    {
+      "path": "Miniature-Wife-VFX",
+      "bytes": 20924,
+      "sha256": "ff6bbd5156c1e5f2b7630cc1e419d509b9abdc94f836e6d01bc1c3b598371a5c",
+      "git_blob_sha": "f62e3a895ad4b1ef0ff77fde39d7d094a4391d27"
+    },
+    {
+      "path": "PERMANENTLY-ERADICATED",
+      "bytes": 41998,
+      "sha256": "fb5d13849785feaec8caade5496e72485ee47e7d5f780044301d4c52e65dce12",
+      "git_blob_sha": "4b4c268a7569170ee109ec239620211469218a6e"
+    },
+    {
+      "path": "IRL-Audit-AGENT",
+      "bytes": 149499,
+      "sha256": "14efeeefaca46b3ffb1e0ea81e56c924e528fc112314478839f16796e263f581",
+      "git_blob_sha": "c15c0fb1d03092650803a631d270e8b46eb2ca77"
+    }
+  ]
+}
