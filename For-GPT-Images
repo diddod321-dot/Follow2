@@ -1,0 +1,25 @@
+For GPT Images, we need to control both the prompt submitted and the image accepted. Your preservation prefix supplies the instructions; reference checks and targeted corrections address failures in the output.
+
+Official OpenAI documentation recommends explicit reference roles, concrete visual details, separate change/preserve instructions, and repeating critical constraints during edits. 
+
+For your requests, I should apply this workflow:
+
+1. Preserve your request during preparation. Carry the complete scene request and applicable rules into the image prompt. Organizing them must preserve their meaning, including exclusions, dimensions, attire, and continuity. Resolve essential conflicts before generation.
+2. Assign each reference a specific role. Identify which image establishes appearance, clothing, environment, and the latest accepted scene state. Supply those images with the request.
+3. Express realism through observable conditions.
+
+Requirement	What the image needs to demonstrate
+Identity and anatomy	Reference-consistent facial structure, body proportions, distinguishing features, and natural asymmetry.
+Dimensions and scale	Consistent stated measurements and relationships, accounting for perspective.
+Weight and contact	Supported bodies, plausible balance, contact compression, and physically reachable interactions.
+Materials	Skin, hair, and fabric retain appropriate texture and respond plausibly to movement and contact.
+Lighting and optics	Coherent illumination, reflections, shadows, occlusion, and perspective throughout the scene.
+Behavior	Gaze, posture, expression, and effort correspond to the specified action and target.
+Continuity	Established attire, geometry, dimensions, object conditions, and physical state persist until explicitly changed.
+
+4. Inspect the actual result against those requirements. Identify visible discrepancies specifically. A convincing photographic appearance alone does not establish accurate anatomy, scale, or contact.
+5. Correct the identified discrepancy while restating preservation requirements. Use the last accepted image as the starting state; keep rejected changes out of subsequent continuity. OpenAI recommends small, targeted revisions to reduce drift. 
+
+Two verification limits matter: camera specifications are appearance cues rather than guaranteed physical simulation, and an uncalibrated photograph cannot establish exact real-world body measurements. Unknown dimensions should remain unknown until supplied or established. 
+
+Zero unauthorized change remains the acceptance criterion. GPT Image can still produce consistency and placement errors, so I should report visible deviations and verification limits accurately instead of declaring perfect compliance. 
