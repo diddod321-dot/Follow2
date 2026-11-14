@@ -29,6 +29,9 @@ Exact dimension, proportion, and scale lock. Establish one coherent physical sca
 - Never resize the environment or objects merely to make composition easier.
 - Perspective may change apparent size but never actual physical dimensions.
 
+- **LIMB PROPORTION AUDIT (mandatory):** Lock the subject's established upper-arm, forearm, thigh, and shin lengths and widths, elbow/knee placement, shoulder/hip attachment, extremity size, and limb-to-torso ratios. No elongated, shortened, exaggerated, stretched, compressed, swollen, unnaturally thin, or independently resized arms or legs.
+- Check each limb against the same person's supplied reference and preceding panels. Posing, movement, natural asymmetry, and foreshortening must not alter underlying anatomical dimensions. Refuse composition-driven limb distortion, including stretching to touch objects or shortening to fit an environment. Do not invent absent measurements; if precise values are unavailable, preserve only the proportions that can actually be established.
+
 ### DOLL-SIZED / SMALL LIVING HUMANS
 When a living human is specified as doll-sized, miniature, tiny, or greatly reduced:
 - The subject remains a biologically normal living human uniformly reduced in scale.
