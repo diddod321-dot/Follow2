@@ -1,0 +1,22 @@
+# Preserve the byte-level Follow2 source snapshot on every checkout platform.
+/AGENTS.md -text
+/AGENT_COMMANDS.md -text
+/Agent-Skill-By-Runway -text
+/CELEB-LIKENESS-AGENT -text
+/Details-For-All-Humans-AGENT -text
+/IRL-Audit-AGENT -text
+/IRL-Immersion-Agent -text
+/Miniature-Wife-VFX -text
+/Muse-Banks-AGENT -text
+/Novel-Story-Idea-To-Help-Create-What-I-Want -text
+/PERMANENTLY-ERADICATED -text
+/README.md -text
+/SOME-SI-UNITS-REFERENCES -text
+/Standing-Instructions -text
+/Standing-Instructions-2 -text
+/SKILL.md text eol=lf
+/follow2.manifest.json text eol=lf
+/agents/*.yaml text eol=lf
+/scripts/*.py text eol=lf
+/references/*.md text eol=lf
+# REAL LIFE ONLY! Living Biological Humans Only!
